@@ -17,7 +17,19 @@
                     <div class="form-body">
                         <a-form>
                             <a-form-item
-                                label="Email"
+                                label="Mobile Number or Email"
+                            >
+                                <a-input />
+                            </a-form-item>
+
+                            <a-form-item
+                                label="Full Name"
+                            >
+                                <a-input />
+                            </a-form-item>
+
+                            <a-form-item
+                                label="Username"
                             >
                                 <a-input />
                             </a-form-item>
@@ -26,19 +38,20 @@
                                 label="Password"
                             >
                                 <a-input-password />
-
-                                <div class="register-forgot-password">
-                                    <nuxt-link :to="`/register`" class="forgot-link">Register</nuxt-link>
-                                    <nuxt-link :to="``" class="forgot-link">Forgot Password?</nuxt-link>
-                                </div>
                             </a-form-item>
-                            <a-button class="sign-in-btn"> Sign In</a-button>
+
+                            <a-form-item
+                                label="Password"
+                            >
+                                <a-input-password />
+                            </a-form-item>
+                            <a-button class="sign-in-btn"> Sign Up</a-button>
                         </a-form>
                     </div>
 
                     <div class="form-bottom">
                         <div class="form-bottom-top">
-                            Or Log in With
+                            Or Sign Up With
                         </div>
 
                         <div class="form-bottom-bottom">
@@ -47,7 +60,7 @@
                     </div>
                 </div>
                 <div class="right-part">
-                    <img src="/Asset 18.png" alt="" class="right-part-img">
+                    <img src="/Asset 31.png" alt="" class="right-part-img">
                 </div>
             </div>
         </div>
@@ -77,8 +90,14 @@ import layoutBottom from "~/layout/layout-bottom.vue";
     font-weight: bolder;
     font-size: 30px;
 }
+.text-body{
+    margin-bottom: 10px;
+}
+.a-form-item{
+    margin-top: -30px;
+}
 .form-body, .sign-in-btn{
-    width: 450px;
+    width: 400px;
 }
 .register-forgot-password{
     display: flex;
@@ -112,8 +131,10 @@ import layoutBottom from "~/layout/layout-bottom.vue";
 }
 
 .right-part-img{
-    width: 600px;
-    margin-top: -120px;
+    width: 500px;
+    position: top right;
+    /* margin-top: -120px; */
+    
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
@@ -121,12 +142,16 @@ import layoutBottom from "~/layout/layout-bottom.vue";
 .page-content{
     margin-top: 10px;
 }   
+
+.text-body{
+    margin-bottom: 10px;
+}
     .form-body, .sign-in-btn{
     width: 250px;
 }
 .right-part-img{
     width: 450px;
-    margin-top: -70px;
+    margin-top: 30px;
 }
 .left-part{
     margin-top: 50px;

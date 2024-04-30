@@ -113,7 +113,7 @@ import layoutBottom from "~/layout/layout-bottom.vue";
 
 .right-part-img{
     width: 600px;
-    margin-top: -120px;
+    /* margin-top: -120px; */
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
@@ -126,7 +126,7 @@ import layoutBottom from "~/layout/layout-bottom.vue";
 }
 .right-part-img{
     width: 450px;
-    margin-top: -70px;
+    margin-top: -30px;
 }
 .left-part{
     margin-top: 50px;

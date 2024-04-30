@@ -8,9 +8,12 @@
                             <img src="/Asset 10.png" id="bottom-logo" alt="">
                        </div>
                        <div class="text-part">
-                        Lorem ipsum dolor sit amet, consectetuer elit, <br>
-                        sed diam nonummy nibh euismod tincidunt <br>
-                        ut laoreet dolore magna aliq  </div>
+                        Nairabee, a fintech platform merging "Naira,"
+                        Nigeria's currency, with "bee," symbolizing our commitment
+                        to Nigeria's financial landscape and a collaborative,
+                        community-driven approach. Nairabee represents financial
+                        empowerment and shared prosperity, providing innovative
+                        solutions for Nigeria's unique needs. </div>
                        <div class="icons-part">
 
                         <nuxt-link :to="`#`">
@@ -87,7 +90,7 @@ body{
     bottom: 0;
     margin-top: 50px;
     width: 100%;
-    height: 370px;
+    /* height: 370px; */
     font-family: Montserrat;
     color: #383838;
     background-color: #ffcaaf;
@@ -96,6 +99,10 @@ body{
     margin: 0px auto 10px 30px;
     display: flex;
     justify-content: space-around;
+}
+.bottom-first-part{
+    width: 300px;
+    text-align: justify;
 }
 
 .bottom-parts{
@@ -147,7 +154,6 @@ body{
     font-size: 15px;
 }
 .bottom{
-    height: 340px;
 }
 }
 </style>

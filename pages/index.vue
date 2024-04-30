@@ -41,15 +41,15 @@
             </div>
 
             <div class="second-right-body">
-              Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Ipsa unde sapiente eos
-               temporibus sunt ex dolore voluptates aperiam illo <br> laudantium delectus quia itaque
-                dolores incidunt eum nobis, <br> repellat asperiores possimus tempore adipisci! Blanditiis
+              Lorem ipsum, dolor sit amet consectetur  adipisicing elit. Ipsa unde sapiente eos
+               temporibus sunt ex dolore voluptates aperiam illo laudantium delectus quia itaque
+                dolores incidunt eum nobis,  repellat asperiores possimus tempore adipisci! Blanditiis
             </div>
             <div class="second-right-activity">
               <div class="second-right">
                 <div>
                   <div class="second">
-                    <img src="/Asset 23.png" alt="" id="second-right-activity-img">
+                    <img src="/Asset 36.png" alt="" id="second-right-activity-img">
                   </div>
                 </div>
                 <div>
@@ -61,7 +61,7 @@
 
               <div class="second-right">
                   <div class="second">
-                    <img src="/Asset 23.png" alt="" id="second-right-activity-img">
+                    <img src="/Asset 36.png" alt="" id="second-right-activity-img">
                   </div>
                   <div>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
@@ -72,7 +72,7 @@
               
               <div class="second-right">
                   <div class="second">
-                    <img src="/Asset 23.png" alt="" id="second-right-activity-img">
+                    <img src="/Asset 36.png" alt="" id="second-right-activity-img">
                   </div>
                   <div>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
@@ -201,11 +201,16 @@ import bottom from '~/layout/layout-bottom.vue'
   width: 300px;
 }
 #second-right-activity-img{
-  width: 50px;
+  width: 70px;
+  background-color: #FAFBFF;
+  padding:10px ;
+  border-radius: 8px;
 }
 .second-right{
   display: flex;
   align-content: center;
+  text-align: justify;
+  width: 450px;
 }
 
 .second-right-header{
@@ -221,7 +226,11 @@ import bottom from '~/layout/layout-bottom.vue'
 .second-right-body{
   margin-top: 20px;
 }
+.right-second{
+  width: 500px;
+  text-align: justify;
 
+}
 .second-right-activity{
   display: grid;
   justify-content: space-between;
@@ -235,6 +244,7 @@ import bottom from '~/layout/layout-bottom.vue'
 
 .second{
   margin-right: 20px;
+  
 }
  
 
