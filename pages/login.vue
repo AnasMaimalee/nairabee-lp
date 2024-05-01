@@ -33,17 +33,17 @@
                                 </div>
                             </a-form-item>
                             <a-button class="sign-in-btn"> Sign In</a-button>
+
+                            <div class="form-bottom">
+                                <div>
+                                    Or Log In With
+                                </div>
+                                <div class="form-bottom-img">
+                                    <img src="/Asset 19.png" alt="">
+                                </div>
+                            </div>
+                            
                         </a-form>
-                    </div>
-
-                    <div class="form-bottom">
-                        <div class="form-bottom-top">
-                            Or Log in With
-                        </div>
-
-                        <div class="form-bottom-bottom">
-                            <img src="/Asset 19.png" alt="" class="form-bottom-bottom-img">
-                        </div>
                     </div>
                 </div>
                 <div class="right-part">
@@ -64,12 +64,15 @@ import layoutBottom from "~/layout/layout-bottom.vue";
 .page-content{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-family: Montserrat;
-    margin-top: 70px;
+    margin: 50px auto;
+    width: 80%;
 }
 .left-part{
-    margin-top:20px;
+    width: 60%;
 }
+
 .form-header{
     display: grid;
 }
@@ -78,7 +81,7 @@ import layoutBottom from "~/layout/layout-bottom.vue";
     font-size: 30px;
 }
 .form-body, .sign-in-btn{
-    width: 450px;
+    width: 70%;
 }
 .register-forgot-password{
     display: flex;
@@ -94,52 +97,32 @@ import layoutBottom from "~/layout/layout-bottom.vue";
     font-weight: bolder;
     border: #f17140;
     font-size: 20px;
+    width: 100%;
 }
 .form-bottom{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-top: 20px; /* Adjust as needed */
 }
-.form-bottom-top{
+.form-bottom-img{
     display: flex;
     justify-content: center;
     align-content: center;
+    width: 100%;
     margin-top: 30px;
 }
-.form-bottom-bottom-img{
-    width: 300px;
-    margin-top: 30px;
+.form-bottom-img img{
+    top: 30px;
+    width: 50%;
 }
-
-.right-part-img{
-    width: 600px;
-    /* margin-top: -120px; */
-}
-
-@media screen and (min-width: 601px) and (max-width: 900px) {
- 
-.page-content{
-    margin-top: 10px;
-}   
-    .form-body, .sign-in-btn{
-    width: 250px;
+.right-part{
+    width: 50%;
 }
 .right-part-img{
-    width: 450px;
-    margin-top: -30px;
-}
-.left-part{
-    margin-top: 50px;
-}
-
-.form-bottom-bottom-img{
-    width: 200px;
-    margin-top: 10px;
-}
-
-.sign-in-btn{
-    margin-top:-5px;
-    font-size: 15px;
-}
+    width: 100%;
+    margin-top: -40px;
 }
 </style>

@@ -153,6 +153,8 @@ import layoutHeaderVue from "~/layout/layout-header.vue";
     background-repeat: no-repeat;
     background-position: top right;
     font-family: Montserrat;
+    width: 100%;
+    margin: 0 60px;
 
 }
 .main-content {
@@ -162,8 +164,8 @@ import layoutHeaderVue from "~/layout/layout-header.vue";
     padding: 20px; /* Add padding for better readability */
     text-align: center; /* Center align text */
     text-align: justify;
-    left: 90px;
     top: 70px;
+    margin: 10px auto;
 }
 .page-header{
     font-weight: bolder;
@@ -178,11 +180,4 @@ p{
     font-weight: bolder;
 }
 
-@media screen and ((min-width: 301px) and (max-width: 900px)) {
-
-.container{
-    height: 3050px;
-
-}
-}
 </style>

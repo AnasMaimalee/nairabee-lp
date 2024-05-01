@@ -5,6 +5,7 @@
      <layout />
     <div class="main">
       <div class="main-body">
+
         <div class="main-body-content">
           <div class="left-main-top">
             Enter The Financial <br> Cosmos With
@@ -21,19 +22,22 @@
             <img src="/Asset 5.png" alt="" id="services-main">
           </div>
           <div class="spacer"></div>
-
         </div>
+
         <div class="main-right-top">
           <img src="/Asset 2.png" alt="" id="main-right-top-img">
         </div>
       </div>
     </div>
+
     <!-- second part  -->
     <div class="second-part">
       <div class="second-part-content">
+
         <div class="img-second">
             <img src="/Asset 7.png" alt="" id="img-second">
         </div>
+
         <div class="right-second">
             <div class="second-right-header">
               Take <span class="control">
@@ -47,12 +51,11 @@
                temporibus sunt ex dolore voluptates aperiam illo laudantium delectus quia itaque
                 dolores incidunt eum nobis,  repellat asperiores possimus tempore adipisci! Blanditiis
             </div>
+
             <div class="second-right-activity">
               <div class="second-right">
-                <div>
-                  <div class="second">
-                    <img src="/Asset 36.png" alt="" id="second-right-activity-img">
-                  </div>
+                <div class="second">
+                  <img src="/Asset 36.png" alt="" id="second-right-activity-img">
                 </div>
                 <div>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.  
@@ -144,13 +147,13 @@ import bottom from '~/layout/layout-bottom.vue'
 }
 
 .main-body {
+  width: 80%;
   display: flex;
   justify-content: space-around; /* Center content horizontally */
   align-items: center; /* Center content vertically */
   align-content: center;
-  margin-top: 80px;
+  margin: 80px auto;
   /* margin-left: 5%; */
-  margin-left: 100px;
   max-width: 100%; /* Set a maximum width to prevent content from stretching too wide */
   padding: 0 20px; /* Add padding for better spacing */
   box-sizing: border-box; /* Include padding in the width calculation */
@@ -158,7 +161,11 @@ import bottom from '~/layout/layout-bottom.vue'
 .main-body-content{
   display: grid;
   align-items: center;
-  width: 100%;
+  width: 50%;
+}
+.main-right-top{
+  width: 50%;
+  min-width: 45%;
 }
 .left-main-top{
   font-size: 30px;
@@ -167,6 +174,7 @@ import bottom from '~/layout/layout-bottom.vue'
 }
 .nairabee-main{
   margin-top: 20px;
+  width: 80%;
 }
 #nairabee-main-logo{
   width: 95%;
@@ -180,25 +188,20 @@ import bottom from '~/layout/layout-bottom.vue'
   line-height: 20px;
   text-align: justify;
 }
-
-.nairabee-main img,
-.services-main img {
-  width: 140%; /* Make images fill their container */
+.services-main{
+  width: 80%;
 }
-
-
 #services-main{
   margin-top: 30px;
   width: 95%;
   max-width: 100%;
 }
 #main-right-top{
-  width: 400px;
+  width: 90%;
 }
 #main-right-top-img{
-  width:80%;
-  max-width: 100%;
-  margin-left: 100px;
+  width:100%;
+  max-width: 120%;
 
 }
 /* second part  */
@@ -207,15 +210,15 @@ import bottom from '~/layout/layout-bottom.vue'
   margin-top: 50px ;
 }
 .second-part-content{
-  width: 90%;
+  width: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .img-second{
   display: flex;
+  width: 50%;
   align-items: start;
-  margin-left: 130px;
 }
 #img-second{
   display: flex;
@@ -233,7 +236,7 @@ import bottom from '~/layout/layout-bottom.vue'
   display: flex;
   align-content: center;
   text-align: justify;
-  width: 100%;
+  width: 90%;
 }
 
 .second-right-header{
@@ -252,9 +255,8 @@ import bottom from '~/layout/layout-bottom.vue'
   text-align: justify;
 }
 .right-second{
-  width: 90%;
+  width: 50%;
   text-align: justify;
-  margin-right: 30px;
 
 }
 .second-right-activity{
@@ -294,13 +296,14 @@ import bottom from '~/layout/layout-bottom.vue'
 }
 .why-choose-us-body{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  width: 80%;
+  margin: 50px auto;
 }
 .first-chose-us, .second-chose-us, .third-chose-us {
   height: 400px;
-  width: 250px;
-  margin: 50px;
+  width: 25%;
   padding: 30px;
   border-radius: 25px;
   box-shadow: 0 0px 9px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
@@ -310,54 +313,6 @@ import bottom from '~/layout/layout-bottom.vue'
   background-color: #001130;
   color: white;
 }
-
-@media screen and (min-width: 601px) and (max-width: 900px) {
-
-  /* .left-main-top {
-    font-size: 24px; 
-  } */
-  /* .main-body-content{
-  margin-right: 10px;
-
-}
-#nairabee-main-logo{
-  width:250px;
-}
-#services-main{
-  width: 330px;
-  
-}
-#main-right-top-img{
-  width: 430px;
-}
-.main-body{
-  margin-top: 60px ;
-
-}
-.second-right-header{
-  font-size: 20px;
-  font-weight: bolder;
-  line-height: 100%;
-} */
-
-/* .img-second{
-  display: flex;
-  align-items: start;
-  margin-left: 10px;
-}
-.text-center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.first-chose-us, .second-chose-us, .third-chose-us {
-  margin: 30px;
-} */
-}
-
 
 /* For small mobile devices */
   @media screen and (max-width: 480px) {

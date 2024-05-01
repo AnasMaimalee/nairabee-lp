@@ -1,122 +1,103 @@
 <template>
-    <div class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
-      <div class="nav-header">
-        <div class="nav-heder-first-section">
-            <div class="header-logo">
-                <img src="/Asset 1.png" alt="" class="header-img">
-            </div>
-            <div class="nav">
-                <nuxt-link :to="`/`">
-                    <div class="nav-link">Home</div>
-                </nuxt-link>
-                <nuxt-link :to="`/service`">
-                    <div class="nav-link">Services</div>
-                </nuxt-link><nuxt-link :to="`/about`">
-                    <div class="nav-link">About</div>
-                </nuxt-link><nuxt-link :to="`/contact`">
-                    <div class="nav-link">Contact</div>
-                </nuxt-link>
-                <nuxt-link :to="`/login`">
-                    <div class="nav-link">Sign In</div>
-                </nuxt-link>
-            </div>
-            <div class="nav-header-end-section">
-                <nuxt-link :to="``" class="get-started-link">Get Started</nuxt-link>
-            </div>
+  <div class="nav-header">
+    <div class="top-header">
+      <div class="nairabee-logo">
+        <img src="/Asset 1.png" alt="">
+      </div>
+
+      <div class="nav">
+        <div class="left-nav">
+          <ul>
+            <li><nuxt-link :to="`/`" class="nav-link">Home</nuxt-link></li>
+            <li><nuxt-link :to="`/service`" class="nav-link">Services</nuxt-link></li>
+            <li><nuxt-link :to="`/about`" class="nav-link">About</nuxt-link></li>
+            <li><nuxt-link :to="`/contact`" class="nav-link">Contact</nuxt-link></li>
+            <li><nuxt-link :to="`/login`" class="nav-link">Sign In</nuxt-link></li>
+          </ul>
+        </div>
+        <div class="right-nav">
+          <ul>
+            <li><nuxt-link :to="``" class="nav-link">Get Started</nuxt-link></li>
+          </ul>
         </div>
       </div>
-      <!-- page content -->
     </div>
-  </template>
-  
-  <style scoped>
- 
-    .nav-header{
-        font-family: Montserrat;
-    }
 
-    .nav-heder-first-section {
-      display: flex;  
-      justify-content: space-around;
-      height: 70px;
-      widows: 100%;
-      padding: 10px;
-      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
-    }
-  
-    .nav {
-        display: flex;
-        align-items: center;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust minmax values as needed */
-    }
-    .nav .nav-link{
-        display: block;
-        padding: 5px 20px;
-        border-radius: 8px;
-        font-weight: bolder;
-    }
-    
-    .nav-link:hover{
-        background-color: #F17140;
-        color: #FAFBFF;
-    }
-  
-  .header-img{
-    display: grid;
-    width: 200px;
-  }
-  .get-started{
-    margin-left: auto;    
-  }
-  .nav-header-end-section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .get-started-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F17140;
-    border: #F17140;
-    color: #FAFBFF;
-    padding: 5px 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    place-self: center stretch;
-    flex-grow: 2;
-    flex-shrink: 0;
-    flex-basis: auto;
-    /* width: 25%;
-    max-width: 100%; */
-  }
-  .nav-links {
-    display: flex;
-    justify-content: space-between; /* Add space between elements */
+    <!-- page content -->
+  </div>
+</template>
+
+<style scoped>
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  font-family: Montserrat;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1); /* Adjust the shadow values as needed */
+}
+.top-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nairabee-logo {
+  width: 15%;
 }
 
-.nav-link {
-    /* Add styles for nav links */
-    flex: 3 1 0;
+.nairabee-logo img {
+  width: 100%;
 }
 
-/* Style for the Sign In link */
-.nav-links nuxt-link:last-child {
-    margin-left: 10px; /* Add left margin to the last child */
+.nav {
+  width: 75%;
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
-
-.nav-link {
-      color: #383838;
-    }
-@media screen and (max-width: 480px) {
-    .header-img{
-        display: none;
-    }
-    .nav-header{
-        /* width: 700px;/ */
-    }
+.left-nav ul {
+  display: flex;
 }
-@import url('/style.css');
-  </style>
-  
+
+.left-nav {
+  width: 60%;
+}
+.right-nav{
+  width: 20%;
+  text-align: center;
+  color: white  ;
+}
+.right-nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.right-nav ul :last-child{
+  background-color: #f17540 ;
+  width: 100%;
+  color: white;
+  font-weight: bolder;
+  border-radius: 8px;
+  padding: 5px;
+}
+ul li {
+  list-style-type: none;
+}
+
+.left-nav ul .nav-link{
+  color: #383838;
+  padding: 8px 20px
+
+}
+
+.left-nav ul .nav-link:hover{
+  background-color: #f17540;
+  color: white;
+  border-radius: 4px;
+
+}
+</style>

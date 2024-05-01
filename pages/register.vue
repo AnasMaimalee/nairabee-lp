@@ -46,18 +46,20 @@
                                 <a-input-password />
                             </a-form-item>
                             <a-button class="sign-in-btn"> Sign Up</a-button>
+
+                            <div class="form-bottom">
+                                <div class="form-bottom-top">
+                                    Or Sign Up With
+                                </div>
+
+                                <div class="form-bottom-bottom">
+                                    <img src="/Asset 19.png" alt="" class="form-bottom-bottom-img">
+                                </div>
+                            </div>
                         </a-form>
                     </div>
 
-                    <div class="form-bottom">
-                        <div class="form-bottom-top">
-                            Or Sign Up With
-                        </div>
-
-                        <div class="form-bottom-bottom">
-                            <img src="/Asset 19.png" alt="" class="form-bottom-bottom-img">
-                        </div>
-                    </div>
+                  
                 </div>
                 <div class="right-part">
                     <img src="/Asset 31.png" alt="" class="right-part-img">
@@ -78,10 +80,19 @@ import layoutBottom from "~/layout/layout-bottom.vue";
     display: flex;
     justify-content: space-around;
     font-family: Montserrat;
-    margin-top: 70px;
+    width: 80%;
+    margin: 70px auto;
+    align-content: center;
 }
 .left-part{
     margin-top:20px;
+    width: 50%;
+}
+.form-body{
+    width: 100%;
+}
+.right-part{
+    width: 50%;
 }
 .form-header{
     display: grid;
@@ -131,40 +142,8 @@ import layoutBottom from "~/layout/layout-bottom.vue";
 }
 
 .right-part-img{
-    width: 500px;
-    position: top right;
+    width: 100%;
     /* margin-top: -120px; */
     
-}
-
-@media screen and (min-width: 601px) and (max-width: 900px) {
- 
-.page-content{
-    margin-top: 10px;
-}   
-
-.text-body{
-    margin-bottom: 10px;
-}
-    .form-body, .sign-in-btn{
-    width: 250px;
-}
-.right-part-img{
-    width: 450px;
-    margin-top: 30px;
-}
-.left-part{
-    margin-top: 50px;
-}
-
-.form-bottom-bottom-img{
-    width: 200px;
-    margin-top: 10px;
-}
-
-.sign-in-btn{
-    margin-top:-5px;
-    font-size: 15px;
-}
 }
 </style>
