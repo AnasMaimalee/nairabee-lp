@@ -43,7 +43,14 @@
                     <div class="bottom-header">
                         Quick Links
                     </div>
-                    d
+                    <div class="bottom-quick-links">
+                        <nuxt-link :to="`privacy-policy`" class="bottom-services-link">Privacy Policy</nuxt-link>
+                        <nuxt-link :to="`/terms-condition`" class="bottom-services-link">Terms And Conditions</nuxt-link>
+                        <nuxt-link :to="`/about`" class="bottom-services-link">About Us</nuxt-link>
+                        <nuxt-link :to="`/contact`" class="bottom-services-link">Contact Us</nuxt-link>
+                        <nuxt-link :to="``" class="bottom-services-link">Transfer</nuxt-link>
+                        <nuxt-link :to="``" class="bottom-services-link">Transfer</nuxt-link>
+                    </div>
                 </div>
                 <div class="bottom-parts">
                     <div class="bottom-header">
@@ -57,7 +64,7 @@
                         <nuxt-link :to="``" class="bottom-services-link">Exam Result</nuxt-link>
                     </div>
                 </div>
-                <div class="bottom-parts">
+                <!-- <div class="bottom-parts">
                     <div class="bottom-header">
                         About
                     </div>
@@ -66,7 +73,7 @@
                         <nuxt-link :to="``" class="bottom-about-link">Lorem, ipsum.</nuxt-link>
                         <nuxt-link :to="``" class="bottom-about-link">Lorem, ipsum.</nuxt-link>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="border-bottom"></div>
             <div class="copy-right">
@@ -122,6 +129,18 @@ body{
     width: 40px;
     margin-right: 10px;
 }
+.bottom-quick-links{
+    display: grid;
+    color:#383838;
+
+}
+.bottom-quick-links :hover, .bottom-services-link :hover{
+    color: #f17540;
+}
+
+.bottom-services :hover{
+    color: #f17540;
+}
 .bottom-services, .bottom-about{
     display: grid;
     line-height: 25px;
@@ -142,9 +161,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-@media screen and (min-width: 601px) and (max-width: 900px) {
+/* @media screen and (max-width: 480) and (min-width: 360) {
     .icons-img{
-        width: 25px;
+        width: 5px;
     }
     .bottom-parts{
     padding: 20px;
@@ -154,6 +173,7 @@ body{
     font-size: 15px;
 }
 .bottom{
-}
-}
+
+display: none;}
+} */
 </style>

@@ -29,7 +29,8 @@
     </div>
   </template>
   
-  <style>
+  <style scoped>
+ 
     .nav-header{
         font-family: Montserrat;
     }
@@ -38,6 +39,7 @@
       display: flex;  
       justify-content: space-around;
       height: 70px;
+      widows: 100%;
       padding: 10px;
       box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     }
@@ -78,14 +80,15 @@
     background-color: #F17140;
     border: #F17140;
     color: #FAFBFF;
-    padding: 5px;
+    padding: 5px 20px;
     font-weight: bold;
     border-radius: 5px;
     place-self: center stretch;
     flex-grow: 2;
     flex-shrink: 0;
     flex-basis: auto;
-    width: 150px;
+    /* width: 25%;
+    max-width: 100%; */
   }
   .nav-links {
     display: flex;
@@ -106,6 +109,14 @@
 .nav-link {
       color: #383838;
     }
-  
+@media screen and (max-width: 480px) {
+    .header-img{
+        display: none;
+    }
+    .nav-header{
+        /* width: 700px;/ */
+    }
+}
+@import url('/style.css');
   </style>
   

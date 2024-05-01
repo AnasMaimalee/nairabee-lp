@@ -1,4 +1,6 @@
 <template>
+    <div class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
+
   <div class="body-index">
      <layout />
     <div class="main">
@@ -11,22 +13,22 @@
             <img src="/Asset 6.png" alt="" id="nairabee-main-logo">
           </div>
           <div class="revolize">
-            Revolutionize your finances with Nairabee, <br>
-            the cutting-edge fintech app that simplifies <br>
+            Revolutionize your finances with Nairabee, 
+            the cutting-edge fintech app that simplifies  
             wealth management
           </div>
           <div class="services-main">
             <img src="/Asset 5.png" alt="" id="services-main">
           </div>
-        </div>
+          <div class="spacer"></div>
 
+        </div>
         <div class="main-right-top">
           <img src="/Asset 2.png" alt="" id="main-right-top-img">
         </div>
       </div>
     </div>
     <!-- second part  -->
-
     <div class="second-part">
       <div class="second-part-content">
         <div class="img-second">
@@ -53,8 +55,8 @@
                   </div>
                 </div>
                 <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
-                   Nulla doloribus obcaecati autem excepturi ipsam, doloremque <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.  
+                   Nulla doloribus obcaecati autem excepturi ipsam, doloremque 
                     harum inventore libero quas illo?
                 </div>
               </div>
@@ -64,8 +66,8 @@
                     <img src="/Asset 36.png" alt="" id="second-right-activity-img">
                   </div>
                   <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
-                   Nulla doloribus obcaecati autem excepturi ipsam, doloremque <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Nulla doloribus obcaecati autem excepturi ipsam, doloremque 
                     harum inventore libero quas illo?
                 </div>
               </div> 
@@ -75,8 +77,8 @@
                     <img src="/Asset 36.png" alt="" id="second-right-activity-img">
                   </div>
                   <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
-                   Nulla doloribus obcaecati autem excepturi ipsam, doloremque <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Nulla doloribus obcaecati autem excepturi ipsam, doloremque 
                     harum inventore libero quas illo?
                 </div>
               </div>
@@ -115,6 +117,7 @@
     <bottom />
   </div>
   </div>
+  </div>  
 </template>
 
 <script setup lang="ts">
@@ -128,21 +131,34 @@ import bottom from '~/layout/layout-bottom.vue'
   /* height: 1200px; */
   font-family: Montserrat;
 }
-.main{
+.main {
   display: grid;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
   background-image: url('/Asset 3.png');
-  background-size:400px ;
+  background-size: 400px; /* Adjust background size as needed */
   background-repeat: no-repeat;
   background-position-x: right;
   font-family: Montserrat;
-
+  width: 100%;
 }
-.main-body{
+
+.main-body {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  align-content: center;
   margin-top: 80px;
+  /* margin-left: 5%; */
+  margin-left: 100px;
+  max-width: 100%; /* Set a maximum width to prevent content from stretching too wide */
+  padding: 0 20px; /* Add padding for better spacing */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+.main-body-content{
+  display: grid;
+  align-items: center;
+  width: 100%;
 }
 .left-main-top{
   font-size: 30px;
@@ -153,31 +169,36 @@ import bottom from '~/layout/layout-bottom.vue'
   margin-top: 20px;
 }
 #nairabee-main-logo{
-  width: 400px;
+  width: 95%;
+  max-width: 100%;
 }
 .revolize{
+  width: 75%;
+  max-width: 90%;
   margin-top: 15px;
   font-size: 18px;
   line-height: 20px;
+  text-align: justify;
 }
-.main-body-content{
-  margin-right: 50px;
 
+.nairabee-main img,
+.services-main img {
+  width: 140%; /* Make images fill their container */
 }
+
+
 #services-main{
   margin-top: 30px;
-  width: 450px;
+  width: 95%;
+  max-width: 100%;
 }
 #main-right-top{
   width: 400px;
 }
 #main-right-top-img{
-  width: 500px;
-  display: block;
-  align-items: flex-end;
-  justify-content: right;
-  align-items: right;
-  margin-left: 60px;
+  width:80%;
+  max-width: 100%;
+  margin-left: 100px;
 
 }
 /* second part  */
@@ -186,6 +207,7 @@ import bottom from '~/layout/layout-bottom.vue'
   margin-top: 50px ;
 }
 .second-part-content{
+  width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -193,12 +215,13 @@ import bottom from '~/layout/layout-bottom.vue'
 .img-second{
   display: flex;
   align-items: start;
-  margin-left: 90px;
+  margin-left: 130px;
 }
 #img-second{
   display: flex;
   align-self: flex-end;
-  width: 300px;
+  width: 60%;
+  max-width: 70%;
 }
 #second-right-activity-img{
   width: 70px;
@@ -210,7 +233,7 @@ import bottom from '~/layout/layout-bottom.vue'
   display: flex;
   align-content: center;
   text-align: justify;
-  width: 450px;
+  width: 100%;
 }
 
 .second-right-header{
@@ -225,10 +248,13 @@ import bottom from '~/layout/layout-bottom.vue'
 
 .second-right-body{
   margin-top: 20px;
+  display: flex;
+  text-align: justify;
 }
 .right-second{
-  width: 500px;
+  width: 90%;
   text-align: justify;
+  margin-right: 30px;
 
 }
 .second-right-activity{
@@ -286,10 +312,11 @@ import bottom from '~/layout/layout-bottom.vue'
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
-  .left-main-top {
-    font-size: 24px; /* Decrease font size for smaller screens */
-  }
-  .main-body-content{
+
+  /* .left-main-top {
+    font-size: 24px; 
+  } */
+  /* .main-body-content{
   margin-right: 10px;
 
 }
@@ -311,9 +338,9 @@ import bottom from '~/layout/layout-bottom.vue'
   font-size: 20px;
   font-weight: bolder;
   line-height: 100%;
-}
+} */
 
-.img-second{
+/* .img-second{
   display: flex;
   align-items: start;
   margin-left: 10px;
@@ -328,6 +355,37 @@ import bottom from '~/layout/layout-bottom.vue'
 }
 .first-chose-us, .second-chose-us, .third-chose-us {
   margin: 30px;
+} */
 }
+
+
+/* For small mobile devices */
+  @media screen and (max-width: 480px) {
+  .main-body{
+    display: grid;
+    margin-left: -250px;
+    justify-content: start;
+    align-items: start;
+    align-content: center;
+    width: 90%;
+  }
+  #nairabee-main-logo{
+    width: 250px;
+  }
+  .main{
+    margin-left: 300px;
+    background-image: none;
+  }
+  #services-main{
+    width: 400px;
+  }
+  #main-right-top-img{
+    margin-left: -60px; ;
+  }
+  .second-part-content{
+    display: grid;
+    justify-content: center;
+    
+  }
 }
 </style>
