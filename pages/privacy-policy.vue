@@ -1,9 +1,8 @@
 <template>
     <div>
-        <layoutHeaderVue />
-        <div class="container">
-            <div class="main-content">
-                <div class="page-header">
+        <div class="container-privacy">
+            <div class="main-content-privacy">
+                <div class="page-header-privacy">
                     Privacy Policy
                 </div>
                 <p>
@@ -137,7 +136,6 @@
                 </p>
             </div>
         </div>
-        <layoutBottomVue />
     </div>
 </template>
 <script setup lang="ts">
@@ -145,7 +143,7 @@ import layoutBottomVue from "~/layout/layout-bottom.vue";
 import layoutHeaderVue from "~/layout/layout-header.vue";
 </script>
 <style>
-.container{
+.container-privacy{
     position: relative;
     background-image: url('/Asset 22.png');
     background-size: 600px;
@@ -154,20 +152,19 @@ import layoutHeaderVue from "~/layout/layout-header.vue";
     background-position: top right;
     font-family: Montserrat;
     width: 100%;
-    margin: 0 60px;
 
 }
-.main-content {
+.main-content-privacy{
     position: absolute;
     width: 80%; /* Adjust the width as needed */
+    justify-content: center;
     max-width: 1000px; /* Maximum width for larger screens */
     padding: 20px; /* Add padding for better readability */
     text-align: center; /* Center align text */
     text-align: justify;
-    top: 70px;
-    margin: 10px auto;
+    margin: 70px 100px;
 }
-.page-header{
+.page-header-privacy{
     font-weight: bolder;
     font-size: 35px;
 }

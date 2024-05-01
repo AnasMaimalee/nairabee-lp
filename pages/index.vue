@@ -2,7 +2,6 @@
     <div class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
 
   <div class="body-index">
-     <layout />
     <div class="main">
       <div class="main-body">
 
@@ -117,7 +116,6 @@
     </div>
 
   <div>
-    <bottom />
   </div>
   </div>
   </div>  
@@ -314,33 +312,4 @@ import bottom from '~/layout/layout-bottom.vue'
   color: white;
 }
 
-/* For small mobile devices */
-  @media screen and (max-width: 480px) {
-  .main-body{
-    display: grid;
-    margin-left: -250px;
-    justify-content: start;
-    align-items: start;
-    align-content: center;
-    width: 90%;
-  }
-  #nairabee-main-logo{
-    width: 250px;
-  }
-  .main{
-    margin-left: 300px;
-    background-image: none;
-  }
-  #services-main{
-    width: 400px;
-  }
-  #main-right-top-img{
-    margin-left: -60px; ;
-  }
-  .second-part-content{
-    display: grid;
-    justify-content: center;
-    
-  }
-}
 </style>

@@ -1,6 +1,5 @@
 <template>
     <div>
-      <layout />
       <div class="page-wrapper">
         <!-- First part -->
         <div class="first-part-content">
@@ -76,7 +75,6 @@
         </div>  
 
       </div>
-      <bottom />
     </div>
   </template>
   

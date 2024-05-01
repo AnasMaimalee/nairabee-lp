@@ -1,19 +1,18 @@
 <template>
     <div>
-        <layout />
-        <div class="container">
-            <div class="main-page">
+        <div class="container-contact">
+            <div class="main-page-contact">
                 <div class="min-form">
                     <div class="form-header">
                         <div class="fist-header">
                             Contact Us
                         </div>
-                        <div class="second-header">
+                        <div class="second-header-contact">
                             Let’s build Africa’s biggest <br>   
                             FinTech together.
                         </div>
                     </div>
-                    <a-form>
+                    <a-form class="contact-form">
                         
                         <a-form-item
                             
@@ -39,7 +38,6 @@
             </div>
         </div>
         <!-- bottom  -->
-        <bottom />
     </div>
 </template>
 <script setup lang="ts">
@@ -48,7 +46,7 @@ import bottom from "~/layout/layout-bottom.vue";
 </script>
 <style scoped>
   
-    .container{
+    .container-contact{
         position: relative;
         background-image: url('/Asset 22.png');
         background-size: 800px;
@@ -56,26 +54,27 @@ import bottom from "~/layout/layout-bottom.vue";
         background-repeat:no-repeat ;
         background-position: top right;
         font-family: Montserrat;
-        
+        padding-left: 120px;
+        width: 100%;
         /* background-color: rgba(255, 255, 255, 1 );      */
 
     }
-    .main-page{
+    .main-page-contact{
         display: flex;
-        justify-content: center;
-        margin-left: 100px;
+        justify-content: space-around;
         margin-top: 100px;
         position: absolute;
         top: 0;
+        width: 50%;
     }
     .min-form {
-    width: 500px; /* Adjust the width as needed */
+    width: 90%; /* Adjust the width as needed */
     }
-    .main-page :nth-child(2){
+    .main-page-contact :nth-child(2){
         margin-top: 20px;
     }
     .send-comment{
-        width: 500px;
+        width: 100%;
         background-color: #F17140;
         border: #F17140;
         color: #FAFBFF;
@@ -85,13 +84,15 @@ import bottom from "~/layout/layout-bottom.vue";
         font-weight: bolder;
         font-size: 35px;
     }
-@media screen and (min-width: 601px) and (max-width: 900px) {
 
-    .container{
-        
-        background-size: 600px;
-         /* background-color: rgba(255, 255, 255, 1 );      */
-
+@media only screen and (max-width: 998px) {
+    .container-contact{
+        margin-top: -70px;
+        background-image: none;
+        margin-left: -90px;
     }
+   .contact-form{
+    width: 150%;
+   }
 }
 </style>

@@ -39,42 +39,36 @@
                        </div>
                     </div>
                 </div>
-                <div class="bottom-parts">
-                    <div class="bottom-header">
-                        Quick Links
+
+                <div class="right-bottom">
+                    <div class="bottom-part">
+                        <div class="bottom-header">
+                            Quick Links
+                        </div>
+                        <div class="bottom-quick-links">
+                            <nuxt-link :to="`service`" class="bottom-services-link">Services</nuxt-link>
+                            <nuxt-link :to="`privacy-policy`" class="bottom-services-link">Privacy Policy</nuxt-link>
+                            <nuxt-link :to="`/terms-condition`" class="bottom-services-link">Terms And Conditions</nuxt-link>
+                            <nuxt-link :to="`/about`" class="bottom-services-link">About Us</nuxt-link>
+                            <nuxt-link :to="`/contact`" class="bottom-services-link">Contact Us</nuxt-link>
+                        </div>
                     </div>
-                    <div class="bottom-quick-links">
-                        <nuxt-link :to="`privacy-policy`" class="bottom-services-link">Privacy Policy</nuxt-link>
-                        <nuxt-link :to="`/terms-condition`" class="bottom-services-link">Terms And Conditions</nuxt-link>
-                        <nuxt-link :to="`/about`" class="bottom-services-link">About Us</nuxt-link>
-                        <nuxt-link :to="`/contact`" class="bottom-services-link">Contact Us</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-services-link">Transfer</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-services-link">Transfer</nuxt-link>
+                    <div class="bottom-part">
+                        <div class="bottom-header">
+                            Our Services
+                        </div>
+                        <div class="bottom-services">
+                            <nuxt-link :to="``" class="bottom-services-link">Transfer</nuxt-link>
+                            <nuxt-link :to="``" class="bottom-services-link">Airtime</nuxt-link>
+                            <nuxt-link :to="``" class="bottom-services-link">Data</nuxt-link>
+                            <nuxt-link :to="``" class="bottom-services-link">TV Subscription</nuxt-link>
+                            <nuxt-link :to="``" class="bottom-services-link">Exam Result</nuxt-link>
+                            <nuxt-link :to="`/service`" class="bottom-services-link">And More....</nuxt-link>
+                        </div>
                     </div>
                 </div>
-                <div class="bottom-parts">
-                    <div class="bottom-header">
-                        Our Services
-                    </div>
-                    <div class="bottom-services">
-                        <nuxt-link :to="``" class="bottom-services-link">Transfer</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-services-link">Airtime</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-services-link">Data</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-services-link">TV Subscription</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-services-link">Exam Result</nuxt-link>
-                    </div>
-                </div>
-                <!-- <div class="bottom-parts">
-                    <div class="bottom-header">
-                        About
-                    </div>
-                    <div class="bottom-about">
-                        <nuxt-link :to="``" class="bottom-about-link">Lorem, ipsum.</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-about-link">Lorem, ipsum.</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-about-link">Lorem, ipsum.</nuxt-link>
-                    </div>
-                </div> -->
             </div>
+
             <div class="border-bottom"></div>
             <div class="copy-right">
                 &copy; All Rights Reserved
@@ -103,19 +97,24 @@ body{
     background-color: #ffcaaf;
 }
 .main-bottom{
-    margin: 0px auto 10px 30px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-}
-.bottom-first-part{
-    width: 300px;
-    text-align: justify;
+    justify-content: space-between;
+    align-content: center;
+    margin: 10px 40px;
 }
 
 .bottom-parts{
-    padding: 20px;
-    margin-right: 20px;
+    width: 70%;
+    margin-right: 40px;
+    text-align: justify;
 }
+.right-bottom{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
 #bottom-logo{
     width: 180px;
 }
@@ -161,19 +160,4 @@ body{
     justify-content: center;
     align-items: center;
 }
-/* @media screen and (max-width: 480) and (min-width: 360) {
-    .icons-img{
-        width: 5px;
-    }
-    .bottom-parts{
-    padding: 20px;
-    margin-right: 10px;
-}
-.bottom-header {
-    font-size: 15px;
-}
-.bottom{
-
-display: none;}
-} */
 </style>

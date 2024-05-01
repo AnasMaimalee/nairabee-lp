@@ -1,19 +1,18 @@
 <template>
     <div>
         <!-- header  -->
-        <layoutHeaderVue />
-        <div class="container">
-            <div class="main-page-content">
-                <div class="page-header">
+        <div class="container-terms">
+            <div class="main-page-content-terms">
+                <div class="page-header-terms">
                     Terms and Conditions
                 </div>
-                <div class="page-content">
-                    <div class="page-header-welcome">
+                <div class="page-content-terms">
+                    <div class="page-header-welcome-terms">
                         Welcome to Nairabee, the fintech platform that merges the essence of Nigeria's currency, the
                         Naira, with the industrious and collaborative spirit of bees. By using Nairabee's services, you
                         agree to comply with and be bound by the following terms and conditions:
                     </div>
-                    <div class="main-content">
+                    <div class="main-content-terms">
                         <div class="condition">
                             <span class="first-bold-color-text">Account Registration:</span> To use Nairabee's services, you must create an account. You agree to
                             provide accurate, current, and complete information during the registration process and to
@@ -70,7 +69,6 @@
             </div>            
         </div>
         <!-- footer  -->
-        <layoutBottomVue />
     </div>
 </template>
 
@@ -79,33 +77,32 @@ import layoutBottomVue from "~/layout/layout-bottom.vue";
 import layoutHeaderVue from "~/layout/layout-header.vue";
 </script>
 <style>
- .container{
-        position: relative;
-        background-image: url('/Asset 22.png');
-        background-size: 800px;
-        height: 1200px;
-        background-repeat:no-repeat ;
-        background-position: top right;
-        font-family: Montserrat;
-        text-align: justify;
-        
-        /* background-color: rgba(255, 255, 255, 1 );      */
 
-    }
-    .main-page-content{
-        position: absolute;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        margin: 70px 110px;
-        width: 1000px;
-    } 
-    .page-header{
+.container-terms {
+    position: relative;
+    background-image: url('/Asset 22.png');
+    background-size: 800px;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-family: Montserrat;
+    text-align: justify;
+    padding: 0 10%; /* Adjust as needed */
+}
+
+.main-page-content-terms {
+    position: absolute;
+    width: 100%;
+    max-width: 80%; /* Adjust the maximum width as needed */
+    margin: 90px auto;
+}
+
+    .page-header-terms{
         font-weight: bolder;
         font-size: 35px;
     }
 
-    .condition, .page-header-welcome{
+    .condition, .page-header-welcome-terms{
         margin-top: 20px;
         font-size: 20px;
     }
@@ -113,13 +110,4 @@ import layoutHeaderVue from "~/layout/layout-header.vue";
         color: #f17540;
         font-weight: bolder;
     }
-@media screen and ((min-width: 301px) and (max-width: 900px)) {
-    .container{
-        height: 1350px;
-    }
-    .main-page-content{
-       margin-left: 25px;
-        width: 800px;
-    } 
-}
 </style>

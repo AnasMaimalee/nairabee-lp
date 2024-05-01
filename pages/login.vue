@@ -1,7 +1,6 @@
 <template>
     <div>
         <!-- header  -->
-        <layout />
         <div class="wrapper">
             <div class="page-content">
                 <div class="left-part">
@@ -52,7 +51,6 @@
             </div>
         </div>
         <!-- bottom  -->
-        <layoutBottom />
     </div>
 </template>
 <script setup lang="ts">

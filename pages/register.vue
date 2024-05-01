@@ -1,7 +1,6 @@
 <template>
     <div>
         <!-- header  -->
-        <layout />
         <div class="wrapper">
             <div class="page-content">
                 <div class="left-part">
@@ -67,7 +66,6 @@
             </div>
         </div>
         <!-- bottom  -->
-        <layoutBottom />
     </div>
 </template>
 <script setup lang="ts">
@@ -142,7 +140,7 @@ import layoutBottom from "~/layout/layout-bottom.vue";
 }
 
 .right-part-img{
-    width: 100%;
+    width: 70%;
     /* margin-top: -120px; */
     
 }
