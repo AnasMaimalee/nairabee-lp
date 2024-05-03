@@ -139,7 +139,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import layoutBottomVue from "~/layout/layout-bottom.vue";
+import layoutBottomVue from "~/components/layout-footer.vue";
 import layoutHeaderVue from "~/layout/layout-header.vue";
 </script>
 <style>

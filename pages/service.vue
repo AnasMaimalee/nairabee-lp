@@ -19,7 +19,7 @@
 </template>
 <script setup lang="ts">
 import layout from "~/layout/layout-header.vue";
-import bottom from "~/layout/layout-bottom.vue";
+import bottom from "~/components/layout-footer.vue";
 </script>
 <style scoped>
 .container-services {

@@ -20,6 +20,8 @@
           </ul>
         </div>
       </div>
+
+      
       <div class="mobile-nav">
         <button class="hamburger" @click="toggleMobileNav">
           <span class="bar"></span>
@@ -27,12 +29,14 @@
           <span class="bar"></span>
         </button>
         <nav class="nav-menu" v-if="isMobileNavOpen">
-          <a href="#" class="top-header-nav">About</a>
-          <a href="#" class="top-header-nav">Solutions</a>
-          <a href="#" class="top-header-nav">Features</a>
-          <a href="#" class="top-header-nav">Pricing</a>
-          <a href="#" class="top-header-nav-last">Try Software <i class="bi bi-arrow-right"></i></a>
-        </nav>
+          <ul>
+            <li @click="closeMbileNav"><nuxt-link to="/" class="nav-link" @click="closeMbileNav">Home</nuxt-link></li>
+            <li @click="closeMbileNav"><nuxt-link to="/service" class="nav-link"  @click="closeMbileNav">Services</nuxt-link></li>
+            <li @click="closeMbileNav"><nuxt-link to="/about" class="nav-link"  @click="closeMbileNav">About</nuxt-link></li>
+            <li @click="closeMbileNav"><nuxt-link to="/contact" class="nav-link"  @click="closeMbileNav">Contact</nuxt-link></li>
+            <li @click="closeMbileNav"><nuxt-link to="/login" class="nav-link"  @click="closeMbileNav">Sign In</nuxt-link></li>
+          </ul>
+         </nav>
       </div>
     </div>
   </div>
@@ -45,7 +49,12 @@ const isMobileNavOpen = ref(false);
 
 const toggleMobileNav = () => {
   isMobileNavOpen.value = !isMobileNavOpen.value;
-};
+}
+
+const closeMbileNav = () =>{
+  console.log("close")
+  isMobileNavOpen.value = false
+}
 </script>
 
 <style scoped>
@@ -80,6 +89,22 @@ const toggleMobileNav = () => {
 .nairabee-logo img {
   width: 100%;
 }
+/* Styles for navigation menu */
+.nav-menu {
+  display: none;
+  /* Additional styles for positioning the menu below the hamburger button */
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Add a higher z-index value */
+}
+
+/* Show navigation menu when isMobileNavOpen is true */
+.nav-menu.show {
+  display: block;
+}
+
 
 .nav {
   width: 75%;
@@ -139,20 +164,78 @@ ul li {
 }
 
 @media only screen and (max-width: 370px) {
-  /* Your mobile-specific CSS rules here */
+
 .nav{
   display: none;
 }
+.nairabee-logo img{
+  width: 60%;
+}
 .mobile-nav{
-  display: block;
-  width: 100%;
-  padding-left: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
 }
 
-.hamburger{
-        margin-right: -30px;
-    }
+/* Styles for hamburger button */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+  border: #f17540;
+  border: 1px solid #f17540;
+  background-color: white;
+  border: none;
+  background-color: transparent;
+}
 
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: #f17540;
+}
+
+/* Styles for navigation menu */
+.nav-menu {
+  display: grid;
+  /* Additional styles for positioning the menu below the hamburger button */
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  color: white;
+  background: white;  
+  color: white;
+  border: 1px solid #f17540;
+}
+.nav-link{
+  margin-top: 10px;
+  color: #383838;
+  padding: 5px;
+}
+.nuxt-link:hover{
+  background-color: #f17540;
+}
+
+/* Show navigation menu when isMobileNavOpen is true */
+.nav-menu.show {
+  display: block;
+}
+
+.nav-menu ul{
+  margin: 10px -10px;
+}
+.nav-menu ul li{
+  line-height: 25px;
+} 
+.nav-menu ul li:hover{
+  background-color: #f17540;
+}
+.nav-header{
+  height: 50px;
+}
 }
 
 

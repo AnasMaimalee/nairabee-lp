@@ -1,19 +1,19 @@
 <template>
     <div>
         <!-- header  -->
-        <div class="wrapper">
-            <div class="page-content">
-                <div class="left-part">
-                    <div class="form-header">
-                        <span class="text-head">
+        <div class="register-page-wrapper">
+            <div class="register-page-content">
+                <div class="register-left-part">
+                    <div class="register-form-header">
+                        <span class="register-text-head">
                             Lets Get Started
-                        </span>
+                        </span> <br>
                         <span class="text-body">
                             Please Enter Yout Details
                         </span>
                     </div>
 
-                    <div class="form-body">
+                    <div class="register-form-body">
                         <a-form>
                             <a-form-item
                                 label="Mobile Number or Email"
@@ -46,13 +46,13 @@
                             </a-form-item>
                             <a-button class="sign-in-btn"> Sign Up</a-button>
 
-                            <div class="form-bottom">
+                            <div class="register-form-bottom">
                                 <div class="form-bottom-top">
                                     Or Sign Up With
                                 </div>
 
-                                <div class="form-bottom-bottom">
-                                    <img src="/Asset 19.png" alt="" class="form-bottom-bottom-img">
+                                <div class="register-form-bottom-bottom">
+                                    <img src="/Asset 19.png" alt="" class="register-form-bottom-bottom-img">
                                 </div>
                             </div>
                         </a-form>
@@ -60,8 +60,8 @@
 
                   
                 </div>
-                <div class="right-part">
-                    <img src="/Asset 31.png" alt="" class="right-part-img">
+                <div class="register-right-part">
+                    <img src="/Asset 31.png" alt="" class="register-right-part-img">
                 </div>
             </div>
         </div>
@@ -69,33 +69,33 @@
     </div>
 </template>
 <script setup lang="ts">
-import layout from "~/layout/layout-header.vue";
-import layoutBottom from "~/layout/layout-bottom.vue";
+
 </script>
 
 <style scoped>
-.page-content{
+.register-page-content{
     display: flex;
     justify-content: space-around;
     font-family: Montserrat;
-    width: 80%;
+    width: 83%;
     margin: 70px auto;
     align-content: center;
 }
-.left-part{
+.register-left-part{
     margin-top:20px;
-    width: 50%;
+    width: 30%;
 }
-.form-body{
+.register-form-body{
     width: 100%;
+    margin-top: 20px;
 }
-.right-part{
+.register-right-part{
     width: 50%;
 }
 .form-header{
     display: grid;
 }
-.text-head{
+.register-text-head{
     font-weight: bolder;
     font-size: 30px;
 }
@@ -103,9 +103,9 @@ import layoutBottom from "~/layout/layout-bottom.vue";
     margin-bottom: 10px;
 }
 .a-form-item{
-    margin-top: -30px;
+    /* margin-top: -30px; */
 }
-.form-body, .sign-in-btn{
+.register-form-body, .sign-in-btn{
     width: 400px;
 }
 .register-forgot-password{
@@ -123,7 +123,7 @@ import layoutBottom from "~/layout/layout-bottom.vue";
     border: #f17140;
     font-size: 20px;
 }
-.form-bottom{
+.register-form-bottom{
     display: grid;
     justify-content: center;
     align-items: center;
@@ -134,14 +134,58 @@ import layoutBottom from "~/layout/layout-bottom.vue";
     align-content: center;
     margin-top: 30px;
 }
-.form-bottom-bottom-img{
+.register-form-bottom-bottom-img{
     width: 300px;
     margin-top: 30px;
 }
 
-.right-part-img{
-    width: 70%;
+.register-right-part-img{
+    width: 90%;
     /* margin-top: -120px; */
     
 }
+
+@media screen and (max-width: 370px) {
+    .register-page-content{
+        width: 100%;
+        margin: -10px auto;
+    }
+    .register-left-part{
+        width: 80%;
+    }
+    .register-right-part{
+        display: none;
+    }
+    .register-form-body{
+        width: 100%;
+    }
+
+    .sign-in-btn{
+        width: 100%;
+    }
+    .register-text-head{
+        font-size: 20px;
+    }
+    
+    .register-form-bottom {
+    width: 100%;
+    display: grid;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.register-form-bottom-bottom {
+    width: 90%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.register-form-bottom-bottom-img {
+    width: 70%;
+    margin: 10px auto; /* Center horizontally */
+}
+
+}
+
 </style>

@@ -1,11 +1,11 @@
 <template>
     <div>
         <layoutHeaderVue />
-        <Nuxt />
+        <Nuxt />    
         <layoutBottomVue />
     </div>
 </template>
 <script setup lang="ts">
-import layoutHeaderVue from "~/layout/layout-header.vue";
-import layoutBottomVue from "~/layout/layout-bottom.vue";
+import layoutHeaderVue from "~/components/layout-header.vue";
+import layoutBottomVue from "~/components/layout-footer.vue";
 </script>

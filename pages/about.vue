@@ -1,11 +1,11 @@
 <template>
     <div>
-      <div class="page-wrapper">
+      <div class="about-page-wrapper">
         <!-- First part -->
-        <div class="first-part-content">
-          <div class="left">
+        <div class="about-first-part-content">
+          <div class="about-left">
             <div>
-              <span class="about">About Us</span> <br />
+              <span class="about">About Us</span> <br> <br>
               Welcome to Nairabee, a fintech platform merging "Naira," Nigeria's currency, with "bee," symbolizing our commitment
               to Nigeria's financial landscape and a collaborative, community-driven approach. Nairabee represents financial
               empowerment and shared prosperity, providing innovative solutions for Nigeria's unique needs.
@@ -17,74 +17,82 @@
               journey toward a brighter financial future.
             </div>
           </div>
-          <div class="right">
+          <div class="about-right">
             <img src="/Asset 23.png" alt="">
           </div>
         </div>
+
+
         <!-- Second part 1 -->
-        <div class="team-workers">
-            <div class="eader">
-                Meet Teams
-            </div>
-            <div class="spacer">
+        <div class="about-meat-teams">
+          <div class="team-workers">
+              Meet Teams
+          </div>
 
+          <div class="team-second-part">            
+              <div class="team-content">
+                <div class="team-left">
+                  <img src="/Asset 34.png" alt="">
+                </div>
+               
+                <div class="team-right">
+                  <div> <sapn class="team-name-role">Venture Analyst</sapn> <br>
+                  <span class="team-name">Fynn Brinkmann</span> </div>
+                
+                  <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in pre-seed and seed stage startups, research, and our
+                    incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management (b2b marketplaces). He has
+                    been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University of Milan.
+                  </div>  
+                </div>
             </div>
+          </div>  
+
+          <div class="team-second-part">            
+              <div class="team-content">
+                <div class="team-left">
+                  <img src="/Asset 34.png" alt="">
+                </div>
+               
+                <div class="team-right">
+                  <div> <sapn class="team-name-role">Venture Analyst</sapn> <br>
+                  <span class="team-name">Fynn Brinkmann</span> </div>
+                
+                  <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in pre-seed and seed stage startups, research, and our
+                    incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management (b2b marketplaces). He has
+                    been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University of Milan.
+                  </div>  
+                </div>
+            </div>
+          </div>  
+
+          <div class="team-second-part">            
+              <div class="team-content">
+                <div class="team-left">
+                  <img src="/Asset 34.png" alt="">
+                </div>
+               
+                <div class="team-right">
+                  <div> <sapn class="team-name-role">Venture Analyst</sapn> <br>
+                  <span class="team-name">Fynn Brinkmann</span> </div>
+                
+                  <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in pre-seed and seed stage startups, research, and our
+                    incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management (b2b marketplaces). He has
+                    been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University of Milan.
+                  </div>  
+                </div>
+            </div>
+          </div>  
+
         </div>
-
-        <div class="second-part">            
-            <div class="team-content">
-            <div class="team-left">
-              <img src="/Asset 34.png" alt="">
-            </div>
-            <div class="team-right">
-              <p>Venture Analyst</p>
-              <p>Fynn Brinkmann</p>
-              <div class="social-icons">
-                <nuxt-link :to="``"><img src="/Asset 15.png" alt=""></nuxt-link>
-                <nuxt-link :to="``"><img src="/Asset 13.png" alt=""></nuxt-link>
-              </div>
-              <p>
-                Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in pre-seed and seed stage startups, research, and our
-                incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management (b2b marketplaces). He has
-                been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University of Milan.
-              </p>
-            </div>
-          </div>
-        </div>  
-
-         <!-- Second part 2 -->
-         <div class="second-part">
-          <div class="team-content">
-            <div class="team-left">
-              <img src="/Asset 34.png" alt="">
-            </div>
-            <div class="team-right">
-              <p>Venture Analyst</p>
-              <p>Fynn Brinkmann</p>
-              <div class="social-icons">
-                <nuxt-link :to="``"><img src="/Asset 15.png" alt=""></nuxt-link>
-                <nuxt-link :to="``"><img src="/Asset 13.png" alt=""></nuxt-link>
-              </div>
-              <p>
-                Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in pre-seed and seed stage startups, research, and our
-                incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management (b2b marketplaces). He has
-                been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University of Milan.
-              </p>
-            </div>
-          </div>
-        </div>  
-
-      </div>
+        </div>
     </div>
   </template>
   
   <script setup lang="ts">
-  import layout from "~/layout/layout-header.vue";
-  import bottom from "~/layout/layout-bottom.vue";
   </script>
   
   <style>
-  .page-wrapper {
+  .about-page-wrapper {
     position: relative;
     display: grid;
     justify-content: space-around;
@@ -93,13 +101,16 @@
     background-size: 450px;
     background-repeat: no-repeat;
     font-family: Montserrat;
+    width: 100%;
   }
   
-  .first-part-content {
-    margin-top: 100px;
+  .about-first-part-content {
+    width: 90%;
+    margin: 90px auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+
   }
   
   .about {
@@ -107,34 +118,65 @@
     font-weight: bold;
   }
   
-  .left {
+  .about-left {
     width: 50%;
     text-align: justify;
   }
   
-  .left :last-child {
+  .about-left :last-child {
     margin-top: 20px;
   }
   
-  .right {
+  .about-right {
     display: flex;
     justify-content: center;
   }
   
-  .right img {
+  .about-right img {
     width: 160px;
   }
   .team-workers{
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .about-meat-teams{
+    width: 73%;
+    margin:10px auto;
+    display: grid;
+    justify-content: center;
+  }
+
+  .team-second-part{
+    margin-top: 30px;
+  }
+  .team-content{
+    display: flex;
+    
+  }
+
+  .team-content :first-child img{
+    width: 70%;
+  }
+  .team-content :last-child{
+    margin-bottom: 0;
+  }
+  .team-right{
+    background-color: #FAFBFF;
+    padding: 20px;
+    display: grid;
+    border-radius: 10px;
+  }
+
+  /* .team-workers{
     display: flex;
     flex: content;
     justify-content: space-between;
     width: 60%;
-    margin-left: 130px;
     font-weight: bolder;
     font-size: 2em;
     margin-top: 20px;
-  }
-  .second-part {
+  } */
+  /* .second-part {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -173,6 +215,57 @@
   .team-right :last-child{
     margin-top: 30px;
     text-align: justify;
+  } */
+
+  @media screen and (max-width: 370px) {
+      .about-page-wrapper{
+        background-size: 170px;
+      }
+      .about-right{
+        display: none;
+      }
+      .about-first-part-content :last-child{
+        display: none;
+      }
+      .about-first-part-content{
+        width:100%;
+      }
+     .about-left{
+      width: 75%;
+      margin-top: -70px;
+      display: grid;
+     }
+     .about {
+      font-size: 15px;
+     }
+
+     /* second part  */
+
+     .team-second-part{
+      width: 100%;
+     }
+     .team-content{
+      width: 100%;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+     }
+     .team-left{
+      width: 70%;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+     }
+     .team-left img {
+      width: 100%; /* Adjust image width to fit container */
+      max-width: 300px; /* Set a maximum width for the image */
+    }
+     .team-right{
+      width: 100%;
+      text-align: justify;
+     }
   }
   </style>
   

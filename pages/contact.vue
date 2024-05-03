@@ -29,7 +29,7 @@
                         <a-form-item
                             
                             >
-                        <a-textarea placeholder="Mobile Number or Email" :rows="8" />
+                        <a-textarea placeholder="Message" :rows="8" />
                         </a-form-item>
 
                         <a-button class="send-comment">Send</a-button>
@@ -41,20 +41,17 @@
     </div>
 </template>
 <script setup lang="ts">
-import layout from "~/layout/layout-header.vue";
-import bottom from "~/layout/layout-bottom.vue";
 </script>
 <style scoped>
   
     .container-contact{
         position: relative;
         background-image: url('/Asset 22.png');
-        background-size: 800px;
-        height: 600px;
+        background-size: 700px;
+        height: 700px;
         background-repeat:no-repeat ;
         background-position: top right;
         font-family: Montserrat;
-        padding-left: 120px;
         width: 100%;
         /* background-color: rgba(255, 255, 255, 1 );      */
 
@@ -62,13 +59,13 @@ import bottom from "~/layout/layout-bottom.vue";
     .main-page-contact{
         display: flex;
         justify-content: space-around;
-        margin-top: 100px;
         position: absolute;
         top: 0;
-        width: 50%;
+        width: 60%;
+        margin: 80px auto;
     }
     .min-form {
-    width: 90%; /* Adjust the width as needed */
+    width: 60%; /* Adjust the width as needed */
     }
     .main-page-contact :nth-child(2){
         margin-top: 20px;
@@ -86,13 +83,36 @@ import bottom from "~/layout/layout-bottom.vue";
     }
 
 @media only screen and (max-width: 998px) {
-    .container-contact{
+    /* .container-contact{
         margin-top: -70px;
         background-image: none;
         margin-left: -90px;
     }
    .contact-form{
     width: 150%;
-   }
+   } */
+}
+
+@media screen and (max-width: 370px) {
+    .container-contact{
+        height: 500px;
+        background-size: 200px;
+    }
+    .form-header :first-child{
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .main-page-contact{
+        width: 100%;
+    }
+    .min-form{
+        width: 80%;
+    }
+    .contact-form textarea{
+        height: 100px;
+    }
+    .main-page-contact{
+        margin-top:30px ;
+    }
 }
 </style>

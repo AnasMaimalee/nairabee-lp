@@ -55,7 +55,7 @@
 </template>
 <script setup lang="ts">
 import layout from "~/layout/layout-header.vue";
-import layoutBottom from "~/layout/layout-bottom.vue";
+import layoutBottom from "~/components/layout-footer.vue";
 </script>
 
 <style scoped>
