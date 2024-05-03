@@ -182,7 +182,7 @@ Certainly!</div>
 }
 
 .main-body {
-  width: 75%;
+  width: 85%;
   display: flex;
   justify-content: space-around; /* Center content horizontally */
   align-items: center; /* Center content vertically */

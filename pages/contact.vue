@@ -48,7 +48,7 @@
         position: relative;
         background-image: url('/Asset 22.png');
         background-size: 700px;
-        height: 700px;
+        height: 600px;
         background-repeat:no-repeat ;
         background-position: top right;
         font-family: Montserrat;
@@ -60,12 +60,11 @@
         display: flex;
         justify-content: space-around;
         position: absolute;
-        top: 0;
-        width: 60%;
-        margin: 80px auto;
+        width: 70%;
+        margin-top: 30px;
     }
     .min-form {
-    width: 60%; /* Adjust the width as needed */
+    width: 75%; /* Adjust the width as needed */
     }
     .main-page-contact :nth-child(2){
         margin-top: 20px;
@@ -95,7 +94,7 @@
 
 @media screen and (max-width: 370px) {
     .container-contact{
-        height: 500px;
+        height: 450px;
         background-size: 200px;
     }
     .form-header :first-child{

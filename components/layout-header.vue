@@ -80,7 +80,6 @@ const closeMbileNav = () =>{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 100%;
 }
 .nairabee-logo {
   width: 15%;

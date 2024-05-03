@@ -105,7 +105,7 @@
   }
   
   .about-first-part-content {
-    width: 90%;
+    width: 100%;
     margin: 90px auto;
     display: flex;
     align-items: center;
@@ -140,7 +140,7 @@
     font-weight: bolder;
   }
   .about-meat-teams{
-    width: 73%;
+    width: 80%;
     margin:10px auto;
     display: grid;
     justify-content: center;

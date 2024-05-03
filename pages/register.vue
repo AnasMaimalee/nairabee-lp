@@ -40,7 +40,7 @@
                             </a-form-item>
 
                             <a-form-item
-                                label="Password"
+                                label="Confirm Password"
                             >
                                 <a-input-password />
                             </a-form-item>
@@ -77,7 +77,7 @@
     display: flex;
     justify-content: space-around;
     font-family: Montserrat;
-    width: 83%;
+    width: 90%;
     margin: 70px auto;
     align-content: center;
 }
@@ -102,8 +102,8 @@
 .text-body{
     margin-bottom: 10px;
 }
-.a-form-item{
-    /* margin-top: -30px; */
+a-form-element{
+    margin-bottom: 0px;
 }
 .register-form-body, .sign-in-btn{
     width: 400px;

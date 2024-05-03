@@ -1,19 +1,19 @@
 <template>
     <div>
         <!-- header  -->
-        <div class="wrapper">
-            <div class="page-content">
-                <div class="left-part">
-                    <div class="form-header">
-                        <span class="text-head">
+        <div class="sign-in-wrapper">
+            <div class="sign-in-page-content">
+                <div class="sign-in-left-part">
+                    <div class="sign-in-form-header">
+                        <span class="sign-in-text-head">
                             Welcome Back
                         </span>
-                        <span class="text-body">
+                        <span class="sign-in-text-body">
                             Welcome Back Please Enter Your Details
                         </span>
                     </div>
 
-                    <div class="form-body">
+                    <div class="sign-in-form-body">
                         <a-form>
                             <a-form-item
                                 label="Email"
@@ -33,11 +33,11 @@
                             </a-form-item>
                             <a-button class="sign-in-btn"> Sign In</a-button>
 
-                            <div class="form-bottom">
+                            <div class="sign-in-form-bottom">
                                 <div>
                                     Or Log In With
                                 </div>
-                                <div class="form-bottom-img">
+                                <div class="sign-in-form-bottom-img">
                                     <img src="/Asset 19.png" alt="">
                                 </div>
                             </div>
@@ -45,8 +45,9 @@
                         </a-form>
                     </div>
                 </div>
-                <div class="right-part">
-                    <img src="/Asset 18.png" alt="" class="right-part-img">
+
+                <div class="sign-in-right-part">
+                    <img src="/Asset 18.png" alt="" class="sign-in-right-part-img">
                 </div>
             </div>
         </div>
@@ -54,31 +55,30 @@
     </div>
 </template>
 <script setup lang="ts">
-import layout from "~/layout/layout-header.vue";
-import layoutBottom from "~/components/layout-footer.vue";
+
 </script>
 
 <style scoped>
-.page-content{
+.sign-in-page-content{
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: Montserrat;
     margin: 50px auto;
-    width: 80%;
+    width: 82%;
 }
-.left-part{
+.sign-in-left-part{
     width: 60%;
 }
 
-.form-header{
+.sign-in-form-header{
     display: grid;
 }
-.text-head{
+.sign-in-text-head{
     font-weight: bolder;
     font-size: 30px;
 }
-.form-body, .sign-in-btn{
+.sign-in-form-body, .sign-in-btn{
     width: 70%;
 }
 .register-forgot-password{
@@ -97,7 +97,7 @@ import layoutBottom from "~/components/layout-footer.vue";
     font-size: 20px;
     width: 100%;
 }
-.form-bottom{
+.sign-in-form-bottom{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,22 +105,42 @@ import layoutBottom from "~/components/layout-footer.vue";
     width: 100%;
     margin-top: 20px; /* Adjust as needed */
 }
-.form-bottom-img{
+.sign-in-form-bottom-img{
     display: flex;
     justify-content: center;
     align-content: center;
     width: 100%;
     margin-top: 30px;
 }
-.form-bottom-img img{
+.sign-in-form-bottom-img img{
     top: 30px;
     width: 50%;
 }
-.right-part{
-    width: 50%;
+.sign-in-right-part{
+    width: 40%;
 }
-.right-part-img{
+.sign-in-right-part-img{
     width: 100%;
     margin-top: -40px;
+}
+
+@media screen and (max-width: 370px) {
+    .sign-in-page-content{
+        margin-top: 15px;
+    }
+    .sign-in-right-part{
+        display: none;
+    }
+
+    .sign-in-left-part{
+        width: 100%;
+    }
+    .sign-in-form-body{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .sign-in-text-head{
+        font-size: 18px;
+    }
 }
 </style>
