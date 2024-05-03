@@ -73,8 +73,7 @@
 </template>
 
 <script setup lang="ts">
-import layoutBottomVue from "~/components/layout-footer.vue";
-import layoutHeaderVue from "~/layout/layout-header.vue";
+
 </script>
 <style>
 
@@ -109,5 +108,25 @@ import layoutHeaderVue from "~/layout/layout-header.vue";
     .first-bold-color-text{
         color: #f17540;
         font-weight: bolder;
+    }
+
+    @media screen and (max-width:370px) {
+        .container-terms{
+            background-size: 150px;
+            height: 850px;
+            }
+        .page-header-terms{
+            font-size: 15px;
+        }
+        .main-page-content-terms{
+            margin-top: 20px;
+        }
+        .page-header-welcome-terms{
+            margin-top: 10px;
+        }
+        .condition, .page-header-welcome-terms{
+            font-size: 10px;
+            margin-top: 9px;
+        }
     }
 </style>

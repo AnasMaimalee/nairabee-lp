@@ -154,9 +154,13 @@
         display: flex;
         flex-direction: column;
         align-content: center;
-        padding: 25px;
+        padding:10px;
         border-radius: 10px;
         font-size: 8px;
+    }
+    .services-list :nth-child(4) img{
+        margin-top:15px;
+        margin-bottom: 30px;
     }
     .service img{
         width: 50px;
