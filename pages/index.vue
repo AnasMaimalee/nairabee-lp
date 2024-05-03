@@ -513,15 +513,16 @@ Certainly!</p>
       overflow: hidden;
       color: #383838;
       padding: 20px;
+      font-size: 12px;
       margin-top: 20px;
-      height: 230px;
+      height: 210px;
     }
 
     /* Customize slick arrow styles */
     :deep(.slick-arrow.custom-slick-arrow) {
       width: 25px;
       height: 25px;
-      font-size: 25px;
+      font-size: 20px;
       color: #f17540;
       background-color: #f17540;
       transition: ease all 0.3s;
@@ -557,6 +558,11 @@ Certainly!</p>
       background-color: #fff; /* Change active dot color */
       box-shadow: 0 0 5px #f17540; /* Add shadow for active dot */
 
+    }
+    .crosal-header{
+      font-size: 17px;
+      font-weight: bold;
+      color: #f17540;
     }
 }
 

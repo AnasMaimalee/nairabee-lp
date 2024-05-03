@@ -1,8 +1,8 @@
 <template>
-    <div>
         <div class="container-privacy">
             <div class="main-content-privacy">
-                <div class="page-header-privacy">
+                <div class="privacy-page-content">
+                    <div class="page-header-privacy">
                     Privacy Policy
                 </div>
                 <p>
@@ -134,15 +134,14 @@
                     By visiting this page on our website: <nuxt-link :to="`/contact`">www.nairabee.com/contact</nuxt-link>  <br> 
                     Last updated: 1st April, 2024
                 </p>
+                </div>
             </div>
         </div>
-    </div>
 </template>
 <script setup lang="ts">
-import layoutBottomVue from "~/components/layout-footer.vue";
-import layoutHeaderVue from "~/layout/layout-header.vue";
 </script>
 <style>
+
 .container-privacy{
     position: relative;
     background-image: url('/Asset 22.png');
@@ -151,19 +150,20 @@ import layoutHeaderVue from "~/layout/layout-header.vue";
     background-repeat: no-repeat;
     background-position: top right;
     font-family: Montserrat;
-    width: 100%;
-
+    text-align: justify;
+   
 }
 .main-content-privacy{
     position: absolute;
-    width: 80%; /* Adjust the width as needed */
-    justify-content: center;
-    max-width: 1000px; /* Maximum width for larger screens */
-    padding: 20px; /* Add padding for better readability */
-    text-align: center; /* Center align text */
-    text-align: justify;
-    margin: 70px 100px;
+    width: 100%; /* Adjust the width as needed */
+    margin: 50px auto;
+   
 }
+.privacy-page-content{
+    width: 82%;
+    margin: 20px auto;
+}
+
 .page-header-privacy{
     font-weight: bolder;
     font-size: 35px;
@@ -177,4 +177,20 @@ p{
     font-weight: bolder;
 }
 
+@media screen and (max-width:370px) {
+    .container-privacy{
+        background-size: 150px;
+        height: 1400px;
+    }
+    .main-content-privacy{
+        margin-top: 10px;
+    }
+
+   .page-header-privacy{
+    font-size: 15px;
+   }
+   p{
+    font-size: 9px;
+   }
+}
 </style>
