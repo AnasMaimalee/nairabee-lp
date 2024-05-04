@@ -86,6 +86,7 @@
     background-position: top right;
     font-family: Montserrat;
     text-align: justify;
+    background-color: white;
     padding: 0 10%; /* Adjust as needed */
 }
 

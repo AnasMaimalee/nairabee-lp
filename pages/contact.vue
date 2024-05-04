@@ -47,12 +47,14 @@
     .container-contact{
         position: relative;
         background-image: url('/Asset 22.png');
-        background-size: 700px;
+        background-size: 400px;
         height: 600px;
         background-repeat:no-repeat ;
         background-position: top right;
         font-family: Montserrat;
         width: 100%;
+        background-color: white;
+
         /* background-color: rgba(255, 255, 255, 1 );      */
 
     }
@@ -95,7 +97,7 @@
 @media screen and (max-width: 370px) {
     .container-contact{
         height: 450px;
-        background-size: 200px;
+        background-size: 100px;
     }
     .form-header :first-child{
         font-weight: bolder;

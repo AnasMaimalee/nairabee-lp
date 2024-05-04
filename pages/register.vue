@@ -80,6 +80,8 @@
     width: 90%;
     margin: 70px auto;
     align-content: center;
+    background-color: white;
+
 }
 .register-left-part{
     margin-top:20px;

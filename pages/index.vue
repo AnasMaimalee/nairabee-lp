@@ -1,5 +1,5 @@
 <template>
-    <div class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
+    <div class="">
 
   <div class="body-index">
     <div class="main">
@@ -211,6 +211,7 @@ Certainly!</p>
 .body-index{
   /* height: 1200px; */
   font-family: Montserrat;
+  background-color: white;
 }
 .main {
   display: grid;

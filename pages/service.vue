@@ -106,6 +106,8 @@
     justify-content: center;
     align-content: center;
     margin: 10px auto;
+    background-color: white;
+
 }
 
 .services-main-icon{
