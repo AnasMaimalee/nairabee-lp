@@ -336,8 +336,8 @@ Certainly!</p>
   justify-content: space-between;
   text-align: justify;
   margin: 10px;
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 .second-right img{
@@ -368,7 +368,7 @@ Certainly!</p>
   align-items: center;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: -10px;
+  margin-top: 15px;
 }
 .choose-us-part{
   height: auto;

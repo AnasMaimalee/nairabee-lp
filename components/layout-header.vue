@@ -11,12 +11,12 @@
             <li><nuxt-link to="/service" class="nav-link">Services</nuxt-link></li>
             <li><nuxt-link to="/about" class="nav-link">About</nuxt-link></li>
             <li><nuxt-link to="/contact" class="nav-link">Contact</nuxt-link></li>
-            <li><nuxt-link to="/login" class="nav-link">Sign In</nuxt-link></li>
           </ul>
         </div>
+
         <div class="right-nav">
           <ul>
-            <li><nuxt-link to="/service" class="nav-link">Get Started</nuxt-link></li>
+            <li><nuxt-link to="/login" class="nav-link">Get Started</nuxt-link></li>
           </ul>
         </div>
       </div>
@@ -76,24 +76,24 @@ const closeMbileNav = () =>{
 }
 
 .top-header{
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .nairabee-logo {
-  width: 15%;
+  width: 30%;
 }
 
 .nairabee-logo img {
-  width: 100%;
+  width: 50%;
 }
 /* Styles for navigation menu */
 .nav-menu {
   display: none;
   /* Additional styles for positioning the menu below the hamburger button */
   position: absolute;
-  top: calc(100% + 9px);
+  top: calc(100% + 10px);
   left: 0;
   width: 100%;
   z-index: 999; /* Add a higher z-index value */
@@ -106,12 +106,11 @@ const closeMbileNav = () =>{
 
 
 .nav {
-  width: 75%;
+  width: 60%;
   margin-top: 13px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
 .left-nav ul {
@@ -119,10 +118,10 @@ const closeMbileNav = () =>{
 }
 
 .left-nav {
-  width: 60%;
+  width: 65%;
 }
 .right-nav{
-  width: 20%;
+  width: 30%;
   text-align: center;
   color: white  ;
 }
@@ -156,11 +155,6 @@ ul li {
 
 }
 
-@media screen and (max-width: 750px) {
-  .nairabee-logo{
-    width: 50%;
-  }
-}
 
 @media only screen and (max-width: 370px) {
 
