@@ -76,17 +76,18 @@ const closeMbileNav = () =>{
 }
 
 .top-header{
-  width: 90%;
+  width: 85%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .nairabee-logo {
-  width: 30%;
+  width: 25%;
 }
 
 .nairabee-logo img {
   width: 50%;
+  max-width: 50%;
 }
 /* Styles for navigation menu */
 .nav-menu {
@@ -106,7 +107,7 @@ const closeMbileNav = () =>{
 
 
 .nav {
-  width: 60%;
+  width: 65%;
   margin-top: 13px;
   display: flex;
   justify-content: space-between;
@@ -118,7 +119,7 @@ const closeMbileNav = () =>{
 }
 
 .left-nav {
-  width: 65%;
+  width: 60%;
 }
 .right-nav{
   width: 30%;
@@ -161,8 +162,16 @@ ul li {
 .nav{
   display: none;
 }
+
+.top-header{
+  width: 100%;
+  justify-content: space-around;
+}
+.nairabee-logo{
+  width: 55%;
+}
 .nairabee-logo img{
-  width: 60%;
+  width: 100%;
 }
 .mobile-nav{
   display: flex;
@@ -227,7 +236,7 @@ ul li {
   background-color: #f17540;
 }
 .nav-header{
-  height: 50px;
+  height: 40px;
 }
 }
 
