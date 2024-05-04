@@ -150,7 +150,6 @@
     background-repeat: no-repeat;
     font-family: Montserrat;
     width: 100%;
-    background-color: white;
   }
   
   .about-first-part-content {

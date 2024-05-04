@@ -151,7 +151,6 @@
     background-position: top right;
     font-family: Montserrat;
     text-align: justify;
-    background-color: white;
     
 }
 .main-content-privacy{

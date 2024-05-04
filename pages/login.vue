@@ -66,7 +66,6 @@
     font-family: Montserrat;
     margin: 50px auto;
     width: 82%;
-    background-color: white;
 
 }
 .sign-in-left-part{

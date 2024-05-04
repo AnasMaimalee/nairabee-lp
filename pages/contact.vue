@@ -53,7 +53,6 @@
         background-position: top right;
         font-family: Montserrat;
         width: 100%;
-        background-color: white;
 
         /* background-color: rgba(255, 255, 255, 1 );      */
 

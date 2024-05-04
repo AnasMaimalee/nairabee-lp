@@ -211,7 +211,6 @@ Certainly!</p>
 .body-index{
   /* height: 1200px; */
   font-family: Montserrat;
-  background-color: white;
 }
 .main {
   display: grid;

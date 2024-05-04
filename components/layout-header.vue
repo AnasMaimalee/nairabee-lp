@@ -65,11 +65,9 @@ const closeMbileNav = () =>{
   align-items: center;
   height: 70px;
   width: 100%;
-  background-color: #FAFBFF;
   font-family: Montserrat;
-  /* box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2); Increased shadow values */
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1); /* Increased shadow values */
 }
-
 .mobile-nav{
   display: none;
 }
