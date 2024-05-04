@@ -92,7 +92,7 @@
 .main-page-content-terms {
     position: absolute;
     width: 100%;
-    max-width: 80%; /* Adjust the maximum width as needed */
+    max-width: 85%; /* Adjust the maximum width as needed */
     margin: 90px auto;
 }
 
@@ -110,7 +110,7 @@
         font-weight: bolder;
     }
 
-    @media screen and (max-width:370px) {
+    @media screen and (max-width:787px) {
         .container-terms{
             background-size: 150px;
             height: 850px;

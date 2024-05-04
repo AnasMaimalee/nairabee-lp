@@ -187,7 +187,7 @@
     font-weight: bolder;
   }
   .about-meat-teams{
-    width: 80%;
+    width: 85%;
     margin:10px auto;
     display: grid;
     justify-content: center;
@@ -238,11 +238,11 @@
   }
   
   .team-left {
-    width: 80%;
+    width: 85%;
   }
   
   .team-left img {
-    width:  80%;
+    width:  85%;
   }
   
   .team-right {
@@ -264,13 +264,14 @@
     text-align: justify;
   } */
 
-  @media screen and (max-width: 370px) {
+  @media screen and (max-width: 787px) {
       .about-page-wrapper{
         background-size: 170px;
       }
       .about-right{
         display: none;
       }
+    
       .about-first-part-content :last-child{
         display: none;
       }
@@ -279,9 +280,9 @@
         width:100%;
       }
      .about-left{
-      width: 75%;
       margin-top: -70px;
       display: grid;
+      width: 85%;
      }
      .about {
       font-size: 15px;
@@ -292,6 +293,9 @@
      .team-second-part{
       width: 100%;
      }
+     .team-workers{
+      margin: auto;
+     }
      .team-content{
       width: 100%;
       display: grid;
@@ -300,21 +304,24 @@
       align-items: center;
      }
      .team-left{
-      width: 90%;
       display: grid;
       justify-content: center;
       align-content: center;
       align-items: center;
-      margin-left: 60px;
+      margin: auto;
      }
      .team-left img {
       width: 100%; /* Adjust image width to fit container */
       max-width: 300px; /* Set a maximum width for the image */
     }
      .team-right{
-      width: 100%;
+      margin-top: 10px;
+      padding: 0px;
       text-align: justify;
      }
+     .team-content :first-child img{
+      margin: auto;
+    }
   }
   </style>
   

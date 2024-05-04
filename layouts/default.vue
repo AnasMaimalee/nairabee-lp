@@ -1,11 +1,17 @@
 <template>
-    <div>
-        <layoutHeaderVue />
-        <Nuxt />    
-        <layoutBottomVue />
+    <div class="default-layout">
+        <LayoutHeader />
+        <NuxtPage />    
+        <LayoutFooter />
     </div>
 </template>
 <script setup lang="ts">
-import layoutHeaderVue from "~/components/layout-header.vue";
-import layoutBottomVue from "~/components/layout-footer.vue";
 </script>
+
+<style scoped>
+.default-layout {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+</style>

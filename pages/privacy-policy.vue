@@ -177,7 +177,7 @@ p{
     font-weight: bolder;
 }
 
-@media screen and (max-width:370px) {
+@media screen and (max-width:787px) {
     .container-privacy{
         background-size: 150px;
         height: 1400px;

@@ -110,7 +110,7 @@
 }
 
 .services-main-icon{
-    display: flex;
+    display: grid;
     justify-content: space-between;
     width: 100%;
     margin: 40px auto;
@@ -144,12 +144,18 @@
     font-weight: bolder;
     color: #f17540;
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 787px) {
     .services-list {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Two services in each row */
+        grid-template-columns: repeat(1, 1fr); /* Two services in each row */
         gap: 10px; /* Adjust the gap between service items */
         width: 100%;
+    }
+    .services-main-icon :first-child{
+        width: 100%;
+    }
+    .services-main-icon :last-child{
+        display: none;
     }
     .service {
         display: flex;
@@ -157,7 +163,7 @@
         align-content: center;
         padding:10px;
         border-radius: 10px;
-        font-size: 8px;
+        font-size: 14px;
     }
     .services-list :nth-child(4) img{
         margin-top:15px;
@@ -170,7 +176,7 @@
     }
 
 .service-description :first-child{
-    font-size: 10px;
+    font-size: 14px;
 }
 }
 

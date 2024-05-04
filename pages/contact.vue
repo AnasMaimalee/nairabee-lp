@@ -93,7 +93,7 @@
    } */
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 787px) {
     .container-contact{
         height: 450px;
         background-size: 100px;
@@ -106,7 +106,7 @@
         width: 100%;
     }
     .min-form{
-        width: 80%;
+        width: 85%;
     }
     .contact-form textarea{
         height: 100px;

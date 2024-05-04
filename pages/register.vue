@@ -146,13 +146,13 @@ a-form-element{
     
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 787px) {
     .register-page-content{
         width: 100%;
         margin: 10px auto;
     }
     .register-left-part{
-        width: 80%;
+        width: 85%;
     }
     .register-right-part{
         display: none;

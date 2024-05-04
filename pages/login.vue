@@ -14,7 +14,7 @@
                     </div>
 
                     <div class="sign-in-form-body">
-                        <a-form>
+                        <a-form layout="vertical">
                             <a-form-item
                                 label="Email"
                             >
@@ -66,6 +66,7 @@
     font-family: Montserrat;
     margin: 50px auto;
     width: 82%;
+ /* @apply flex justify-around items-center my-[50px] mx-auto w-[82%]; */
 
 }
 .sign-in-left-part{
@@ -125,7 +126,7 @@
     margin-top: -40px;
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 787px) {
     .sign-in-page-content{
         margin-top: 15px;
     }
