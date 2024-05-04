@@ -142,5 +142,8 @@
     .sign-in-text-head{
         font-size: 18px;
     }
+    .sign-in-btn{
+        font-size: 13px;
+    }
 }
 </style>

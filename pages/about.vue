@@ -106,13 +106,12 @@
   
   .about-first-part-content {
     width: 100%;
-    margin: 90px auto;
+    margin: 60px auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
   }
-  
+
   .about {
     font-size: 2em;
     font-weight: bold;
@@ -228,6 +227,7 @@
         display: none;
       }
       .about-first-part-content{
+        margin-top: 90px;
         width:100%;
       }
      .about-left{
@@ -252,11 +252,12 @@
       align-items: center;
      }
      .team-left{
-      width: 70%;
+      width: 90%;
       display: grid;
       justify-content: center;
       align-content: center;
       align-items: center;
+      margin-left: 60px;
      }
      .team-left img {
       width: 100%; /* Adjust image width to fit container */

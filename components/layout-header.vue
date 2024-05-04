@@ -65,7 +65,6 @@ const closeMbileNav = () =>{
   align-items: center;
   height: 70px;
   width: 100%;
-  max-width: 100%;
   font-family: Montserrat;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1); /* Adjust the shadow values as needed */
 }

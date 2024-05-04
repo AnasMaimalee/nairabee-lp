@@ -44,7 +44,7 @@
                             >
                                 <a-input-password />
                             </a-form-item>
-                            <a-button class="sign-in-btn"> Sign Up</a-button>
+                            <a-button class="sign-up-btn"> Sign Up</a-button>
 
                             <div class="register-form-bottom">
                                 <div class="form-bottom-top">
@@ -105,7 +105,7 @@
 a-form-element{
     margin-bottom: 0px;
 }
-.register-form-body, .sign-in-btn{
+.register-form-body, .sign-up-btn{
     width: 400px;
 }
 .register-forgot-password{
@@ -116,7 +116,7 @@ a-form-element{
 .forgot-link{
     color:#383838;
 }
-.sign-in-btn{
+.sign-up-btn{
     background-color: #f17140;
     color: #FAFBFF;
     font-weight: bolder;
@@ -148,7 +148,7 @@ a-form-element{
 @media screen and (max-width: 370px) {
     .register-page-content{
         width: 100%;
-        margin: -10px auto;
+        margin: 10px auto;
     }
     .register-left-part{
         width: 80%;
@@ -160,7 +160,7 @@ a-form-element{
         width: 100%;
     }
 
-    .sign-in-btn{
+    .sign-up-btn{
         width: 100%;
     }
     .register-text-head{
@@ -184,6 +184,10 @@ a-form-element{
 .register-form-bottom-bottom-img {
     width: 70%;
     margin: 10px auto; /* Center horizontally */
+}
+.sign-up-btn{
+    font-size: 13px;
+
 }
 
 }
