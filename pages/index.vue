@@ -376,20 +376,21 @@ Certainly!</p>
   background-size:400px ;
   background-repeat: no-repeat;
   background-position-x: center center;
+  width: 100%;
 
 }
 .why-choose-us-body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
+  width: 100%;
   margin: 50px auto;
 }
 .why-choose-us-body p{
   font-size: 15px;
 }
 .first-chose-us, .second-chose-us, .third-chose-us {
-  width: 25%;
+  width: 30%;
   text-align: justify;
   padding: 30px;
   border-radius: 25px;

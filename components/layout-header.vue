@@ -76,6 +76,7 @@ const closeMbileNav = () =>{
 }
 
 .top-header{
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -92,7 +93,7 @@ const closeMbileNav = () =>{
   display: none;
   /* Additional styles for positioning the menu below the hamburger button */
   position: absolute;
-  top: calc(100% + 10px);
+  top: calc(100% + 9px);
   left: 0;
   width: 100%;
   z-index: 999; /* Add a higher z-index value */
