@@ -153,11 +153,11 @@
   }
   
   .about-first-part-content {
-    width: 100%;
+    width: 85%;
     margin: 60px auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .about {
