@@ -64,7 +64,55 @@
                 </div>
             </div>
           </div>  
-
+          <div class="team-second-part">            
+              <div class="team-content">
+                <div class="team-left">
+                  <img src="/Asset 34.png" alt="">
+                </div>
+               
+                <div class="team-right">
+                  <div> <sapn class="team-name-role">Venture Analyst</sapn> <br>
+                  <span class="team-name">Fynn Brinkmann</span> </div>
+                
+                  <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in pre-seed and seed stage startups, research, and our
+                    incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management (b2b marketplaces). He has
+                    been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University of Milan.
+                  </div>  
+                </div>
+            </div>
+          </div>  <div class="team-second-part">            
+              <div class="team-content">
+                <div class="team-left">
+                  <img src="/Asset 34.png" alt="">
+                </div>
+               
+                <div class="team-right">
+                  <div> <sapn class="team-name-role">Venture Analyst</sapn> <br>
+                  <span class="team-name">Fynn Brinkmann</span> </div>
+                
+                  <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in pre-seed and seed stage startups, research, and our
+                    incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management (b2b marketplaces). He has
+                    been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University of Milan.
+                  </div>  
+                </div>
+            </div>
+          </div>  <div class="team-second-part">            
+              <div class="team-content">
+                <div class="team-left">
+                  <img src="/Asset 34.png" alt="">
+                </div>
+               
+                <div class="team-right">
+                  <div> <sapn class="team-name-role">Venture Analyst</sapn> <br>
+                  <span class="team-name">Fynn Brinkmann</span> </div>
+                
+                  <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in pre-seed and seed stage startups, research, and our
+                    incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management (b2b marketplaces). He has
+                    been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University of Milan.
+                  </div>  
+                </div>
+            </div>
+          </div>  
           <div class="team-second-part">            
               <div class="team-content">
                 <div class="team-left">
@@ -264,7 +312,7 @@
       max-width: 300px; /* Set a maximum width for the image */
     }
      .team-right{
-      width: 10%;
+      width: 100%;
       text-align: justify;
      }
   }
