@@ -206,7 +206,7 @@ ul li {
   /* Additional styles for positioning the menu below the hamburger button */
   position: absolute;
   width: 100%;
-  top: 50px;
+  top: 40px;
   color: white;
   background: white;  
   color: white;

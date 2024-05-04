@@ -264,7 +264,7 @@
       max-width: 300px; /* Set a maximum width for the image */
     }
      .team-right{
-      width: 100%;
+      width: 10%;
       text-align: justify;
      }
   }
