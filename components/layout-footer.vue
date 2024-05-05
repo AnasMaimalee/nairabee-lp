@@ -104,12 +104,13 @@ body {
 .bottom-header {
     color: #383838;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 16px;
+    bottom: 10px;
 }
 
 .bottom {
     /* padding: 50px; */
-    width: 85%;
+    width: 100%;
     margin: auto;
     /* height: 787px; */
     font-family: Montserrat;
@@ -126,6 +127,7 @@ body {
     justify-content: center;
     text-align: center;
     cursor: pointer;
+    padding: 5px 10px;
 }
 
 .main-bottom {
@@ -182,7 +184,6 @@ body {
 .bottom-services,
 .bottom-about {
     display: grid;
-    line-height: 25px;
 }
 
 .bottom-services-link,
