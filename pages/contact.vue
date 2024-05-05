@@ -93,7 +93,7 @@
    } */
 }
 
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 830px) {
     .container-contact{
         height: 450px;
         background-size: 100px;

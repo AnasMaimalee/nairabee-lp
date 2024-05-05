@@ -264,7 +264,7 @@
     text-align: justify;
   } */
 
-  @media screen and (max-width: 787px) {
+  @media screen and (max-width: 830px) {
       .about-page-wrapper{
         background-size: 170px;
       }

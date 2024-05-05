@@ -110,7 +110,7 @@
         font-weight: bolder;
     }
 
-    @media screen and (max-width:787px) {
+    @media screen and (max-width:830px) {
         .container-terms{
             background-size: 150px;
             height: 850px;

@@ -146,7 +146,7 @@ a-form-element{
     
 }
 
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 830px) {
     .register-page-content{
         width: 100%;
         margin: 10px auto;

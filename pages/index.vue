@@ -479,7 +479,7 @@
   color: white;
 }
 
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 830px) {
   .main {
     background-image: url('/Asset 3.png');
     background-size: 180px;

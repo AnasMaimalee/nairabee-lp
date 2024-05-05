@@ -126,7 +126,7 @@
     margin-top: -40px;
 }
 
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 830px) {
     .sign-in-page-content{
         margin-top: 15px;
     }

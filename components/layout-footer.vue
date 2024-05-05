@@ -111,7 +111,7 @@ body {
     /* padding: 50px; */
     width: 100%;
     margin: auto;
-    /* height: 787px; */
+    /* height: 830px; */
     font-family: Montserrat;
     color: #383838;
 }
@@ -204,7 +204,7 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width:787px) {
+@media screen and (max-width:830px) {
     .first-bottom-part {}
 
 

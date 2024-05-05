@@ -144,7 +144,7 @@
     font-weight: bolder;
     color: #f17540;
 }
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 830px) {
     .services-list {
         display: grid;
         grid-template-columns: repeat(1, 1fr); /* Two services in each row */

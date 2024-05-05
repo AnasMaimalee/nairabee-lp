@@ -154,8 +154,15 @@ const closeMbileNav = () => {
 
 .right-nav ul :last-child {
   background-color: #f17540;
-  
   color: white;
+  font-weight: bolder;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.right-nav ul :last-child:hover {
+  background-color: white;
+  color: #f17540;
   font-weight: bolder;
   border-radius: 8px;
   padding: 5px 10px;
