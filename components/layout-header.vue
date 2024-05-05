@@ -152,20 +152,20 @@ const closeMbileNav = () => {
 
 }
 
-.right-nav ul :last-child {
+.right-nav ul .nav-link {
   background-color: #f17540;
   color: white;
   font-weight: bolder;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 5px 10px;
 }
 
-.right-nav ul :last-child:hover {
+.right-nav ul .nav-link:hover {
   background-color: white;
   color: #f17540;
   font-weight: bolder;
-  border-radius: 8px;
-  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #f17540;
 }
 
 ul li {
