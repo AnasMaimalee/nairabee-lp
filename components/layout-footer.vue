@@ -233,7 +233,7 @@ body {
         width: 90%;
         font-size: 10px;
         line-height: 12px;
-        margin-top: 10px;
+        /* margin-top: 10px; */
     }
 
     .bottom-quick-links {
@@ -245,7 +245,7 @@ body {
     }
 
     .icons-img {
-        width: 15%;
+        width: 11%;
         margin-right: 2px;
         margin-top: -45px;
         gap: 5px;

@@ -498,7 +498,7 @@
   width: 100%;
 }
   .main-body-content :first-child {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 10px;
 
   }
@@ -523,6 +523,7 @@
     margin-top: 10px;
     font-size: 14px;
     width: 100%;
+    text-align: justify;
   }
 
   .services-main {
@@ -538,11 +539,10 @@
   }
 
   .home-second-right-header {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
     font-weight: bolder;
-    width: 150%;
-  }
+    width: 120%;
+    }
 
   .second-right {
     font-size: 14px;
