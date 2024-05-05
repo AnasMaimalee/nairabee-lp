@@ -604,6 +604,8 @@
     display: block;
     margin-top: 20px;
     width: 85%;
+    background: #FAFBFF;
+    padding: 10px;
     margin: auto;
     /* Adjust margin as needed */
   }
@@ -612,7 +614,6 @@
   :deep(.slick-slide) {
     text-align: justify;
     line-height: 20px;
-    background: #FAFBFF;
     overflow: hidden;
     color: #383838;
     /* padding: 20px; */

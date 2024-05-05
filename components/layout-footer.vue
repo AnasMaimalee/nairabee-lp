@@ -105,7 +105,7 @@ body {
     color: #383838;
     font-weight: bolder;
     font-size: 16px;
-    bottom: 10px;
+    top: 12px;
 }
 
 .bottom {
@@ -115,7 +115,6 @@ body {
     /* height: 787px; */
     font-family: Montserrat;
     color: #383838;
-    margin-top: 20px;
 }
 
 .back-top {
@@ -158,7 +157,7 @@ body {
 }
 
 .icons-part {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .icons-img {
@@ -226,7 +225,7 @@ body {
     .main-bottom {
         display: flex;
         width: 90%;
-        justify-content: center;
+        justify-content: space-around;
         text-align: start;
         margin: 0px auto;
     }
@@ -244,7 +243,6 @@ body {
 
     .bottom-services {
         font-size: 11px;
-        line-height: 17px;
     }
 
     .icons-img {
@@ -258,8 +256,9 @@ body {
         margin-bottom: 14px;
     }
     .icons-part{
-        margin-top: 10px;
         margin-bottom: 20px;
+        margin-top: 25px 
+
     }
 
     .copy-right {

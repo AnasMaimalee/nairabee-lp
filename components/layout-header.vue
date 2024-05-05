@@ -16,8 +16,8 @@
       </div>
       
       <div class="right-nav">
-        <li><nuxt-link to="/login" class="nav-link">Sign In</nuxt-link></li>
         <ul>
+          <li><nuxt-link to="/login" class="nav-link">Sign In</nuxt-link></li>
           <li><nuxt-link to="/register" class="nav-link">Get Started</nuxt-link></li>
         </ul>
       </div>
@@ -148,6 +148,8 @@ const closeMbileNav = () => {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 20px;
+
 }
 
 .right-nav ul :last-child {
@@ -176,7 +178,7 @@ ul li {
 }
 
 
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 830px) {
 
   .nav {
     display: none;
