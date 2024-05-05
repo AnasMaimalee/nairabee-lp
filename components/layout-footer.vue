@@ -17,8 +17,8 @@
                         community-driven approach. Nairabee represents financial
                         empowerment and shared prosperity, providing innovative
                         solutions for Nigeria's unique needs. </div>
-                    <div class="icons-part">
 
+                    <div class="icons-part">
                         <nuxt-link :to="`#`">
                             <img src="/Asset 15.png" alt="" class="icons-img">
                         </nuxt-link>
@@ -38,7 +38,6 @@
                         <nuxt-link :to="`#`">
                             <img src="/Asset 14.png" alt="" class="icons-img">
                         </nuxt-link>
-
                     </div>
                 </div>
 
@@ -105,7 +104,7 @@ body {
     color: #383838;
     font-weight: bolder;
     font-size: 16px;
-    top: 12px;
+    margin-bottom: 10px;
 }
 
 .bottom {
@@ -161,7 +160,7 @@ body {
 }
 
 .icons-img {
-    width: 40px;
+    width: 30px;
     margin-right: 10px;
 }
 
@@ -246,9 +245,10 @@ body {
     }
 
     .icons-img {
-        width: 10%;
+        width: 15%;
         margin-right: 2px;
         margin-top: -45px;
+        gap: 5px;
     }
 
     .border-bottom {
