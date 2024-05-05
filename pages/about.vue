@@ -166,8 +166,8 @@
   }
   
   .about-left {
-    width: 50%;
     text-align: justify;
+    width: 70%;
   }
   
   .about-left :last-child {
@@ -273,14 +273,15 @@
       }
     
       .about-first-part-content :last-child{
-        display: none;
+        /* display: none; */
+          margin: 20px auto;
       }
       .about-first-part-content{
         margin-top: 90px;
         width:100%;
       }
      .about-left{
-      margin-top: -70px;
+      margin: -70px auto;
       display: grid;
       width: 85%;
      }

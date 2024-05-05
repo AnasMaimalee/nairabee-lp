@@ -41,7 +41,7 @@
             <div class="home-second-right-header">
               Take <span class="control">
                 Control of Everything
-              </span> <br>
+              </span> 
               in Your Hands.
             </div>
 
@@ -252,7 +252,7 @@
   display: grid;
   justify-content: space-around;
   background-image: url('/Asset 3.png');
-  background-size: 400px;
+  background-size: 350px;
   /* Adjust background size as needed */
   background-repeat: no-repeat;
   background-position-x: right;
@@ -263,26 +263,13 @@
 .main-body {
   width: 85%;
   display: flex;
-  justify-content: space-around;
-  /* Center content horizontally */
+  justify-content: space-between;
   align-items: center;
-  /* Center content vertically */
-  align-content: center;
-  margin: 80px auto;
-  /* margin-left: 5%; */
+  margin: 40px auto;
   max-width: 100%;
-  /* Set a maximum width to prevent content from stretching too wide */
-  padding: 0 20px;
-  /* Add padding for better spacing */
-  box-sizing: border-box;
-  /* Include padding in the width calculation */
 }
 
-.main-body-content {
-  display: grid;
-  align-items: center;
-  width: 70%;
-}
+
 
 .main-body-content .cosmos {
   font-size: 30px;
@@ -311,11 +298,10 @@
 }
 
 .revolize {
-  width: 75%;
-  max-width: 90%;
+  width: 85%;
   margin-top: 15px;
   font-size: 18px;
-  line-height: 20px;
+  text-align: justify;
 }
 
 .services-main {
@@ -323,9 +309,8 @@
 }
 
 #services-main {
-  margin-top: 30px;
-  width: 95%;
-  max-width: 100%;
+  margin: 30px auto;
+  width: 100%;
 }
 
 #main-right-top {
@@ -376,8 +361,9 @@
 }
 
 .home-second-right-header {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bolder;
+  text-align: justify;
 }
 
 .control {
@@ -385,6 +371,7 @@
 }
 
 .home-second-right-body {
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: justify;
@@ -394,9 +381,9 @@
   display: flex;
   justify-content: space-between;
   text-align: justify;
-  margin: 10px;
   font-size: 13px;
   line-height: 16px;
+  margin:10px auto;
 }
 
 .second-right img {
@@ -563,7 +550,7 @@
 
   .home-second-right-body {
     margin-top: 10px;
-    width: 170%;
+    width: 185%;
     text-align: justify;
   }
 
