@@ -606,7 +606,8 @@
     width: 85%;
     background: #FAFBFF;
     padding: 10px;
-    margin: auto;
+    border-radius: 15px;
+    margin: 10px auto;
     /* Adjust margin as needed */
   }
 
@@ -649,26 +650,16 @@
   /* Adjust dot style for carousel */
   :deep(.slick-dots li button) {
     width: 10px;
-    /* Adjust dot size */
     height: 10px;
-    /* Adjust dot size */
     background-color: #f17540;
-    /* Change dot color */
     border: none;
-    /* Remove dot border */
     border-radius: 50%;
-    /* Make dots circular */
     margin: 0 5px;
-    /* Adjust space between dots */
   }
 
-  /* Adjust active dot style */
   :deep(.slick-dots li.slick-active button) {
-    margin-top: -10px;
     background-color: #fff;
-    /* Change active dot color */
     box-shadow: 0 0 5px #f17540;
-    /* Add shadow for active dot */
 
   }
 
