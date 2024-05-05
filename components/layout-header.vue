@@ -25,11 +25,11 @@
 
 
     <div class="mobile-nav">
-      <button class="hamburger" @click="toggleMobileNav">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
+      <div class="hamburger" @click="toggleMobileNav" :class="{ 'change': isMobileNavOpen }">
+          <div class="bar1" :class="{ 'change': isMobileNavOpen }"></div>
+          <div class="bar2" :class="{ 'change': isMobileNavOpen }"></div>
+          <div class="bar3" :class="{ 'change': isMobileNavOpen }"></div>
+      </div>
       <nav class="nav-menu" v-if="isMobileNavOpen">
         <ul>
           <li @click="closeMbileNav"><nuxt-link to="/" class="nav-link" @click="closeMbileNav">Home</nuxt-link></li>
@@ -52,8 +52,9 @@
 import { ref } from 'vue';
 
 const isMobileNavOpen = ref(false);
-
-const toggleMobileNav = () => {
+const isChaged = ref(false)
+const toggleMobileNav = (x) => {
+  isChaged.value = true
   isMobileNavOpen.value = !isMobileNavOpen.value;
 }
 
@@ -214,22 +215,27 @@ ul li {
   .hamburger {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 40px;
-    height: 20px;
     cursor: pointer;
-    border: #f17540;
-    border: 1px solid #f17540;
-    background-color: white;
-    border: none;
-    background-color: transparent;
   }
 
-  .bar {
-    width: 100%;
-    height: 3px;
-    background-color: #f17540;
-  }
+  .bar1, .bar2, .bar3 {
+  width: 40px;
+  height: 3px;
+  background-color: #f17540;
+  transition: 0.4s;
+  margin: 3px 0; /* Add margin to create spacing between bars */
+}
+
+
+.change .bar1 {
+  transform: translate(0, 9px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -9px) rotate(45deg);
+}
 
   /* Styles for navigation menu */
   .nav-menu {
