@@ -46,7 +46,7 @@
         </div>
         <div class="footer-bottom"> 
             &copy; Nairabee All Rights Reserved 
-            <nuxt-link :to="`#`">
+            <!-- <nuxt-link :to="`#`">
                 <img src="/Asset 15.png" alt="" class="icons-img">
             </nuxt-link>
 
@@ -64,7 +64,7 @@
 
             <nuxt-link :to="`#`">
                 <img src="/Asset 14.png" alt="" class="icons-img">
-            </nuxt-link>
+            </nuxt-link> -->
         </div>
     </div>
 </template>
