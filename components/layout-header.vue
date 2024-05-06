@@ -1,49 +1,48 @@
 <template>
   <div class="nav-header">
     <div class="top-header">
-    <div class="nairabee-logo">
-      <nuxt-link to="/"><img src="/Asset 1.png" alt=""></nuxt-link>
-    </div>
-    <div class="nav">
-      <div class="left-nav">
-        <ul>
-          <li><nuxt-link to="/" class="nav-link">Home</nuxt-link></li>
-          <li><nuxt-link to="/service" class="nav-link">Services</nuxt-link></li>
-          <li><nuxt-link to="/about" class="nav-link">About</nuxt-link></li>
-          <li><nuxt-link to="/contact" class="nav-link">Contact</nuxt-link></li>
-          
-        </ul>
+      <div class="nairabee-logo">
+        <nuxt-link to="/"><img src="/Asset 1.png" alt=""></nuxt-link>
       </div>
-      
-      <div class="right-nav">
-        <ul>
-          <li><nuxt-link to="/login" class="nav-link">Sign In</nuxt-link></li>
-          <li><nuxt-link to="/register" class="nav-link">Get Started</nuxt-link></li>
-        </ul>
+      <div class="nav">
+        <div class="left-nav">
+          <ul>
+            <li><nuxt-link to="/" class="nav-link">Home</nuxt-link></li>
+            <li><nuxt-link to="/service" class="nav-link">Services</nuxt-link></li>
+            <li><nuxt-link to="/about" class="nav-link">About</nuxt-link></li>
+            <li><nuxt-link to="/contact" class="nav-link">Contact</nuxt-link></li>
+
+          </ul>
+        </div>
+
+        <div class="right-nav">
+          <ul>
+            <li><nuxt-link to="/login" class="nav-link">Sign In</nuxt-link></li>
+            <li><nuxt-link to="/register" class="nav-link">Get Started</nuxt-link></li>
+          </ul>
+        </div>
       </div>
-    </div>
 
 
-    <div class="mobile-nav">
-      <div class="hamburger" @click="toggleMobileNav" :class="{ 'change': isMobileNavOpen }">
+      <div class="mobile-nav">
+        <div class="hamburger" @click="toggleMobileNav" :class="{ 'change': isMobileNavOpen }">
           <div class="bar1" :class="{ 'change': isMobileNavOpen }"></div>
           <div class="bar2" :class="{ 'change': isMobileNavOpen }"></div>
           <div class="bar3" :class="{ 'change': isMobileNavOpen }"></div>
+        </div>
+        <nav class="nav-menu" v-if="isMobileNavOpen">
+          <div>
+            <ul>
+            <li @click="closeMbileNav"><nuxt-link to="/" class="nav-link" @click="closeMbileNav">Home</nuxt-link></li>
+            <li @click="closeMbileNav"><nuxt-link to="/service" class="nav-link" @click="closeMbileNav">Services</nuxt-link></li>
+            <li @click="closeMbileNav"><nuxt-link to="/about" class="nav-link" @click="closeMbileNav">About</nuxt-link></li>
+            <li @click="closeMbileNav"><nuxt-link to="/contact" class="nav-link" @click="closeMbileNav">Contact</nuxt-link></li>
+            <li @click="closeMbileNav"><nuxt-link to="/login" class="nav-link" @click="closeMbileNav">Sign In</nuxt-link>
+            </li>
+          </ul>
+          </div>
+        </nav>
       </div>
-      <nav class="nav-menu" v-if="isMobileNavOpen">
-        <ul>
-          <li @click="closeMbileNav"><nuxt-link to="/" class="nav-link" @click="closeMbileNav">Home</nuxt-link></li>
-          <li @click="closeMbileNav"><nuxt-link to="/service" class="nav-link"
-              @click="closeMbileNav">Services</nuxt-link></li>
-          <li @click="closeMbileNav"><nuxt-link to="/about" class="nav-link" @click="closeMbileNav">About</nuxt-link>
-          </li>
-          <li @click="closeMbileNav"><nuxt-link to="/contact" class="nav-link"
-              @click="closeMbileNav">Contact</nuxt-link></li>
-          <li @click="closeMbileNav"><nuxt-link to="/login" class="nav-link" @click="closeMbileNav">Sign In</nuxt-link>
-          </li>
-        </ul>
-      </nav>
-    </div>
     </div>
   </div>
 </template>
@@ -85,13 +84,14 @@ const closeMbileNav = () => {
   /* Hide button by default */
 }
 
-.top-header{
+.top-header {
   width: 85%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .nairabee-logo {
   /* width: 25%; */
 }
@@ -218,36 +218,37 @@ ul li {
     cursor: pointer;
   }
 
-  .bar1, .bar2, .bar3 {
-  width: 40px;
-  height: 3px;
-  background-color: #f17540;
-  transition: 0.4s;
-  margin: 3px 0; /* Add margin to create spacing between bars */
-}
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 40px;
+    height: 3px;
+    background-color: #f17540;
+    transition: 0.4s;
+    margin: 3px 0;
+    /* Add margin to create spacing between bars */
+  }
 
 
-.change .bar1 {
-  transform: translate(0, 9px) rotate(-45deg);
-}
+  .change .bar1 {
+    transform: translate(0, 9px) rotate(-45deg);
+  }
 
-.change .bar2 {opacity: 0;}
+  .change .bar2 {
+    opacity: 0;
+  }
 
-.change .bar3 {
-  transform: translate(0, -9px) rotate(45deg);
-}
+  .change .bar3 {
+    transform: translate(0, -9px) rotate(45deg);
+  }
 
   /* Styles for navigation menu */
   .nav-menu {
     display: grid;
-    /* Additional styles for positioning the menu below the hamburger button */
     position: absolute;
-    width: 100%;
+    background-color: #f17540;
     top: 40px;
     color: white;
-    background: white;
-    color: white;
-    border: 1px solid #f17540;
   }
 
   .nav-link {

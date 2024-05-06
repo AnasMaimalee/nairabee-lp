@@ -266,7 +266,7 @@
 
   @media screen and (max-width: 830px) {
       .about-page-wrapper{
-        background-size: 170px;
+        background-size: 100px;
       }
       .about-right{
         display: none;

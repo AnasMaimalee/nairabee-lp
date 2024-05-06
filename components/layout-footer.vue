@@ -179,6 +179,7 @@ const scrollTop = () => {
     text-align: center;
     cursor: pointer;
     padding: 5px 10px;
+    font-size: 10px;
 }
 
 .footer-quick-links-header {
