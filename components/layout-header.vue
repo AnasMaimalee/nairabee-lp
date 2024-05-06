@@ -33,13 +33,17 @@
         <nav class="nav-menu" v-if="isMobileNavOpen">
           <div>
             <ul>
-            <li @click="closeMbileNav"><nuxt-link to="/" class="nav-link" @click="closeMbileNav">Home</nuxt-link></li>
-            <li @click="closeMbileNav"><nuxt-link to="/service" class="nav-link" @click="closeMbileNav">Services</nuxt-link></li>
-            <li @click="closeMbileNav"><nuxt-link to="/about" class="nav-link" @click="closeMbileNav">About</nuxt-link></li>
-            <li @click="closeMbileNav"><nuxt-link to="/contact" class="nav-link" @click="closeMbileNav">Contact</nuxt-link></li>
-            <li @click="closeMbileNav"><nuxt-link to="/login" class="nav-link" @click="closeMbileNav">Sign In</nuxt-link>
-            </li>
-          </ul>
+              <li @click="closeMbileNav"><nuxt-link to="/" class="nav-link" @click="closeMbileNav">Home</nuxt-link></li>
+              <li @click="closeMbileNav"><nuxt-link to="/service" class="nav-link"
+                  @click="closeMbileNav">Services</nuxt-link></li>
+              <li @click="closeMbileNav"><nuxt-link to="/about" class="nav-link"
+                  @click="closeMbileNav">About</nuxt-link></li>
+              <li @click="closeMbileNav"><nuxt-link to="/contact" class="nav-link"
+                  @click="closeMbileNav">Contact</nuxt-link></li>
+              <li @click="closeMbileNav"><nuxt-link to="/login" class="nav-link" @click="closeMbileNav">Sign
+                  In</nuxt-link>
+              </li>
+            </ul>
           </div>
         </nav>
       </div>
@@ -267,15 +271,18 @@ ul li {
   }
 
   .nav-menu ul {
-    margin: 10px -10px;
-  }
-
-  .nav-menu ul li {
+    color: white;
     line-height: 25px;
   }
 
+  .nav-menu ul li {
+  }
+
+
   .nav-menu ul li:hover {
-    background-color: #f17540;
+    /* background-color: white; */
+    color: white;
+
   }
 
   .nav-header {
