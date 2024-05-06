@@ -44,8 +44,8 @@
                 </div>
             </div>
         </div>
-        <div class="footer-bottom"> 
-            &copy; Nairabee All Rights Reserved 
+        <div class="footer-bottom">
+            &copy; Nairabee All Rights Reserved
             <!-- <nuxt-link :to="`#`">
                 <img src="/Asset 15.png" alt="" class="icons-img">
             </nuxt-link>
@@ -134,6 +134,7 @@ const scrollTop = () => {
 }
 
 .footer-left-content :last-child {
+    font-size: 10px;
     padding: 5px 10px;
     background-color: #f17540;
     border-radius: 12px;
@@ -142,6 +143,7 @@ const scrollTop = () => {
 }
 
 .footer-right {
+    font-size: 10px;
     width: 70%;
     display: block;
     justify-content: center;
