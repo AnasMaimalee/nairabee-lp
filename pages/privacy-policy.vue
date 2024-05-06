@@ -143,10 +143,8 @@
 <style>
 
 .container-privacy{
-    position: relative;
     background-image: url('/Asset 22.png');
     background-size: 600px;
-    height: 2600px;
     background-repeat: no-repeat;
     background-position: top right;
     font-family: Montserrat;
@@ -154,7 +152,6 @@
     
 }
 .main-content-privacy{
-    position: absolute;
     width: 100%; /* Adjust the width as needed */
     margin: 50px auto;
    
@@ -180,7 +177,6 @@ p{
 @media screen and (max-width:830px) {
     .container-privacy{
         background-size: 150px;
-        height: 1400px;
     }
     .main-content-privacy{
         margin-top: 10px;

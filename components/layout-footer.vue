@@ -1,77 +1,70 @@
 <template>
-    <div class="footer-container">
+    <div class="footer-page-container">
         <div class="back-top" @click="scrollTop">
             Back to top
         </div>
-        <div class="bottom">
 
-            <div class="main-bottom">
-                <div class="first-bottom-part">
-                    <div class="logo-part">
-                        <img src="/Asset 10.png" id="bottom-logo" alt="">
-                    </div>
-                    <div class="text-part">
-                        Nairabee, a fintech platform merging "Naira,"
-                        Nigeria's currency, with "bee," symbolizing our commitment
-                        to Nigeria's financial landscape and a collaborative,
-                        community-driven approach. Nairabee represents financial
-                        empowerment and shared prosperity, providing innovative
-                        solutions for Nigeria's unique needs. </div>
-
-                    <div class="icons-part">
-                        <nuxt-link :to="`#`">
-                            <img src="/Asset 15.png" alt="" class="icons-img">
-                        </nuxt-link>
-
-                        <nuxt-link :to="`#`">
-                            <img src="/Asset 11.png" alt="" class="icons-img">
-                        </nuxt-link>
-
-                        <nuxt-link :to="`#`">
-                            <img src="/Asset 12.png" alt="" class="icons-img">
-                        </nuxt-link>
-
-                        <nuxt-link :to="`#`">
-                            <img src="/Asset 13.png" alt="" class="icons-img">
-                        </nuxt-link>
-
-                        <nuxt-link :to="`#`">
-                            <img src="/Asset 14.png" alt="" class="icons-img">
-                        </nuxt-link>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div>
+                    <div class="footer-left-content">
+                        <img src="/Asset 23.png" alt="">
+                        <nuxt-link :to="``">Download App</nuxt-link>
                     </div>
                 </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-top">
+                    Nairabee, a fintech platform merging "Naira,"
+                    Nigeria's currency, with "bee," symbolizing our commitment
+                    to Nigeria's financial landscape and a collaborative,
+                    community-driven approach. Nairabee represents financial
+                    empowerment and shared prosperity, providing innovative
+                    solutions for Nigeria's unique needs.
+                </div>
 
-                <div class="second-bottom-part">
-                    <div class="bottom-header">
-                        Quick Links
-                    </div>
-                    <div class="bottom-quick-links">
-                        <nuxt-link :to="`service`" class="bottom-services-link">Services</nuxt-link>
-                        <nuxt-link :to="`privacy-policy`" class="bottom-services-link">Privacy Policy</nuxt-link>
-                        <nuxt-link :to="`/terms-condition`" class="bottom-services-link">Terms And
-                            Conditions</nuxt-link>
+                <div class="footer-right-bottom">
+                    <div class="footer-right-left">
+                        <div class="footer-quick-links-header">Quick Links</div>
+                        <nuxt-link :to="`/service`" class="bottom-services-link">Services</nuxt-link>
+                        <nuxt-link :to="`/privacy-policy`" class="bottom-services-link">Privacy Policy</nuxt-link>
+                        <nuxt-link :to="`/terms-condition`" class="bottom-services-link">Terms AndConditions</nuxt-link>
                         <nuxt-link :to="`/about`" class="bottom-services-link">About Us</nuxt-link>
                         <nuxt-link :to="`/contact`" class="bottom-services-link">Contact Us</nuxt-link>
                     </div>
-                </div>
-                <div class="third-bottom-part">
-                    <div class="bottom-header">
-                        Our Services
-                    </div>
-                    <div class="bottom-services">
-                        <nuxt-link :to="``" class="bottom-services-link">Transfer</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-services-link">Airtime</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-services-link">Data</nuxt-link>
-                        <nuxt-link :to="``" class="bottom-services-link">TV Subscription</nuxt-link> <nuxt-link :to="``"
-                            class="bottom-services-link">Exam Result</nuxt-link>
-                        <nuxt-link :to="`/service`" class="bottom-services-link">And More....</nuxt-link>
+                    <div class="footer-right-bottom-rigth">
+                        <div class="footer-quick-links-header">Services</div>
+                        <nuxt-link :to="``" class="bottom-services">Transfer</nuxt-link>
+                        <nuxt-link :to="``" class="bottom-services">Airtime</nuxt-link>
+                        <nuxt-link :to="``" class="bottom-services">Data</nuxt-link>
+                        <nuxt-link :to="``" class="bottom-services">TV Subscription</nuxt-link>
+                        <nuxt-link :to="``" class="bottom-services">Exam Result</nuxt-link>
+                        <nuxt-link :to="``" class="bottom-services">And More....</nuxt-link>
                     </div>
                 </div>
             </div>
-            <div class="border-bottom"></div>
-            <div class="copy-right">
-                &copy; All Rights Reserved
-            </div>
+        </div>
+        <div class="footer-bottom"> 
+            &copy; Nairabee All Rights Reserved 
+            <nuxt-link :to="`#`">
+                <img src="/Asset 15.png" alt="" class="icons-img">
+            </nuxt-link>
+
+            <nuxt-link :to="`#`">
+                <img src="/Asset 11.png" alt="" class="icons-img">
+            </nuxt-link>
+
+            <nuxt-link :to="`#`">
+                <img src="/Asset 12.png" alt="" class="icons-img">
+            </nuxt-link>
+
+            <nuxt-link :to="`#`">
+                <img src="/Asset 13.png" alt="" class="icons-img">
+            </nuxt-link>
+
+            <nuxt-link :to="`#`">
+                <img src="/Asset 14.png" alt="" class="icons-img">
+            </nuxt-link>
         </div>
     </div>
 </template>
@@ -85,36 +78,16 @@ const scrollTop = () => {
 }
 
 </script>
+
 <style scoped>
-body {
-    color: #383838;
-
-}
-
-.footer-container {
+.footer-page-container {
     position: relative;
     bottom: 0;
     margin-top: auto;
     width: 100%;
     background-color: #ffcaaf;
-
 }
 
-.bottom-header {
-    color: #383838;
-    font-weight: bolder;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.bottom {
-    /* padding: 50px; */
-    width: 100%;
-    margin: auto;
-    /* height: 830px; */
-    font-family: Montserrat;
-    color: #383838;
-}
 
 .back-top {
     display: block;
@@ -128,142 +101,123 @@ body {
     padding: 5px 10px;
 }
 
-.main-bottom {
-    width: 90%;
-    padding-top: 30px;
+.footer-content {
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 30%;
+    background-color: #ffa07a;
+    display: flex;
+    /* Add this */
+    justify-content: center;
+    /* Add this */
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-left-content {
+    justify-content: center;
     align-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
 }
 
-.first-bottom-part {
-    width: 50%;
+.footer-left-content img {
+    width: 50px;
+    display: block;
+    margin: 10px auto;
+    /* Add this */
+}
+
+.footer-left-content :last-child {
+    padding: 5px 10px;
+    background-color: #f17540;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-right {
+    width: 70%;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+
+    align-items: center;
+}
+
+.footer-right-top {
     text-align: justify;
+    margin: auto;
 }
 
-.right-bottom {
-
-    display: flex;
-    justify-content: space-around;
-}
-
-#bottom-logo {
-    width: 180px;
-}
-
-.text-part {
-    margin-top: 20px;
-}
-
-.icons-part {
+.footer-right-bottom {
     margin-top: 10px;
-}
-
-.icons-img {
-    width: 30px;
-    margin-right: 10px;
-}
-
-.bottom-quick-links {
-    display: grid;
-    color: #383838;
-
-}
-
-.bottom-quick-links :hover,
-.bottom-services-link :hover {
-    color: #f17540;
-}
-
-.bottom-services :hover {
-    color: #f17540;
-}
-
-.bottom-services,
-.bottom-about {
-    display: grid;
-}
-
-.bottom-services-link,
-.bottom-about-link {
-    color: #383838;
-}
-
-.border-bottom {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 85%;
-    border: 1px solid #383838;
-    margin: 20px auto;
+    justify-content: space-between;
 }
 
-.copy-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-right-top {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffa07a;
 }
 
-@media screen and (max-width:830px) {
-    .first-bottom-part {}
+.footer-bottom {
+    display: block;
+    background-color: #f17540;
+    color: white;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 10px;
+}
 
+.footer-quick-links-header {
+    font-weight: bolder;
+    color: #f17540;
+    margin-bottom: 10%;
 
-    .bottom-header {
-        font-size: 12px;
+}
+
+.bottom-services-link {
+    color: black;
+    /* background-color: #f17540; */
+}
+
+.bottom-services-link:hover {
+    color: white;
+    background-color: #f17540;
+}
+
+.footer-right-left {
+    display: grid;
+}
+
+.footer-right-bottom-rigth {
+    display: grid;
+}
+
+@media screen and (min-width: 831px) {
+    .footer-content {
+        justify-content: center;
+        margin: auto;
     }
 
-    #bottom-logo {
+    .footer-right-top {
         width: 85%;
     }
 
-    .bottom {
-        width: 100%;
-
-    }
-
-    .main-bottom {
-        display: flex;
-        width: 90%;
-        justify-content: space-around;
-        text-align: start;
-        margin: 0px auto;
-    }
-
-    .text-part {
-        width: 90%;
-        font-size: 10px;
-        line-height: 12px;
-        /* margin-top: 10px; */
-    }
-
-    .bottom-quick-links {
-        font-size: 11px;
-    }
-
-    .bottom-services {
-        font-size: 11px;
-    }
-
-    .icons-img {
-        width: 11%;
-        margin-right: 2px;
-        margin-top: -45px;
-        gap: 5px;
-    }
-
-    .border-bottom {
-        margin-top: -5px;
-        margin-bottom: 14px;
-    }
-    .icons-part{
-        margin-bottom: 20px;
-        margin-top: 25px 
-
-    }
-
-    .copy-right {
-        margin-top: -8px;
-        font-size: 10px;
+    .footer-right-bottom {
+        width: 85%;
+        margin: 10px auto;
+        justify-content: space-between;
     }
 }
 </style>
