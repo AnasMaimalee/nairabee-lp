@@ -923,7 +923,6 @@
   .review-content div{
   /* margin: 20px; */
   padding: 13px;
-margin-left: -8px;
 /* margin: 10px 0px; */
   background-color: white;
   border-radius: 10px;
