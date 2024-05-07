@@ -651,7 +651,7 @@
   width: 100%;
   display: flex;
   /* margin: 20px auto; */
-  padding: 10px;
+  padding: 0px;
   justify-content: center;
   text-align: justify;
   align-content: center;
@@ -661,12 +661,13 @@
   margin: 5px;
   background-color: white;
   border-radius: 10px;
+  padding: 10px;
 
  }
 
  .review-content div :first-child{
   font-weight: bolder;
-  margin-bottom: -10px;
+  margin-bottom: 10px;
  }
  .review-bottom{
   display: flex;
