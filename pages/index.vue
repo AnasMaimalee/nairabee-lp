@@ -41,7 +41,7 @@
             <div class="home-second-right-header">
               Take <span class="control">
                 Control of Everything
-              </span> 
+              </span>
               in Your Hands.
             </div>
 
@@ -229,23 +229,134 @@
               requirements.
 
             </div>
-
-
           </a-carousel>
         </div>
       </div>
 
+      <!-- breakdown of servcies  -->
+      <div class="more-about-our-services">
+        <div class="more-about-our-services-header">
+          <div>
+            A little information for our valuable guest
+          </div>
+          <div>In a realm where convenience reigns supreme, we redefine service provision. Our offerings—airtime, data
+            bundles, and TV subscriptions Exam results, Electricity bills—are curated experiences, not mere
+            transactions. As
+            we expand our digital
+            portfolio,
+            we're committed to delivering more essential e-services. Each interaction leaves you not just satisfied, but
+            truly
+            fulfilled.
+          </div>
+        </div>
+
+        <div class="breakdown-of-our-services">
+          <div class="breakdown">
+            <span>3</span>
+            <span>Locations</span>
+          </div>
+          <div class="breakdown">
+            <span>2023</span>
+            <span>Founded</span>
+          </div>
+          <div class="breakdown">
+            <span>25+</span>
+            <span>Staff Members</span>
+          </div>
+          <div class="breakdown">
+            <span>100%</span>
+            <span>Satisfied Customers</span>
+          </div>
+          <div class="breakdown">
+            <span>10,000+</span>
+            <span>Registerd Customers</span>
+          </div>
+          <div class="breakdown">
+            <span>100+</span>
+            <span>Merchant Customers</span>
+          </div>
+        </div>
+      </div>
+      <!-- customer review -->
+
+      <div class="customer-review">
+        <div class="review-header">
+          What Our Customer Say
+        </div>
+        <div class="review-content">
+          <div>
+            <div>
+              Kind Of its type
+            </div>
+            <div>
+              "I can confidently say that Nairabee is the best of its type when it comes to e-services. Their airtime,
+              data
+              bundles, and TV subscription offerings are unparalleled. The platform's ease of use, combined with its
+              lightning-fast transactions, sets it apart from the rest. Nairabee has truly raised the bar in providing
+              top-notch
+              digital services. Highly recommended!"
+            </div>
+            <div class="review-bottom">
+                <img src="/Asset 23.png" alt="">
+                <span>Haidar Hussain</span>
+                <span>Kano State, Nigeria</span>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              Exceptional Quality
+
+            </div>
+            <div>
+              "Nairabee exceeds expectations in every aspect. Their airtime, data bundle, and TV subscription services
+              are
+              simply exceptional. The convenience of their platform, coupled with the reliability of their transactions,
+              makes
+              them stand out from the competition. If you're looking for the best-in-class e-services, look no further
+              than
+              Nairabee."
+            </div>
+            <div class="review-bottom">
+                <img src="/Asset 23.png" alt="">
+                <span>Haidar Hussain</span>
+                <span>Kano State, Nigeria</span>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              Unmatched Convenience
+            </div>
+            <div>
+              "Nairabee offers unmatched convenience when it comes to e-services. From airtime top-ups to data bundles
+              and TV
+              subscriptions, everything is seamlessly integrated into their platform. The hassle-free experience and
+              prompt
+              service make Nairabee my go-to choice for all my digital needs. I couldn't ask for a better service
+              provider!"
+            </div>
+            <div class="review-bottom">
+                <img src="/Asset 23.png" alt="">
+                <span>Haidar Hussain</span>
+                <span>Kano State, Nigeria</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+
 </script>
 
 <style scoped>
 .body-index {
   /* height: 1200px; */
   font-family: Montserrat;
+
 }
 
 .main {
@@ -383,7 +494,7 @@
   text-align: justify;
   font-size: 13px;
   line-height: 16px;
-  margin:10px auto;
+  margin: 10px auto;
 }
 
 .second-right img {
@@ -453,6 +564,7 @@
   /* Adjust the values as needed */
 }
 
+
 .first-chose-us :first-child,
 .second-chose-us :first-child,
 .third-chose-us :first-child {
@@ -466,6 +578,109 @@
   color: white;
 }
 
+/* more to our services  */
+
+.more-about-our-services {
+  width: 85%;
+  margin: auto;
+  background-color: #FAFBFF;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.more-about-our-services-header {
+  width: 60%;
+  display: grid;
+  margin: 10px auto;
+}
+
+.more-about-our-services-header :first-child {
+  display: grid;
+  font-size: 30px;
+  text-align: center;
+}
+
+.more-about-our-services-header :last-child {
+  margin-top: 10px;
+  align-content: center;
+  text-align: justify;
+}
+
+.breakdown-of-our-services {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.breakdown-of-our-services div {
+  width: 35%;
+  height: 100px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.breakdown :first-child {
+  font-size: 30px;
+}
+
+/* customer review  */
+
+.customer-review {
+  width: 85%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #FAFBFF;
+  /* box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.5), -2px 0px 2px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.review-header{
+  text-align: center;
+  font-size: 30px;
+}
+.review-content{
+  width: 100%;
+  display: flex;
+  /* margin: 20px auto; */
+  padding: 10px;
+  justify-content: center;
+  text-align: justify;
+  align-content: center;
+}
+ .review-content div{
+  width: 90%;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+
+ }
+
+ .review-content div :first-child{
+  font-weight: bolder;
+ }
+ .review-bottom{
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-content:center ;
+  align-items: center;
+}
+ .review-bottom :last-child{
+  /* display: grid; */
+ }
+ .review-content div img{
+  width: 25px;
+  margin-right: 10px;
+ }
 @media screen and (max-width: 830px) {
   .main {
     background-image: url('/Asset 3.png');
@@ -481,9 +696,10 @@
     justify-content: space-between;
   }
 
-.main-body-content{
-  width: 100%;
-}
+  .main-body-content {
+    width: 100%;
+  }
+
   .main-body-content :first-child {
     font-size: 16px;
     line-height: 10px;
@@ -493,14 +709,16 @@
   #nairabee-main-logo {
     width: 100px;
   }
-  
+
 
   .nairabee-main {
     margin-top: 5px;
   }
-  .main-right-top{
+
+  .main-right-top {
     display: none;
   }
+
   #main-right-top-img {
     margin-top: 30px;
     width: 400px;
@@ -529,7 +747,7 @@
     font-size: 16px;
     font-weight: bolder;
     width: 120%;
-    }
+  }
 
   .second-right {
     font-size: 14px;
@@ -655,5 +873,55 @@
     font-weight: bold;
     color: #f17540;
   }
+
+  /* breakdown services  */
+
+  .more-about-our-services {
+    padding: 10px;
+  }
+
+  .more-about-our-services-header {
+    width: 90%;
+
+  }
+
+  .more-about-our-services-header :first-child {
+    font-size: 15px;
+  }
+
+  .breakdown-of-our-services {
+    width: 100%;
+  }
+
+  .breakdown-of-our-services div {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .customer-review{
+    padding: 10px;
+  }
+  .review-header{
+  font-size: 15px;
+}
+  .review-content{
+  display: grid;
+}
+
+  .review-content div{
+  width: 90%;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+
+ }
 }
 </style>
