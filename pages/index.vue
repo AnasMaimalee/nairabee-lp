@@ -299,7 +299,6 @@
             <div class="review-bottom">
                 <img src="/Asset 23.png" alt="">
                 <span>Haidar Hussain</span>
-                <span>Kano State, Nigeria</span>
             </div>
           </div>
 
@@ -320,7 +319,6 @@
             <div class="review-bottom">
                 <img src="/Asset 23.png" alt="">
                 <span>Haidar Hussain</span>
-                <span>Kano State, Nigeria</span>
             </div>
           </div>
 
@@ -339,7 +337,6 @@
             <div class="review-bottom">
                 <img src="/Asset 23.png" alt="">
                 <span>Haidar Hussain</span>
-                <span>Kano State, Nigeria</span>
             </div>
           </div>
         </div>
@@ -604,6 +601,7 @@
   margin-top: 10px;
   align-content: center;
   text-align: justify;
+  font-size: 10px;
 }
 
 .breakdown-of-our-services {
