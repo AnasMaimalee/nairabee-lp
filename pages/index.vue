@@ -578,6 +578,7 @@
 /* more to our services  */
 
 .more-about-our-services {
+  font-family: Montserrat;
   width: 85%;
   margin: auto;
   background-color: #FAFBFF;
@@ -633,6 +634,7 @@
 /* customer review  */
 
 .customer-review {
+  font-family: Montserrat;
   width: 85%;
   padding: 20px;
   margin: 20px auto;
@@ -656,7 +658,7 @@
 }
  .review-content div{
   width: 90%;
-  margin: 20px;
+  margin: 5px;
   background-color: white;
   border-radius: 10px;
 
@@ -664,6 +666,7 @@
 
  .review-content div :first-child{
   font-weight: bolder;
+  margin-bottom: -10px;
  }
  .review-bottom{
   display: flex;
@@ -684,6 +687,8 @@
     background-image: url('/Asset 3.png');
     background-size: 180px;
     width: 100%;
+    font-family: Montserrat;
+
   }
 
   .main-body {
