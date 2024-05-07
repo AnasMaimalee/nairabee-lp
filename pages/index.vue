@@ -636,8 +636,7 @@
 
 .customer-review {
   width: 85%;
-  margin: 30px auto;
-  padding: 20px;
+  margin: 20px auto;
   border-radius: 20px;
   background-color: #FAFBFF;
   /* box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.5), -2px 0px 2px 0px rgba(0, 0, 0, 0.5); */
@@ -917,11 +916,18 @@
 }
 
   .review-content div{
-  width: 90%;
+  width: 85%;
   margin: 20px;
   background-color: white;
   border-radius: 10px;
 
  }
+
+ .review-content div :first-child{
+  font-size: 12px;
+}
+.review-content div :nth-child(2){
+  font-size: 14px;
+}
 }
 </style>
