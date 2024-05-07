@@ -602,7 +602,7 @@
   margin-top: 10px;
   align-content: center;
   text-align: justify;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .breakdown-of-our-services {
@@ -646,6 +646,7 @@
 .review-header{
   text-align: center;
   font-size: 30px;
+  margin-bottom: 15px;
 }
 .review-content{
   width: 100%;
