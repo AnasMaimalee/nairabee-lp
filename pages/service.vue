@@ -101,7 +101,7 @@
 </script>
 <style scoped>
 .container-services{
-    width: 83;
+    width: 100%;
     font-family: Montserrat;
     justify-content: center;
     align-content: center;
@@ -131,7 +131,7 @@
 }
 
 .services-main-icon img {
-    max-width: 100%; /* Ensure images don't exceed their natural size */
+    max-width: 45%; /* Ensure images don't exceed their natural size */
     height: auto; /* Allow the height to adjust automatically */
 }
 
