@@ -65,12 +65,12 @@
     align-items: center;
     font-family: Montserrat;
     margin: 50px auto;
-    width: 82%;
+    width: 93%;
  /* @apply flex justify-around items-center my-[50px] mx-auto w-[82%]; */
 
 }
 .sign-in-left-part{
-    width: 60%;
+    width: 50%;
 }
 
 .sign-in-form-header{
@@ -116,10 +116,10 @@
 }
 .sign-in-form-bottom-img img{
     top: 30px;
-    width: 50%;
+    width: 30%;
 }
 .sign-in-right-part{
-    width: 40%;
+    width: 30%;
 }
 .sign-in-right-part-img{
     width: 100%;
@@ -128,7 +128,9 @@
 
 @media screen and (max-width: 830px) {
     .sign-in-page-content{
-        margin-top: 15px;
+        /* margin-top: 15px; */
+        width: 85%;
+        margin: 20px auto;
     }
     .sign-in-right-part{
         display: none;

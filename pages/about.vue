@@ -167,7 +167,7 @@
   
   .about-left {
     text-align: justify;
-    width: 70%;
+    width: 50%;
   }
   
   .about-left :last-child {
@@ -180,7 +180,7 @@
   }
   
   .about-right img {
-    width: 160px;
+    width: 120px;
   }
   .team-workers{
     font-size: 25px;

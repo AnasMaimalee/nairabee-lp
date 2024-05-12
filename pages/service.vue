@@ -106,6 +106,10 @@
     justify-content: center;
     align-content: center;
     margin: 30px auto;
+    /* background-image: url('/Asset 22.png'); */
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: top right;
 
 }
 /* 

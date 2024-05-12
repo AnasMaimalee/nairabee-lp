@@ -65,7 +65,7 @@
         margin-top: 30px;
     }
     .min-form {
-    width: 75%; /* Adjust the width as needed */
+    width: 65%; /* Adjust the width as needed */
     }
     .main-page-contact :nth-child(2){
         margin-top: 20px;
