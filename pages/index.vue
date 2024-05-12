@@ -384,7 +384,7 @@
 }
 
 .main-right-top {
-  width: 40%;
+  width: 30%;
   min-width: 45%;
 }
 
@@ -397,7 +397,7 @@
 
 .nairabee-main {
   margin-top: 20px;
-  width: 85%;
+  width: 70%;
 }
 
 #nairabee-main-logo {
@@ -406,14 +406,14 @@
 }
 
 .revolize {
-  width: 85%;
+  width: 75%;
   margin-top: 15px;
   font-size: 18px;
   text-align: justify;
 }
 
 .services-main {
-  width: 85%;
+  width: 75%;
 }
 
 #services-main {
@@ -426,7 +426,7 @@
 }
 
 #main-right-top-img {
-  width: 100%;
+  width: 90%;
   max-width: 120%;
 
 }
@@ -687,7 +687,7 @@
 @media screen and (max-width: 830px) {
   .main {
     background-image: url('/Asset 3.png');
-    background-size: 180px;
+    background-size: 174px;
     width: 100%;
     font-family: Montserrat;
 
@@ -752,6 +752,7 @@
     font-size: 16px;
     font-weight: bolder;
     width: 120%;
+    margin-top: 13px;
   }
 
   .second-right {

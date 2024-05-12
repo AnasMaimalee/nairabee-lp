@@ -75,16 +75,15 @@
 <style scoped>
 .register-page-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: Montserrat;
-    width: 90%;
+    width: 85%;
     margin: 70px auto;
     align-content: center;
 
 }
 .register-left-part{
     margin-top:20px;
-    width: 30%;
 }
 .register-form-body{
     width: 100%;
@@ -141,14 +140,12 @@ a-form-element{
 }
 
 .register-right-part-img{
-    width: 90%;
-    /* margin-top: -120px; */
+    width: 70%;
     
 }
 
 @media screen and (max-width: 830px) {
     .register-page-content{
-        width: 100%;
         margin: 10px auto;
     }
     .register-left-part{

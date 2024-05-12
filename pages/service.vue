@@ -101,18 +101,18 @@
 </script>
 <style scoped>
 .container-services{
-    width: 83%;
+    width: 83;
     font-family: Montserrat;
     justify-content: center;
     align-content: center;
     margin: 10px auto;
 
 }
-
+/* 
 .services-main-icon{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+
     margin: 40px auto;
 
 }
@@ -121,12 +121,30 @@
 }
 
 .services-main-icon :last-child{
-    width: 40%;
+    width: 50%;
+} */
+
+.services-main-icon {
+    display: flex; /* Make the container a flex container */
+    justify-content: space-around; /* Align the images horizontally */
+    align-items: center; /* Center the images vertically */
 }
+
+.services-main-icon img {
+    max-width: 100%; /* Ensure images don't exceed their natural size */
+    height: auto; /* Allow the height to adjust automatically */
+}
+
+.services-main-icon :last-child{
+    width: 30%;
+} 
+
 .services-list {
     display: grid; /* Changed from flex to grid */
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     gap: 50px; /* Adjust the gap between service items */
+    width: 90%;
+    margin: 20px auto;
 }
 
 .service {
@@ -145,6 +163,10 @@
     color: #f17540;
 }
 @media screen and (max-width: 830px) {
+    .container-services{
+    width: 87%;
+
+}
     .services-list {
         display: grid;
         grid-template-columns: repeat(1, 1fr); /* Two services in each row */
