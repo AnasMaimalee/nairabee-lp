@@ -105,7 +105,7 @@
     font-family: Montserrat;
     justify-content: center;
     align-content: center;
-    margin: 10px auto;
+    margin: 30px auto;
 
 }
 /* 
@@ -128,6 +128,7 @@
     display: flex; /* Make the container a flex container */
     justify-content: space-around; /* Align the images horizontally */
     align-items: center; /* Center the images vertically */
+    width: 100%;
 }
 
 .services-main-icon img {
@@ -136,7 +137,7 @@
 }
 
 .services-main-icon :last-child{
-    width: 30%;
+    width: 25%;
 } 
 
 .services-list {
@@ -174,7 +175,7 @@
         width: 100%;
     }
     .services-main-icon :first-child{
-        width: 100%;
+        max-width: 100%;
     }
     .services-main-icon :last-child{
         display: none;
