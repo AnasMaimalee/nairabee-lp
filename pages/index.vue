@@ -373,7 +373,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px auto;
+  margin: 60px auto;
   max-width: 100%;
 }
 
@@ -698,6 +698,7 @@
     display: flex;
     width: 85%;
     padding: 0px;
+    margin: 55px auto;
     justify-content: space-between;
   }
 
