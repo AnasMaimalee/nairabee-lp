@@ -495,7 +495,7 @@
 }
 
 .second-right img {
-  width: 50px;
+  width: 20px;
 }
 
 .second {
