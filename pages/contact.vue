@@ -1,113 +1,86 @@
 <template>
     <div class="container-contact">
-        <div class="main-page-contact">
-            <div class="min-form">
-                <div class="form-header">
-                    <div class="fist-header">
-                        Contact Us
-                    </div>
-                    <div class="second-header-contact">
-                        Let’s build Africa’s biggest <br>
-                        FinTech together.
+        <div class="contact-form">
+            <form action="">
+                <h1>Contact Us</h1>
+                <h3>Let's build the Africa's biggest FinTech together</h3>
+
+                <div class="form-body">
+                    <input type="text" placeholder="Full Name" class="text-field">
+                    <input type="text" placeholder="Mobile Number" class="text-field">
+                    <textarea name="" id="" rows="10" class="text-field"></textarea>
+                    <div class="send-btn">
+                        <button class="text-field"> Send</button>
+
                     </div>
                 </div>
-                <a-form class="contact-form">
 
-                    <a-form-item>
-                        <a-input placeholder="Full Name" />
-                    </a-form-item>
-
-                    <a-form-item>
-                        <a-input placeholder="Mobile Number or Email" />
-                    </a-form-item>
-
-                    <a-form-item>
-                        <a-textarea placeholder="Message" :rows="8" />
-                    </a-form-item>
-
-                    <a-button class="send-comment">Send</a-button>
-                </a-form>
-            </div>
+            </form>
         </div>
     </div>
-    <!-- bottom  -->
 </template>
+
 <script setup lang="ts">
 </script>
+
 <style scoped>
 .container-contact {
     display: grid;
     background-image: url('/Asset 22.png');
     background-size: 400px;
-    height: 600px;
+    height: 100vh;
+    color: #383838;
     background-repeat: no-repeat;
     background-position: top right;
     font-family: Montserrat;
     width: 100%;
-
-    /* background-color: rgba(255, 255, 255, 1 );      */
-
+    overflow: hidden;
+    /* Ensuring no overflow */
 }
 
-.main-page-contact {
+.contact-form {
+    display: grid;
+    width: 85%;
+    margin: 50px auto;
+}
+
+.form-body {
     display: flex;
-    justify-content: space-between;
-    justify-content: start;
-    position: absolute;
-    width: 100%;
+    flex-direction: column;
+    width: 60%;
 }
 
-.min-form {
-    width: 50%;
-    /* Adjust the width as needed */
-    margin: 10px 100px;
+.form-body button {
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    align-items: end;
+    width: 93%;
+    background-color: #f17540;
+    color: white;
 }
 
-.main-page-contact :nth-child(2) {
+
+.text-field {
+    width: 90%;
     margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #f17540;
+    border-radius: 8px;
 }
 
-.send-comment {
-    width: 100%;
-    background-color: #F17140;
-    border: #F17140;
-    color: #FAFBFF;
-    font-weight: bolder;
+.text-field:focus {
+    border: 1px solid #f17540;
 }
-
-.form-header :first-child {
-    font-weight: bolder;
-    font-size: 35px;
-}
-
 
 @media screen and (max-width: 830px) {
     .container-contact {
-        height: 450px;
-        background-size: 200px;
+        background-size: 250px;
     }
-
-    .form-header :first-child {
-        font-weight: bolder;
-        font-size: 15px;
-    }
-
-    .main-page-contact {
+    .contact-form{
         width: 100%;
-    }
-
-    .min-form {
-        width: 100%;
-        margin: 10px 38px;
-    }
-
-    .contact-form textarea {
-        height: 100px;
-    }
-
-    .main-page-contact {
-        margin-top: 50px;
-        width: 100%;
+        margin: 50px 35px;
     }
 }
 </style>
