@@ -104,12 +104,13 @@ const scrollTop = () => {
     cursor: pointer;
     padding: 5px 10px;
     font-size: 10px;
+    
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 100%;
     margin: 20px auto;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -133,13 +134,13 @@ const scrollTop = () => {
 
 .footer-content::after {
     right: 10;
-    width: 90%;
+    width: 50%;
 }
 
 
 
 .footer-first {
-    width: 60%;
+    width: 40%;
     padding-right: 10px;
 }
 
@@ -149,8 +150,8 @@ const scrollTop = () => {
 
 .footer-nairabee {
     text-align: justify;
-    width: 80%;
     margin-top: 10px;
+    width: 70%;
 }
 
 .icons-part {
@@ -165,7 +166,7 @@ const scrollTop = () => {
 .quick-links {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 12%;
     line-height: 22px;
 
 }
@@ -193,20 +194,22 @@ const scrollTop = () => {
     font-weight: bold
 }
 
-@media screen and (min-width: 831px) {
+@media screen and (max-width: 831px) {
     .footer-content {
         justify-content: center;
         margin: auto;
     }
 
-    .footer-right-top {
-        width: 85%;
+    .footer-first{
+        display: none;
     }
 
-    .footer-right-bottom {
-        width: 85%;
-        margin: 10px auto;
-        justify-content: space-between;
+    .quick-links{
+        width: 30%;
+    }
+
+    .quick-links :first-child{
+        font-size: 14px;
     }
 }
 </style>
