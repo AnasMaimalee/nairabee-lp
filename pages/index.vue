@@ -272,7 +272,7 @@
             <span>Registerd Customers</span>
           </div>
           <div class="breakdown">
-            <span>100+</span>
+            <span>1000+</span>
             <span>Merchant Customers</span>
           </div>
         </div>
@@ -281,7 +281,7 @@
 
       <div class="customer-review">
         <div class="review-header">
-          What Our Customer Say
+          What Our Customers Say
         </div>
         <div class="review-content">
           <div>

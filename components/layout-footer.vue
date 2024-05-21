@@ -209,5 +209,11 @@ const scrollTop = () => {
     .quick-links :first-child {
         font-size: 14px;
     }
+    .footer-bottom{
+        font-size: 10px;
+    }
+    .footer-bottom :first-child{
+        padding-top: 10px;
+    }
 }
 </style>
