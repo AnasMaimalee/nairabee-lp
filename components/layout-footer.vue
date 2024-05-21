@@ -61,9 +61,10 @@
                 <div>Contact Us</div>
                 <nuxt-link :to="`mailto:contact@nairabee.com`" class="bottom-services-link">Email:
                     nairabee@gmail.com</nuxt-link>
-                <nuxt-link :to="`tel:+2348123442014`" class="bottom-services-link">Phone: +2348123442014 (Care
-                    Line)</nuxt-link>
-                <nuxt-link :to="`mailto:anasment6@gmail.com`" class="bottom-services-link"></nuxt-link>
+                <nuxt-link :to="`tel:+2348123442014`" class="bottom-services-link">Phone: +2348123442014
+                    </nuxt-link>
+                <nuxt-link :to="`https://wa.me/08123442014`" class="bottom-services-link">WhatsApp Us</nuxt-link>
+
             </div>
 
         </div>
@@ -190,9 +191,9 @@ const scrollTop = () => {
 
 @media screen and (max-width: 831px) {
     .footer-content {
-        display: flex;
+        /* display: grid; */
         justify-content: center;
-        margin: auto;
+        margin: 10px 5px;
         width: 100%;
     }
 
@@ -201,7 +202,7 @@ const scrollTop = () => {
     }
 
     .quick-links {
-        width: 30%;
+        width: 100%;
         font-size: 12px;
         margin-bottom: 5px;
     }

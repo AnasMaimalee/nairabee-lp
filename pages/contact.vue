@@ -28,7 +28,6 @@
     display: grid;
     background-image: url('/Asset 22.png');
     background-size: 400px;
-    height: 100vh;
     color: #383838;
     background-repeat: no-repeat;
     background-position: top right;
@@ -77,10 +76,26 @@
 @media screen and (max-width: 830px) {
     .container-contact {
         background-size: 250px;
+
     }
-    .contact-form{
+
+    .contact-form {
         width: 100%;
         margin: 50px 35px;
+    }
+
+    .form-body {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 12px;
     }
 }
 </style>

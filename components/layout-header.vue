@@ -1,3 +1,4 @@
+
 <template>
   <div class="nav-header">
     <div class="top-header">
@@ -20,28 +21,26 @@
           </ul>
         </div>
       </div>
-
       <div class="mobile-nav">
         <div class="hamburger" @click="toggleMobileNav" :class="{ 'change': isMobileNavOpen }">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+          <div class="bar1" :class="{ 'change': isMobileNavOpen }"></div>
+          <div class="bar2" :class="{ 'change': isMobileNavOpen }"></div>
+          <div class="bar3" :class="{ 'change': isMobileNavOpen }"></div>
         </div>
-
+        <nav class="nav-menu" :class="{ 'show': isMobileNavOpen }">
+          <div>
+            <ul>
+              <li @click="closeMobileNav"><nuxt-link to="/" class="nav-link">Home</nuxt-link></li>
+              <li @click="closeMobileNav"><nuxt-link to="/service" class="nav-link">Services</nuxt-link></li>
+              <li @click="closeMobileNav"><nuxt-link to="/about" class="nav-link">About</nuxt-link></li>
+              <li @click="closeMobileNav"><nuxt-link to="/contact" class="nav-link">Contact</nuxt-link></li>
+              <li @click="closeMobileNav"><nuxt-link to="/login" class="nav-link">Sign In</nuxt-link></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </div>
   </div>
-  <nav class="nav-menu" v-if="isMobileNavOpen">
-    <ul>
-      <li @click="closeMobileNav"><nuxt-link to="/" class="nav-link">Home</nuxt-link></li>
-      <li @click="closeMobileNav"><nuxt-link to="/service" class="nav-link">Services</nuxt-link></li>
-      <li @click="closeMobileNav"><nuxt-link to="/about" class="nav-link">About</nuxt-link></li>
-      <li @click="closeMobileNav"><nuxt-link to="/contact" class="nav-link">Contact</nuxt-link></li>
-      <li @click="closeMobileNav"><nuxt-link to="/" class="nav-link">Sign In</nuxt-link></li>
-      <li @click="closeMobileNav"><nuxt-link to="/" class="nav-link">Get Started</nuxt-link></li>
-    </ul>
-    <!-- <a-button @click="isMobileNavOpen = !isMobileNavOpen"> x </a-button> -->
-  </nav>
 </template>
 <script setup>
 import { ref } from 'vue';
@@ -169,13 +168,18 @@ ul li {
   position: fixed;
   background-color: #f17540;
   top: 50px;
-  left: 0;
-  width: 80%;
+  left: -100%; /* Initially hide the menu off the screen */
+  width: 100%;
   height: 100vh;
   color: white;
   flex-direction: column;
   justify-content: start;
   align-content: start;
+  transition: left 0.3s ease; /* Add transition for the 'left' property */
+}
+
+.nav-menu.show {
+  left: 0; /* Slide the menu into view */
 }
 
 .nav-menu ul {
