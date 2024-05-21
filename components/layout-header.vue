@@ -37,8 +37,8 @@
       <li @click="closeMobileNav"><nuxt-link to="/service" class="nav-link">Services</nuxt-link></li>
       <li @click="closeMobileNav"><nuxt-link to="/about" class="nav-link">About</nuxt-link></li>
       <li @click="closeMobileNav"><nuxt-link to="/contact" class="nav-link">Contact</nuxt-link></li>
-      <li @click="closeMobileNav"><nuxt-link to="/login" class="nav-link">Sign In</nuxt-link></li>
-      <li @click="closeMobileNav"><nuxt-link to="/register" class="nav-link">Get Started</nuxt-link></li>
+      <li @click="closeMobileNav"><nuxt-link to="/" class="nav-link">Sign In</nuxt-link></li>
+      <li @click="closeMobileNav"><nuxt-link to="/" class="nav-link">Get Started</nuxt-link></li>
     </ul>
     <!-- <a-button @click="isMobileNavOpen = !isMobileNavOpen"> x </a-button> -->
   </nav>

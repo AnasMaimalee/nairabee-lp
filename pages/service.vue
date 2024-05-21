@@ -105,7 +105,7 @@
     font-family: Montserrat;
     justify-content: center;
     align-content: center;
-    margin: 30px auto;
+    margin: 70px auto;
     /* background-image: url('/Asset 22.png'); */
     background-size: 400px;
     background-repeat: no-repeat;
