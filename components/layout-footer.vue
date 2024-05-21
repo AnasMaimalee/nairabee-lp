@@ -193,6 +193,7 @@ const scrollTop = () => {
         display: flex;
         justify-content: center;
         margin: auto;
+        width: 100%;
     }
 
     .footer-first {
