@@ -63,7 +63,7 @@
                     nairabee@gmail.com</nuxt-link>
                 <nuxt-link :to="`tel:+2348123442014`" class="bottom-services-link">Phone: +2348123442014
                     </nuxt-link>
-                <nuxt-link :to="`https://wa.me/08123442014`" class="bottom-services-link">WhatsApp Us</nuxt-link>
+                <nuxt-link :to="`https://wa.me/08123442014`" class="bottom-services-link">WhatsApp: +2348123442014</nuxt-link>
 
             </div>
 
@@ -86,7 +86,6 @@ const scrollTop = () => {
 }
 
 </script>
-
 <style scoped>
 .footer-page-container {
     font-family: Montserrat;
@@ -96,8 +95,6 @@ const scrollTop = () => {
     width: 100%;
     background-color: #ffcaaf;
 }
-
-
 
 .back-top {
     display: block;
@@ -110,7 +107,6 @@ const scrollTop = () => {
     cursor: pointer;
     padding: 5px 10px;
     font-size: 10px;
-
 }
 
 .footer-content {
@@ -120,15 +116,11 @@ const scrollTop = () => {
     margin: 20px auto;
     padding-top: 20px;
     padding-bottom: 30px;
-
+    gap: 10px;
 }
 
-
-
-
-
 .footer-first {
-    width: 40%;
+    width: 35%;
     padding-right: 10px;
 }
 
@@ -139,11 +131,11 @@ const scrollTop = () => {
 .footer-nairabee {
     text-align: justify;
     margin-top: 10px;
-    width: 100%;
+    width: 80%;
 }
 
 .icons-part {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .icons-img {
@@ -154,14 +146,13 @@ const scrollTop = () => {
 .quick-links {
     display: flex;
     flex-direction: column;
-    width: 12%;
-    line-height: 22px;
-
+    width: 20%;
+    line-height: 20px;
 }
 
 .quick-links p {
     font-size: 12px;
-    line-height: 23px;
+    line-height: 20px;
 }
 
 .bottom-services-link {
@@ -169,8 +160,8 @@ const scrollTop = () => {
 }
 
 .quick-links :first-child {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 8px;
     font-weight: bold;
 }
 
@@ -185,8 +176,8 @@ const scrollTop = () => {
     border-top: 1px solid #383838;
 }
 
-.footer-bottom :first-child{
-    padding-top: 30px;
+.footer-bottom :first-child {
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 831px) {
@@ -210,10 +201,12 @@ const scrollTop = () => {
     .quick-links :first-child {
         font-size: 14px;
     }
-    .footer-bottom{
+
+    .footer-bottom {
         font-size: 10px;
     }
-    .footer-bottom :first-child{
+
+    .footer-bottom :first-child {
         padding-top: 10px;
     }
 }

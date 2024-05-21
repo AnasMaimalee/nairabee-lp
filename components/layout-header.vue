@@ -48,10 +48,16 @@
       </ul>
     </div>
   </nav>
+  <!-- <div class="whatsapp-button">
+    <a :href="whatsappLink" target="_blank">
+      <img src="/whatsapp.png" alt="WhatsApp Chat">
+    </a>
+  </div> -->
+
 </template>
 <script setup>
 import { ref } from 'vue';
-
+const whatsappLink = 'https://wa.me/1234567890?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.';
 const isMobileNavOpen = ref(false);
 
 const toggleMobileNav = () => {
