@@ -182,8 +182,8 @@ const scrollTop = () => {
 
 @media screen and (max-width: 831px) {
     .footer-content {
-        /* display: grid; */
-        justify-content: center;
+        display: grid;
+        justify-content: start;
         margin: 10px 5px;
         width: 100%;
     }
@@ -195,19 +195,28 @@ const scrollTop = () => {
     .quick-links {
         width: 100%;
         font-size: 12px;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
 
     .quick-links :first-child {
-        font-size: 14px;
+        font-size: 16px;
+        margin-top: -10px;
     }
 
     .footer-bottom {
         font-size: 10px;
+        margin-top: -20px;
+    }
+    .bottom-services-link, .bottom-services{
+        font-size: 14px;
     }
 
     .footer-bottom :first-child {
         padding-top: 10px;
     }
+    .footer-bottom :first-child {
+    padding-top: 20px;
+}
+
 }
 </style>
