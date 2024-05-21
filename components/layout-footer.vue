@@ -43,7 +43,7 @@
                 <div class="">Quick Links</div>
                 <nuxt-link :to="`/service`" class="bottom-services-link">Services</nuxt-link>
                 <nuxt-link :to="`/privacy-policy`" class="bottom-services-link">Privacy Policy</nuxt-link>
-                <nuxt-link :to="`/terms-condition`" class="bottom-services-link">Terms AndConditions</nuxt-link>
+                <nuxt-link :to="`/terms-condition`" class="bottom-services-link">Terms And Conditions</nuxt-link>
                 <nuxt-link :to="`/about`" class="bottom-services-link">About Us</nuxt-link>
                 <nuxt-link :to="`/contact`" class="bottom-services-link">Contact Us</nuxt-link>
             </div>
@@ -59,15 +59,19 @@
 
             <div class="quick-links">
                 <div>Contact Us</div>
-                <nuxt-link :to="`mailto:anasment6@gmail.com`" class="bottom-services-link">Email: nairabee@gmail.com</nuxt-link>
-                <nuxt-link :to="`tel:+2348123442014`" class="bottom-services-link">Phone: +2348123442014 (Care Line)</nuxt-link>
+                <nuxt-link :to="`mailto:anasment6@gmail.com`" class="bottom-services-link">Email:
+                    nairabee@gmail.com</nuxt-link>
+                <nuxt-link :to="`tel:+2348123442014`" class="bottom-services-link">Phone: +2348123442014 (Care
+                    Line)</nuxt-link>
                 <nuxt-link :to="`mailto:anasment6@gmail.com`" class="bottom-services-link"></nuxt-link>
             </div>
 
         </div>
         <div class="footer-bottom">
-            &copy; Nairabee All Rights Reserved
+            <div>
+                &copy; Nairabee All Rights Reserved
 
+            </div>
         </div>
     </div>
 </template>
@@ -105,38 +109,20 @@ const scrollTop = () => {
     cursor: pointer;
     padding: 5px 10px;
     font-size: 10px;
-    
+
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 85%;
     margin: 20px auto;
     padding-top: 20px;
     padding-bottom: 30px;
-    position: relative;
+
 }
 
-.footer-content::before,
-.footer-content::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    height: 1px;
-    /* Adjust the height to set the thickness of the border */
-    background: #383838;
-}
 
-.footer-content::before {
-    left: 10;
-    width: 70%;
-}
-
-.footer-content::after {
-    right: 10;
-    width: 50%;
-}
 
 
 
@@ -152,7 +138,7 @@ const scrollTop = () => {
 .footer-nairabee {
     text-align: justify;
     margin-top: 10px;
-    width: 70%;
+    width: 100%;
 }
 
 .icons-part {
@@ -171,7 +157,8 @@ const scrollTop = () => {
     line-height: 22px;
 
 }
-.quick-links p{
+
+.quick-links p {
     font-size: 12px;
     line-height: 23px;
 }
@@ -190,9 +177,15 @@ const scrollTop = () => {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 75%;
     margin: 10px auto;
     font-size: 13px;
-    font-weight: bold
+    font-weight: bold;
+    border-top: 1px solid #383838;
+}
+
+.footer-bottom :first-child{
+    padding-top: 30px;
 }
 
 @media screen and (max-width: 831px) {
@@ -202,17 +195,17 @@ const scrollTop = () => {
         margin: auto;
     }
 
-    .footer-first{
+    .footer-first {
         display: none;
     }
 
-    .quick-links{
+    .quick-links {
         width: 30%;
         font-size: 12px;
         margin-bottom: 5px;
     }
 
-    .quick-links :first-child{
+    .quick-links :first-child {
         font-size: 14px;
     }
 }

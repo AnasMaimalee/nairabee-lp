@@ -72,12 +72,17 @@ const closeMbileNav = () => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 50px;
+  top: 0;
+  overflow: hidden;
   width: 100%;
   font-family: Montserrat;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
-  /* Increased shadow values */
+  position: fixed; /* Make the header fixed */
+  z-index: 1000; /* Ensure it stays above other content */
+  background-color: white; /* Set background color to white */
 }
+
 
 .mobile-nav {
   display: none;
