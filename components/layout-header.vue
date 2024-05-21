@@ -61,7 +61,7 @@ const closeMobileNav = () => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 50px;
   top: 0;
   overflow: hidden;
   width: 100%;
@@ -168,7 +168,7 @@ ul li {
   display: none;
   position: fixed;
   background-color: #f17540;
-  top: 70px;
+  top: 50px;
   left: 0;
   width: 80%;
   height: 100vh;
