@@ -84,6 +84,7 @@ const scrollTop = () => {
 
 <style scoped>
 .footer-page-container {
+    font-family: Montserrat;
     position: relative;
     bottom: 0;
     margin-top: auto;
@@ -196,6 +197,7 @@ const scrollTop = () => {
 
 @media screen and (max-width: 831px) {
     .footer-content {
+        display: flex;
         justify-content: center;
         margin: auto;
     }
@@ -206,6 +208,8 @@ const scrollTop = () => {
 
     .quick-links{
         width: 30%;
+        font-size: 12px;
+        margin-bottom: 5px;
     }
 
     .quick-links :first-child{
