@@ -59,7 +59,7 @@
 
             <div class="quick-links">
                 <div>Contact Us</div>
-                <nuxt-link :to="`mailto:anasment6@gmail.com`" class="bottom-services-link">Email:
+                <nuxt-link :to="`mailto:contact@nairabee.com`" class="bottom-services-link">Email:
                     nairabee@gmail.com</nuxt-link>
                 <nuxt-link :to="`tel:+2348123442014`" class="bottom-services-link">Phone: +2348123442014 (Care
                     Line)</nuxt-link>

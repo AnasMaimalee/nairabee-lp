@@ -130,7 +130,7 @@
                     If you have any questions about this Privacy Policy, please contact us:
                 </p>
                 <p>
-                    By email: contact@nairabee.com <br>
+                    By email: <nuxt-link :to="`mailto:contact@nairabee.com`">contact@nairabee.com</nuxt-link> <br>
                     By visiting this page on our website: <nuxt-link :to="`/contact`">www.nairabee.com/contact</nuxt-link>  <br> 
                     Last updated: 1st April, 2024
                 </p>
@@ -153,7 +153,7 @@
 }
 .main-content-privacy{
     width: 100%; /* Adjust the width as needed */
-    margin: 50px auto;
+    margin: 70px auto;
    
 }
 .privacy-page-content{

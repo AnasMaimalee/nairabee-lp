@@ -1,118 +1,113 @@
 <template>
-    <div>
-        <div class="container-contact">
-            <div class="main-page-contact">
-                <div class="min-form">
-                    <div class="form-header">
-                        <div class="fist-header">
-                            Contact Us
-                        </div>
-                        <div class="second-header-contact">
-                            Let’s build Africa’s biggest <br>   
-                            FinTech together.
-                        </div>
+    <div class="container-contact">
+        <div class="main-page-contact">
+            <div class="min-form">
+                <div class="form-header">
+                    <div class="fist-header">
+                        Contact Us
                     </div>
-                    <a-form class="contact-form">
-                        
-                        <a-form-item
-                            
-                        >
-                        <a-input placeholder="Full Name" />
-                        </a-form-item>
-
-                        <a-form-item
-                            
-                        >
-                        <a-input placeholder="Mobile Number or Email" />
-                        </a-form-item>
-
-                        <a-form-item
-                            
-                            >
-                        <a-textarea placeholder="Message" :rows="8" />
-                        </a-form-item>
-
-                        <a-button class="send-comment">Send</a-button>
-                    </a-form>
+                    <div class="second-header-contact">
+                        Let’s build Africa’s biggest <br>
+                        FinTech together.
+                    </div>
                 </div>
+                <a-form class="contact-form">
+
+                    <a-form-item>
+                        <a-input placeholder="Full Name" />
+                    </a-form-item>
+
+                    <a-form-item>
+                        <a-input placeholder="Mobile Number or Email" />
+                    </a-form-item>
+
+                    <a-form-item>
+                        <a-textarea placeholder="Message" :rows="8" />
+                    </a-form-item>
+
+                    <a-button class="send-comment">Send</a-button>
+                </a-form>
             </div>
         </div>
-        <!-- bottom  -->
     </div>
+    <!-- bottom  -->
 </template>
 <script setup lang="ts">
 </script>
 <style scoped>
-  
-    .container-contact{
-        position: relative;
-        background-image: url('/Asset 22.png');
-        background-size: 400px;
-        height: 600px;
-        background-repeat:no-repeat ;
-        background-position: top right;
-        font-family: Montserrat;
-        width: 100%;
+.container-contact {
+    display: grid;
+    background-image: url('/Asset 22.png');
+    background-size: 400px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-family: Montserrat;
+    width: 100%;
 
-        /* background-color: rgba(255, 255, 255, 1 );      */
+    /* background-color: rgba(255, 255, 255, 1 );      */
 
-    }
-    .main-page-contact{
-        display: flex;
-        justify-content: space-around;
-        position: absolute;
-        width: 70%;
-        margin-top: 30px;
-    }
-    .min-form {
-    width: 65%; /* Adjust the width as needed */
-    }
-    .main-page-contact :nth-child(2){
-        margin-top: 20px;
-    }
-    .send-comment{
-        width: 100%;
-        background-color: #F17140;
-        border: #F17140;
-        color: #FAFBFF;
-        font-weight: bolder;
-    }
-    .form-header :first-child{
-        font-weight: bolder;
-        font-size: 35px;
-    }
-
-@media only screen and (max-width: 998px) {
-    /* .container-contact{
-        margin-top: -70px;
-        background-image: none;
-        margin-left: -90px;
-    }
-   .contact-form{
-    width: 150%;
-   } */
 }
 
+.main-page-contact {
+    display: flex;
+    justify-content: space-between;
+    justify-content: start;
+    position: absolute;
+    width: 100%;
+}
+
+.min-form {
+    width: 50%;
+    /* Adjust the width as needed */
+    margin: 10px 100px;
+}
+
+.main-page-contact :nth-child(2) {
+    margin-top: 20px;
+}
+
+.send-comment {
+    width: 100%;
+    background-color: #F17140;
+    border: #F17140;
+    color: #FAFBFF;
+    font-weight: bolder;
+}
+
+.form-header :first-child {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+
 @media screen and (max-width: 830px) {
-    .container-contact{
+    .container-contact {
         height: 450px;
-        background-size: 100px;
+        background-size: 200px;
     }
-    .form-header :first-child{
+
+    .form-header :first-child {
         font-weight: bolder;
         font-size: 15px;
     }
-    .main-page-contact{
+
+    .main-page-contact {
         width: 100%;
     }
-    .min-form{
-        width: 85%;
+
+    .min-form {
+        width: 100%;
+        margin: 10px 38px;
     }
-    .contact-form textarea{
+
+    .contact-form textarea {
         height: 100px;
     }
-    .main-page-contact{
-        margin-top:30px ;
+
+    .main-page-contact {
+        margin-top: 50px;
+        width: 100%;
     }
 }
 </style>

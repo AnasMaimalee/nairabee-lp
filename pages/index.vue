@@ -239,7 +239,7 @@
           <div>
             A little information for our valuable guest
           </div>
-          <div>In a realm where convenience reigns supreme, we redefine service provision. Our offerings—airtime, data
+          <div class="little-info">In a realm where convenience reigns supreme, we redefine service provision. Our offerings—airtime, data
             bundles, and TV subscriptions Exam results, Electricity bills—are curated experiences, not mere
             transactions. As
             we expand our digital
@@ -298,7 +298,7 @@
             </div>
             <div class="review-bottom">
                 <img src="/Asset 23.png" alt="">
-                <span>Haidar Hussain</span>
+                <span id="review-text">Haidar Hussain</span>
             </div>
           </div>
 
@@ -317,8 +317,8 @@
               Nairabee."
             </div>
             <div class="review-bottom">
-                <img src="/Asset 23.png" alt="">
-                <span>Haidar Hussain</span>
+                <img src="/Asset 23.png" alt="" >
+                <span id="review-text">Haidar Hussain</span>
             </div>
           </div>
 
@@ -336,7 +336,7 @@
             </div>
             <div class="review-bottom">
                 <img src="/Asset 23.png" alt="">
-                <span>Haidar Hussain</span>
+                <span id="review-text">Haidar Hussain</span>
             </div>
           </div>
         </div>
@@ -575,6 +575,11 @@
   color: white;
 }
 
+.little-info{
+  font-size: 12px;
+  text-align: center;
+}
+
 /* more to our services  */
 
 .more-about-our-services {
@@ -627,6 +632,7 @@
   border-radius: 10px;
 }
 
+
 .breakdown :first-child {
   font-size: 30px;
 }
@@ -663,6 +669,7 @@
   background-color: white;
   border-radius: 10px;
   padding: 10px;
+  
 
  }
 
@@ -676,6 +683,13 @@
   text-align: center;
   align-content:center ;
   align-items: center;
+}
+
+.review-bottom img{
+  border-radius: 50%;
+}
+#review-text{
+  margin-top: -4px;
 }
  .review-bottom :last-child{
   /* display: grid; */
