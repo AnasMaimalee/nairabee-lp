@@ -4,8 +4,10 @@
       <!-- First part -->
       <div class="about-first-part-content">
         <div class="about-left">
+          <div class="about">
+            About Us
+          </div>
           <div>
-            <span class="about">About Us</span> <br> <br>
             Welcome to Nairabee, a fintech platform merging "Naira," Nigeria's currency, with "bee," symbolizing our
             commitment
             to Nigeria's financial landscape and a collaborative, community-driven approach. Nairabee represents
@@ -79,7 +81,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="team-second-part">
           <div class="team-content">
             <div class="team-left">
@@ -178,17 +180,22 @@
 .about {
   font-size: 2em;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .about-left {
-  text-align: justify;
+  text-align: left;
   width: 50%;
+
 }
 
 .about-left :first-child {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
+.about-left :last-child {
+  margin-top: 30px;
+}
 .about-right {
   display: flex;
   justify-content: center;
@@ -284,7 +291,7 @@
     text-align: justify;
   } */
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 874px) {
   .about-page-wrapper {
     background-size: 150px;
   }

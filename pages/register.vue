@@ -121,7 +121,6 @@ a-form-element{
     color: #FAFBFF;
     font-weight: bolder;
     border: #f17140;
-    font-size: 20px;
 }
 .register-form-bottom{
     display: grid;
@@ -146,7 +145,7 @@ a-form-element{
 
 @media screen and (max-width: 830px) {
     .register-page-content{
-        margin: 10px auto;
+        margin: 35px auto;
     }
     .register-left-part{
         width: 85%;

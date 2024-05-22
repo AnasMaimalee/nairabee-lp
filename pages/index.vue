@@ -298,7 +298,7 @@
             </div>
             <div class="review-bottom">
                 <img src="/Asset 23.png" alt="">
-                <span id="review-text">Haidar Hussain</span>
+                <span id="review-text">Faruk Hussain</span>
             </div>
           </div>
 
@@ -336,7 +336,7 @@
             </div>
             <div class="review-bottom">
                 <img src="/Asset 23.png" alt="">
-                <span id="review-text">Haidar Hussain</span>
+                <span id="review-text">Ibrahim G Musa</span>
             </div>
           </div>
         </div>

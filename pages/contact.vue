@@ -8,7 +8,9 @@
                 <div class="form-body">
                     <input type="text" placeholder="Full Name" class="text-field">
                     <input type="text" placeholder="Mobile Number" class="text-field">
-                    <textarea name="" id="" rows="10" class="text-field"></textarea>
+                    <textarea name="" id="" rows="10" class="text-field" placeholder="" >
+                        
+                    </textarea>
                     <div class="send-btn">
                         <button class="text-field"> Send</button>
 
@@ -46,7 +48,7 @@
 .form-body {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
 }
 
 .form-body button {

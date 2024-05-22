@@ -141,16 +141,22 @@
     align-items: center;
     /* Center the images vertically */
     width: 100%;
+    margin-top: 20px;
 }
 
 .services-main-icon img {
-    max-width: 45%;
-    /* Ensure images don't exceed their natural size */
-    height: auto;
-    /* Allow the height to adjust automatically */
+    max-width: 45%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
     margin-top: 40px;
+    object-fit: contain; /* Fit the image within the container without distorting it */
 }
 
+.service img {
+    width: 40px; /* Set a specific width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+    object-fit: contain; /* Fit the image within the container without distorting it */
+}
 .services-main-icon :last-child {
     width: 25%;
 }
@@ -161,8 +167,8 @@
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     gap: 50px;
     /* Adjust the gap between service items */
-    width: 90%;
-    margin: 20px auto;
+    width: 85%;
+    margin: 40px auto;
 }
 
 .service {
@@ -179,9 +185,10 @@
     font-size: 20px;
     font-weight: bolder;
     color: #f17540;
+    margin-bottom:10px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 873px) {
     .container-services {
         margin: 0px auto;
         background-size: 100px;

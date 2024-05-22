@@ -5,5 +5,16 @@ export default defineNuxtConfig({
   antd:{},
   modules: [
     // "@nuxtjs/tailwindcss", 
-    "@ant-design-vue/nuxt"]
+    '@nuxtjs/google-fonts',
+    "@ant-design-vue/nuxt"],
+
+    googleFonts: {
+      families: {
+        Montserrat: {
+          wght: [100, 200, 300, 400, 500, 600, 700, 800, 900], // Specify the weights you need
+          ital: [100, 200, 300, 400, 500, 600, 700, 800, 900], // Specify the italics you need (if any)
+        },
+      },
+      display: 'swap', // Optional: Specifies the display mode for the fonts
+    }
 })

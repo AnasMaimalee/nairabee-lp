@@ -218,7 +218,7 @@ ul li {
   padding: 5px;
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 873px) {
   .nav-header {
     height: 40px;
   }

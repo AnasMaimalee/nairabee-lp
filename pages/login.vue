@@ -96,7 +96,6 @@
     color: #FAFBFF;
     font-weight: bolder;
     border: #f17140;
-    font-size: 20px;
     width: 100%;
 }
 .sign-in-form-bottom{
@@ -116,7 +115,7 @@
 }
 .sign-in-form-bottom-img img{
     top: 30px;
-    width: 30%;
+    width: 50%;
 }
 .sign-in-right-part{
     width: 30%;
@@ -130,7 +129,7 @@
     .sign-in-page-content{
         /* margin-top: 15px; */
         width: 85%;
-        margin: 20px auto;
+        margin: 50px auto;
     }
     .sign-in-right-part{
         display: none;
