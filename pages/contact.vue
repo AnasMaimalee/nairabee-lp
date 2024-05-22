@@ -1,7 +1,7 @@
 <template>
     <div class="container-contact">
         <div class="contact-form">
-            <form action="">
+            <form>
                 <h1>Contact Us</h1>
                 <h3>Let's build the Africa's biggest FinTech together</h3>
 
@@ -34,7 +34,6 @@
     font-family: Montserrat;
     width: 100%;
     overflow: hidden;
-    /* Ensuring no overflow */
 }
 
 .contact-form {
@@ -75,7 +74,7 @@
 
 @media screen and (max-width: 830px) {
     .container-contact {
-        background-size: 250px;
+        background-size: 150px;
 
     }
 

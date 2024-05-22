@@ -373,7 +373,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 60px auto;
+  margin: 100px auto;
   max-width: 100%;
 }
 
@@ -584,15 +584,14 @@
 
 .more-about-our-services {
   font-family: Montserrat;
-  width: 85%;
   margin: auto;
   background-color: #FAFBFF;
-  padding: 20px;
-  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px 
 }
 
 .more-about-our-services-header {
-  width: 60%;
+  width: 80%;
   display: grid;
   margin: 10px auto;
 }
@@ -668,8 +667,8 @@
   margin: 5px;
   background-color: white;
   border-radius: 10px;
-  padding: 10px;
-  
+  padding: 5px;
+  text-align: justify
 
  }
 
@@ -689,7 +688,7 @@
   border-radius: 50%;
 }
 #review-text{
-  margin-top: -4px;
+  margin-top: -10px;
 }
  .review-bottom :last-child{
   /* display: grid; */
