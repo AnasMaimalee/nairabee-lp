@@ -644,7 +644,6 @@
   padding: 20px;
   margin: 20px auto;
   border-radius: 20px;
-  background-color: #FAFBFF;
   /* box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.5), -2px 0px 2px 0px rgba(0, 0, 0, 0.5); */
 }
 
@@ -665,7 +664,7 @@
  .review-content div{
   width: 90%;
   margin: 5px;
-  background-color: white;
+  background-color: #FAFBFF;
   border-radius: 10px;
   padding: 5px;
   text-align: justify
@@ -675,6 +674,7 @@
  .review-content div :first-child{
   font-weight: bolder;
   margin-bottom: 10px;
+  font-style: italic;
  }
  .review-bottom{
   display: flex;
