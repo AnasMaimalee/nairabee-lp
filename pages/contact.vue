@@ -29,6 +29,7 @@
     background-image: url('/Asset 22.png');
     background-size: 400px;
     color: #383838;
+    height: 750px;
     background-repeat: no-repeat;
     background-position: top right;
     font-family: Montserrat;
@@ -88,6 +89,10 @@
         flex-direction: column;
         width: 80%;
     }
+    .form-body button {
+   
+    width: 97%;
+}
 
     h1 {
         font-size: 14px;
