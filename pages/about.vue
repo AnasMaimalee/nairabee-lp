@@ -134,7 +134,12 @@ onMounted(() => {
 }
 
 .team-workers {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   width: 85%;
+  text-align: center;
+  margin: 0px auto;
   font-size: 25px;
   font-weight: bolder;
 }
