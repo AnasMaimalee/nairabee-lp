@@ -38,7 +38,7 @@
               Meet Teams
             </div>
           </div>
-          <div>
+          <div class="behind">
             Behind The Creative Process Of Building The Nairabee FinTech
           </div>
         </div>
@@ -120,6 +120,7 @@
 }
 
 .team-workers {
+  width: 85%;
   font-size: 25px;
   font-weight: bolder;
 }
@@ -145,7 +146,7 @@
 .team-members{
   display: flex;
   justify-content: center;
-  gap:20px;
+  gap: 30px;
   width: 85%;
   margin-top: 40px;
 }
@@ -232,9 +233,13 @@
   .team-content :first-child img {
     margin: auto;
   }
-
+.about-meat-teams{
+  width: 100%;
+}
   .team-members{
     display: grid;
+    width: 80%;
   }
+
 }
 </style>
