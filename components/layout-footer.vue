@@ -18,7 +18,7 @@
                     solutions for Nigeria's unique needs.
                 </div>
                 <div class="icons-part">
-                    <nuxt-link :to="`#`">
+                    <!-- <nuxt-link :to="`#`">
                         <img src="/Asset 15.png" alt="" class="icons-img">
                     </nuxt-link>
 
@@ -36,7 +36,7 @@
 
                     <nuxt-link :to="`#`">
                         <img src="/Asset 14.png" alt="" class="icons-img">
-                    </nuxt-link>
+                    </nuxt-link> -->
                 </div>
             </div>
             <div class="quick-links">
