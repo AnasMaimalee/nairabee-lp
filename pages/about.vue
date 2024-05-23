@@ -67,7 +67,21 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<<script setup lang="ts">
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  const images = document.querySelectorAll('.team-members img');
+  images.forEach(img => {
+    img.onload = () => {
+      img.classList.add('loaded');
+    };
+    // If the image is already cached by the browser
+    if (img.complete) {
+      img.classList.add('loaded');
+    }
+  });
+});
 </script>
 
 <style>
@@ -150,13 +164,23 @@
   width: 85%;
   margin-top: 40px;
 }
-.team-members img{
+.team-members img {
   border: 10px solid #f17540;
   border-radius: 50%;
   width: 300px;
   padding: 0px;
-
+  transition: transform 0.3s ease, opacity 1s ease; /* Added transition for transform and opacity */
+  opacity: 0; /* Start with the image hidden */
 }
+
+.team-members img:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+.team-members img.loaded {
+  opacity: 1; /* Fade in effect when the page loads */
+}
+
 
 .member-name{
   margin-top: 8px;
@@ -248,5 +272,19 @@
   text-align: center;
   margin: 0px auto;
 }
+.team-members img {
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease, opacity 1s ease;
+    opacity: 0;
+  }
+
+  .team-members img:hover {
+    transform: scale(1.1);
+  }
+
+  .team-members img.loaded {
+    opacity: 1;
+  }
 }
 </style>
