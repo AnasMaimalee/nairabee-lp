@@ -5,7 +5,7 @@
       <div class="about-first-part-content">
         <div class="about-left">
           <div class="about">
-            About Us
+            Who we are
           </div>
           <div>
             Welcome to Nairabee, a fintech platform merging "Naira," Nigeria's currency, with "bee," symbolizing our
@@ -32,123 +32,36 @@
 
       <!-- Second part 1 -->
       <div class="about-meat-teams">
-        <div class="team-workers">
-          Meet Teams
-        </div>
-
-        <div class="team-second-part">
-          <div class="team-content">
-            <div class="team-left">
-              <img src="/Asset 34.png" alt="">
+        <div>
+          <div class="team-workers">
+            <div>
+              Meet Teams
             </div>
-
-            <div class="team-right">
-              <div>
-                <sapn class="team-name-role">Venture Analyst</sapn> <br>
-                <span class="team-name">Fynn Brinkmann</span>
-              </div>
-
-              <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in
-                pre-seed and seed stage startups, research, and our
-                incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management
-                (b2b marketplaces). He has
-                been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University
-                of Milan.
-              </div>
-            </div>
+          </div>
+          <div>
+            Behind The Creative Process Of Building The Nairabee FinTech
           </div>
         </div>
 
-        <div class="team-second-part">
-          <div class="team-content">
-            <div class="team-left">
-              <img src="/Asset 34.png" alt="">
-            </div>
+        <div class="team-members">
+          <div>
+            <img src="/Naira1ceo.png" alt="">
+            <div class="member-name">Hassan Umar</div>
+            <div class="member-role">Chief Executive Officer (CEO)</div>
+          </div>
 
-            <div class="team-right">
-              <div>
-                <sapn class="team-name-role">Venture Analyst</sapn> <br>
-                <span class="team-name">Fynn Brinkmann</span>
-              </div>
+          <div>
+            <img src="/Naira2coo.png" alt="">
+            <div class="member-name">Hussain Umar</div>
+            <div class="member-role">Chief Operations Officer (CO)</div>
+          </div>
 
-              <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in
-                pre-seed and seed stage startups, research, and our
-                incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management
-                (b2b marketplaces). He has
-                been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University
-                of Milan.
-              </div>
-            </div>
+          <div>
+            <img src="/Naira3cto.png" alt="">
+            <div class="member-name">Ahmad Mustapha</div>
+            <div class="member-role">Chief Technology Officer (CTO)</div>
           </div>
         </div>
-
-        <div class="team-second-part">
-          <div class="team-content">
-            <div class="team-left">
-              <img src="/Asset 34.png" alt="">
-            </div>
-
-            <div class="team-right">
-              <div>
-                <sapn class="team-name-role">Venture Analyst</sapn> <br>
-                <span class="team-name">Fynn Brinkmann</span>
-              </div>
-
-              <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in
-                pre-seed and seed stage startups, research, and our
-                incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management
-                (b2b marketplaces). He has
-                been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University
-                of Milan.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team-second-part">
-          <div class="team-content">
-            <div class="team-left">
-              <img src="/Asset 34.png" alt="">
-            </div>
-
-            <div class="team-right">
-              <div>
-                <sapn class="team-name-role">Venture Analyst</sapn> <br>
-                <span class="team-name">Fynn Brinkmann</span>
-              </div>
-
-              <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in
-                pre-seed and seed stage startups, research, and our
-                incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management
-                (b2b marketplaces). He has
-                been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University
-                of Milan.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="team-second-part">
-          <div class="team-content">
-            <div class="team-left">
-              <img src="/Asset 34.png" alt="">
-            </div>
-
-            <div class="team-right">
-              <div>
-                <sapn class="team-name-role">Venture Analyst</sapn> <br>
-                <span class="team-name">Fynn Brinkmann</span>
-              </div>
-
-              <div class="team-explain">Fynn joined Fabric as a Venture Analyst in 2021 and focuses on investing in
-                pre-seed and seed stage startups, research, and our
-                incubation program Fabric X. Prior to Fabric, he worked in fintech consulting and product management
-                (b2b marketplaces). He has
-                been a Web3 user and investor since 2016. He holds a Bachelor's degree in Economics from the University
-                of Milan.
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </div>
@@ -184,8 +97,8 @@
 }
 
 .about-left {
-  text-align: left;
-  width: 50%;
+  text-align: justify;
+  width: 40%;
 
 }
 
@@ -196,6 +109,7 @@
 .about-left :last-child {
   margin-top: 30px;
 }
+
 .about-right {
   display: flex;
   justify-content: center;
@@ -210,86 +124,42 @@
   font-weight: bolder;
 }
 
+
 .about-meat-teams {
-  width: 85%;
+  background-color: #fbfbfb;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  width: 100%;
   margin: 10px auto;
-  display: grid;
-  justify-content: center;
-}
-
-.team-second-part {
-  margin-top: 30px;
-}
-
-.team-content {
   display: flex;
+  /* Changed from grid to flex */
+  flex-direction: column;
+  /* Added to align content vertically */
+  align-items: center;
+  /* Added to center horizontally */
+  text-align: center;
+  /* Changed from text-justify to text-align */
+}
+
+.team-members{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  width: 85%;
+  margin-top: 40px;
+}
+.team-members img{
+  border: 10px solid #f17540;
+  border-radius: 50%;
+  width: 300px;
+  padding: 0px;
 
 }
 
-.team-content :first-child img {
-  width: 70%;
+.member-name{
+  margin-top: 8px;
 }
-
-.team-content :last-child {
-  margin-bottom: 0;
-}
-
-.team-right {
-  background-color: #FAFBFF;
-  padding: 20px;
-  display: grid;
-  border-radius: 10px;
-}
-
-/* .team-workers{
-    display: flex;
-    flex: content;
-    justify-content: space-between;
-    width: 60%;
-    font-weight: bolder;
-    font-size: 2em;
-    margin-top: 20px;
-  } */
-/* .second-part {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .team-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 70%;
-  }
-  
-  .team-left {
-    width: 85%;
-  }
-  
-  .team-left img {
-    width:  85%;
-  }
-  
-  .team-right {
-    width: 70%;
-    background-color: #fafbff;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  .team-right img{
-    width: 40px;
-  }
-  .team-right :nth-child(2){
-    font-size: 2em;
-    font-weight: bolder;
-    margin-bottom: 20px;
-  }
-  .team-right :last-child{
-    margin-top: 30px;
-    text-align: justify;
-  } */
 
 @media screen and (max-width: 874px) {
   .about-page-wrapper {
@@ -361,6 +231,10 @@
 
   .team-content :first-child img {
     margin: auto;
+  }
+
+  .team-members{
+    display: grid;
   }
 }
 </style>
