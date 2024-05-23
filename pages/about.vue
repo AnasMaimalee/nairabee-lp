@@ -132,7 +132,7 @@
   padding-bottom: 25px;
 
   width: 100%;
-  margin: 10px auto;
+  margin: 40px auto;
   display: flex;
   /* Changed from grid to flex */
   flex-direction: column;
@@ -240,6 +240,13 @@
     display: grid;
     width: 80%;
   }
-
+.behind{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 85%;
+  text-align: center;
+  margin: 0px auto;
+}
 }
 </style>
