@@ -1,14 +1,14 @@
 <template>
     <div class="container-contact">
         <div class="contact-form">
-            <form>
+            <form @submit.prevent="submitForm">
                 <h1>Contact Us</h1>
                 <h3>Let's build the Africa's biggest FinTech together</h3>
 
                 <div class="form-body">
-                    <input type="text" placeholder="Full Name" class="text-field">
-                    <input type="text" placeholder="Mobile Number" class="text-field">
-                    <textarea name="" id="" rows="10" class="text-field" placeholder="" >
+                    <input type="text" v-model="fullName" placeholder="Full Name" class="text-field">
+                    <input type="text" v-model="mobileNumber" placeholder="Mobile Number" class="text-field">
+                    <textarea name="" v-model="message" id="" rows="10" class="text-field" placeholder="" >
                         
                     </textarea>
                     <div class="send-btn">
@@ -19,10 +19,36 @@
 
             </form>
         </div>
+        {{ fullName }}
+        {{ mobileNumber }}
+        {{ message }}
     </div>
 </template>
 
 <script setup lang="ts">
+import axios from 'axios'
+
+const fullName = ref('')
+const mobileNumber = ref('')
+const message = ref('')
+
+const submitForm = async () => {
+   
+    try {
+        const response = await axios.post('/api/contact', {
+            fullName: fullName.value,
+            mobileNumber: mobileNumber.value,
+            message: message.value,
+        });
+        if (response.status === 200) {
+            alert('Your message has been sent successfully!');
+        } else {
+            alert('There was an error sending your message.');
+        }
+    } catch (error) {
+        alert('An error occurred: ' + error.message);
+    }
+};
 </script>
 
 <style scoped>
