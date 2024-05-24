@@ -99,6 +99,7 @@ const submitForm = async () => {
 
 .text-field:focus {
     border: 1px solid #f17540;
+    outline: none;
 }
 
 @media screen and (max-width: 830px) {
