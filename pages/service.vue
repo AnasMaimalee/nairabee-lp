@@ -150,6 +150,14 @@
     margin-top: 40px;
     object-fit: contain; /* Fit the image within the container without distorting it */
 }
+.services-main-icon img   {
+  transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+/* Enlarge breakdown services on hover */
+.services-main-icon img:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+}
 
 .service img {
     width: 40px; /* Set a specific width */
@@ -179,6 +187,17 @@
     background-color: #FAFBFF;
     padding: 25px;
     border-radius: 10px;
+}
+
+/* Add transitions to breakdown services */
+.service  {
+  transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+/* Enlarge breakdown services on hover */
+.service:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
 }
 
 .service-description :first-child {
