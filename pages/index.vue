@@ -845,7 +845,8 @@
   .home-second-right-header {
     font-size: 16px;
     font-weight: bolder;
-    width: 120%;
+    width: 150%;
+    text-align: left;
     margin-top: 13px;
   }
 
