@@ -1,8 +1,8 @@
 <template>
-        <div class="container-privacy">
-            <div class="main-content-privacy">
-                <div class="privacy-page-content">
-                    <div class="page-header-privacy">
+    <div class="container-privacy">
+        <div class="main-content-privacy">
+            <div class="privacy-page-content">
+                <div class="page-header-privacy">
                     Privacy Policy
                 </div>
                 <p>
@@ -11,28 +11,31 @@
                     information in accordance with this policy.
                 </p>
                 <p>
-                    <span class="bolder-color">Information Collection and Use</span>  <br>
+                    <span class="bolder-color">Information Collection and Use</span> <br>
                     We collect several types of information for various purposes to provide and improve our services
                     to you.
                 </p>
                 <p>
-                    <span class="bolder-color">Types of Data Collected</span> 
+                    <span class="bolder-color">Types of Data Collected</span>
                 </p>
                 <p>
-                    <span class="bolder-color">Personal Data: </span>While using our service, we may ask you to provide us with certain personally
+                    <span class="bolder-color">Personal Data: </span>While using our service, we may ask you to provide
+                    us with certain personally
                     identifiable information that can be used to contact or identify you ("Personal Data"). Personally
                     identifiable information may include, but is not limited to, your email address, name, phone
                     number, and address.
                 </p>
                 <p>
-                    <span class="bolder-color">Usage Data:</span> We may collect information about how you use our website or services ("Usage
+                    <span class="bolder-color">Usage Data:</span> We may collect information about how you use our
+                    website or services ("Usage
                     Data"). This Usage Data may include information such as your computer's Internet Protocol
                     address (e.g., IP address), browser type, browser version, the pages of our website that you visit,
                     the time and date of your visit, the time spent on those pages, unique device identifiers, and
                     other diagnostic data.
                 </p>
                 <p>
-                    <span class="bolder-color">Tracking & Cookies Data:</span> We use cookies and similar tracking technologies to track the activity
+                    <span class="bolder-color">Tracking & Cookies Data:</span> We use cookies and similar tracking
+                    technologies to track the activity
                     on our website and hold certain information. Cookies are files with a small amount of data that
                     may include an anonymous unique identifier. You can instruct your browser to refuse all cookies
                     or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be
@@ -43,20 +46,20 @@
                 </p>
                 <p>
                     <span class="bolder-color">We use the collected data for various purposes, including:</span>
-                    <ul>
-                        <li>To provide and maintain our services </li>
-                        <li>To notify you about changes to our services</li>
-                        <li>To provide customer support></li>
-                        <li>To gather analysis or valuable information so that we can improve our services</li>
-                        <li>To monitor the usage of our services</li>
-                        <li>To detect, prevent and address technical issues</li>
-                    </ul>
+                <ul>
+                    <li>To provide and maintain our services </li>
+                    <li>To notify you about changes to our services</li>
+                    <li>To provide customer support></li>
+                    <li>To gather analysis or valuable information so that we can improve our services</li>
+                    <li>To monitor the usage of our services</li>
+                    <li>To detect, prevent and address technical issues</li>
+                </ul>
                 </p>
                 <p>
                     <span class="bolder-color">Transfer of Data </span><br>
-                        Your information, including Personal Data, may be transferred to — and maintained on —
-                        computers located outside of your state, province, country, or other governmental jurisdiction
-                        where the data protection laws may differ from those of your jurisdiction.
+                    Your information, including Personal Data, may be transferred to — and maintained on —
+                    computers located outside of your state, province, country, or other governmental jurisdiction
+                    where the data protection laws may differ from those of your jurisdiction.
                 </p>
                 <p>
                     If you are located outside Nigeria and choose to provide information to us, please note that we
@@ -67,14 +70,14 @@
                     We may disclose your Personal Data in good faith belief that such action is necessary to:
                 </p>
                 <p>
-                    <ul>
-                        <li>To comply with a legal obligation</li>
-                        <li>To protect and defend the rights or property of Nairabee</li>
-                        <li>To prevent or investigate possible wrongdoing in connection with the service</li>
-                        <li>To protect the personal safety of users of the service or the public</li>
-                        <li>To protect against legal liability</li>
+                <ul>
+                    <li>To comply with a legal obligation</li>
+                    <li>To protect and defend the rights or property of Nairabee</li>
+                    <li>To prevent or investigate possible wrongdoing in connection with the service</li>
+                    <li>To protect the personal safety of users of the service or the public</li>
+                    <li>To protect against legal liability</li>
 
-                    </ul>
+                </ul>
                 </p>
                 <p>
                     <span class="bolder-color">Security of Data</span> <br>
@@ -84,7 +87,8 @@
                     absolute security.
                 </p>
                 <p>
-                    <span class="bolder-color">Your Data Protection Rights Under General Data Protection Regulation (GDPR)</span> <br>
+                    <span class="bolder-color">Your Data Protection Rights Under General Data Protection Regulation
+                        (GDPR)</span> <br>
                     If you are a resident of the European Economic Area (EEA), you have certain data protection
                     rights. Nairabee aims to take reasonable steps to allow you to correct, amend, delete, or limit the
                     use of your Personal Data.
@@ -94,13 +98,15 @@
                     removed from our systems, please contact us.
                 </p>
                 <p>
-                    <span class="bolder-color">In certain circumstances, you have the following data protection rights:</span>                    <ul>
-                        <li>The right to access, update, or delete the information we have on you.</li>
-                        <li>The right of rectification.</li>
-                        <li>The right to object</li>
-                        <li>The right of restriction.</li>
-                        <li>The right to data portability.</li>
-                    </ul>
+                    <span class="bolder-color">In certain circumstances, you have the following data protection
+                        rights:</span>
+                <ul>
+                    <li>The right to access, update, or delete the information we have on you.</li>
+                    <li>The right of rectification.</li>
+                    <li>The right to object</li>
+                    <li>The right of restriction.</li>
+                    <li>The right to data portability.</li>
+                </ul>
                 </p>
                 <p>
                     <span class="bolder-color">Service Providers</span> <br>
@@ -131,62 +137,74 @@
                 </p>
                 <p>
                     By email: <nuxt-link :to="`mailto:contact@nairabee.com`">contact@nairabee.com</nuxt-link> <br>
-                    By visiting this page on our website: <nuxt-link :to="`/contact`">www.nairabee.com/contact</nuxt-link>  <br> 
+                    By visiting this page on our website: <nuxt-link
+                        :to="`/contact`">www.nairabee.com/contact</nuxt-link> <br>
                     Last updated: 1st April, 2024
                 </p>
-                </div>
             </div>
         </div>
+    </div>
 </template>
 <script setup lang="ts">
 </script>
 <style>
-
-.container-privacy{
+.container-privacy {
     background-image: url('/Asset 22.png');
     background-size: 600px;
     background-repeat: no-repeat;
     background-position: top right;
     font-family: Montserrat;
     text-align: justify;
-    
+
 }
-.main-content-privacy{
-    width: 100%; /* Adjust the width as needed */
+
+.main-content-privacy {
+    width: 100%;
+    /* Adjust the width as needed */
     margin: 90px auto;
-   
+
 }
-.privacy-page-content{
+
+.privacy-page-content {
     width: 85%;
     margin: 20px auto;
 }
 
-.page-header-privacy{
+.page-header-privacy {
     font-weight: bolder;
     font-size: 35px;
 }
-p{
+
+p {
     font-size: 20px;
     word-spacing: 8x;
 }
-.bolder-color{
+
+.bolder-color {
     color: #f17540;
     font-weight: bolder;
 }
 
 @media screen and (max-width:830px) {
-    .container-privacy{
+    .container-privacy {
         background-size: 150px;
     }
-    .main-content-privacy{
+
+    .main-content-privacy {
         margin-top: 10px;
+        margin: 55px auto;
+
     }
 
-   .page-header-privacy{
-    font-size: 15px;
-   }
-   p{
-    font-size: 9px;
-   }
+    .page-header-privacy {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 9px;
+    }
+    li{
+        font-size: 10px;
+    }
 }
 </style>
