@@ -153,11 +153,11 @@
 }
 .main-content-privacy{
     width: 100%; /* Adjust the width as needed */
-    margin: 70px auto;
+    margin: 90px auto;
    
 }
 .privacy-page-content{
-    width: 82%;
+    width: 85%;
     margin: 20px auto;
 }
 
