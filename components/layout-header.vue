@@ -16,8 +16,8 @@
           </div>
           <div class="right-nav">
             <ul>
-              <li><nuxt-link to="/login" class="nav-link">Sign In</nuxt-link></li>
-              <li><nuxt-link to="/register" class="nav-link">Get Started</nuxt-link></li>
+              <li><nuxt-link to="/" class="nav-link">Sign In</nuxt-link></li>
+              <li><nuxt-link to="/" class="nav-link">Get Started</nuxt-link></li>
             </ul>
           </div>
         </div>
