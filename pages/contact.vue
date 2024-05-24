@@ -98,7 +98,7 @@ const submitForm = async () => {
 }
 
 .text-field:focus {
-    border: 1px solid #f17540;
+    border: 2px solid #f17540;
     outline: none;
 }
 
