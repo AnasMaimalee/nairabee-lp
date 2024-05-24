@@ -178,6 +178,7 @@ onMounted(() => {
   opacity: 0; /* Start with the image hidden */
 }
 
+
 .team-members img:hover {
   transform: scale(1.1); /* Scale up on hover */
 }
@@ -188,7 +189,10 @@ onMounted(() => {
 
 
 .member-name{
-  margin-top: 8px;
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: bold;
+  color: #f17540
 }
 
 @media screen and (max-width: 874px) {

@@ -1,8 +1,5 @@
 <template>
     <div class="footer-page-container">
-        <div class="back-top" @click="scrollTop">
-            Back to top
-        </div>
 
         <div class="footer-content">
             <div class="footer-first">

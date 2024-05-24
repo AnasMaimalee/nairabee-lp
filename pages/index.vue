@@ -284,7 +284,7 @@
           What Our Customers Say
         </div>
         <div class="review-content">
-          <div>
+          <div class="review">
             <div>
               Kind Of its type
             </div>
@@ -302,7 +302,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="review">
             <div>
               Exceptional Quality
 
@@ -322,7 +322,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="review">
             <div>
               Unmatched Convenience
             </div>
@@ -409,7 +409,7 @@
   width: 75%;
   margin-top: 15px;
   font-size: 18px;
-  text-align: justify;
+  text-align: left;
 }
 
 .services-main {
@@ -419,6 +419,16 @@
 #services-main {
   margin: 30px auto;
   width: 100%;
+}
+
+/* Add transitions to breakdown services */
+#services-main, #main-right-top-img {
+  transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+/* Enlarge breakdown services on hover */
+#services-main:hover, #main-right-top-img:hover {
+  transform: scale(1.1); /* Increase scale on hover */
 }
 
 #main-right-top {
@@ -450,6 +460,7 @@
   width: 60%;
 }
 
+
 .home-right-second {
   width: 55%;
 }
@@ -458,6 +469,15 @@
   width: 60%;
 }
 
+/* Add transitions to breakdown services */
+#home-img-second {
+  transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+/* Enlarge breakdown services on hover */
+#home-img-second:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+}
 
 
 .second-right {
@@ -507,7 +527,15 @@
   align-items: center;
   border-radius: 10px;
 }
+/* Add transitions to review divs */
+.second  {
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Add transition for smooth effect */
+}
 
+/* Enlarge review divs on hover */
+.second:hover {
+  transform: scale(1.2); /* Increase scale on hover */
+}
 .last {
   width: 75%;
 }
@@ -570,6 +598,21 @@
   display: block;
 }
 
+/* Add transitions to breakdown services */
+.first-chose-us,
+.second-chose-us,
+.third-chose-us  {
+  transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+/* Enlarge breakdown services on hover */
+.first-chose-us:hover,
+.second-chose-us:hover,
+.third-chose-us:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
 .second-chose-us {
   background-color: #001130;
   color: white;
@@ -579,6 +622,19 @@
   font-size: 12px;
   text-align: center;
 }
+
+/* Add transitions to images */
+.second-right img,
+.review-bottom img {
+  transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+/* Enlarge images on hover */
+.second-right img:hover,
+.review-bottom img:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+}
+
 
 /* more to our services  */
 
@@ -629,11 +685,22 @@
   margin: 10px;
   padding: 20px;
   border-radius: 10px;
+  transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+/* Add transitions to breakdown services */
+.breakdown-of-our-services div {
+  transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
 }
 
+/* Enlarge breakdown services on hover */
+.breakdown-of-our-services div:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
 
 .breakdown :first-child {
   font-size: 30px;
+  font-weight: bold;
 }
 
 /* customer review  */
@@ -670,6 +737,19 @@
   text-align: justify
 
  }
+
+
+/* Add transitions to review divs */
+.review  {
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Add transition for smooth effect */
+}
+
+/* Enlarge review divs on hover */
+.review:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
 
  .review-content div :first-child{
   font-weight: bolder;

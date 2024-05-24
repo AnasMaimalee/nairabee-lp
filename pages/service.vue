@@ -145,7 +145,7 @@
 }
 
 .services-main-icon img {
-    max-width: 45%; /* Ensure images don't exceed their container's width */
+    max-width: 40%; /* Ensure images don't exceed their container's width */
     height: auto; /* Maintain aspect ratio */
     margin-top: 40px;
     object-fit: contain; /* Fit the image within the container without distorting it */
