@@ -123,7 +123,6 @@
             Why Choose Us
           </div>
           <div class="why-choose-us-body">
-
             <div class="first-chose-us">
               <p>Convenience</p>
               <p> Nairabee offers a seamless and convenient solution for accessing essential services such as airtime,
@@ -138,7 +137,6 @@
                 securely, giving them peace of mind in their everyday transactions.
               </p>
             </div>
-
             <div class="third-chose-us">
               <p>Accessibility</p>
               <p> Nairabee's user-friendly interface and accessible services make it easy for customers of all
@@ -146,10 +144,6 @@
                 Nairabee ensures accessibility for all, fostering inclusivity and broadening its customer base.
                 Certainly!</p>
             </div>
-
-            
-
-
           </div>
         </div>
       </div>
@@ -343,6 +337,40 @@
           </div>
         </div>
       </div>
+
+
+      <div class="choose">
+        <div class="header-part">
+          <div class="text-center">
+            Why Choose Us
+          </div>
+          <div class="chose-body">
+            <div class="chose-us">
+              <p>Convenience</p>
+              <p> Nairabee offers a seamless and convenient solution for accessing essential services such as airtime,
+                data bundles, TV subscriptions, and electricity payments all in one place. This saves customers valuable
+                time and effort by eliminating the need to visit multiple platforms or physical locations.
+              </p>
+            </div>
+            <div class="chose-us">
+              <p>Reliability</p>
+              <p> Nairabee's commitment to providing standard services ensures reliability and consistency for its
+                customers. With Nairabee, customers can trust that their transactions will be processed efficiently and
+                securely, giving them peace of mind in their everyday transactions.
+              </p>
+            </div>
+            <div class="chose-us">
+              <p>Accessibility</p>
+              <p> Nairabee's user-friendly interface and accessible services make it easy for customers of all
+                backgrounds to navigate and utilize its platform. Whether accessing services via the web or mobile app,
+                Nairabee ensures accessibility for all, fostering inclusivity and broadening its customer base.
+                Certainly!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </template>
@@ -357,6 +385,46 @@
   font-family: Montserrat;
 
 }
+.chose-body{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  margin: 50px auto;
+  gap: 16px
+  
+}
+.chose-us{
+  /* border: 1px solid #f17540; */
+  padding: 15px;
+  text-align: center;
+  height: 320px;
+  overflow: hidden;
+  position: relative;
+  transition: color 1s;
+}
+.chose-us:hover{
+  color: white;
+  
+}
+.chose-us::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 0;
+  height: 100%;
+  background-color: #f17540;
+  transform: skewY(5deg);
+  font-weight: bold;
+  z-index: -1;
+  transition: width 1s;
+}
+
+.chose-us:hover::before{
+  width:150%;
+}
+
 
 .main {
   display: grid;
