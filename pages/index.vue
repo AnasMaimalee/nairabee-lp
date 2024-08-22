@@ -28,7 +28,6 @@
           </div>
         </div>
       </div>
-
       <!-- second part  -->
       <div class="home-second-part">
         <div class="home-second-part-content">

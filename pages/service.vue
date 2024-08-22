@@ -203,6 +203,7 @@
               </div>
             </div>
           </div>
+          <a href="/" class="getstarted-button">Get Started</a>
         </div>
       </div>
     </div>
@@ -227,7 +228,6 @@
   max-height: 40px;
   margin-bottom: 40px;
   margin-top: 40px;
-
 }
 .services-main {
   margin-top: 40px;
@@ -238,12 +238,12 @@
   height: 100%;
 }
 
-.service-description{
-    height: 100%;
-    padding: 30px;
-    overflow: hidden;
-    position: relative;
-    transition: color 1s;
+.service-description {
+  height: 100%;
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+  transition: color 1s;
 }
 
 .service-description :first-child {
@@ -253,30 +253,29 @@
 }
 
 .service-description :first-child:hover {
-    color: white;
-  
+  color: white;
 }
 
-.service-description:hover{
-    color: white;
+.service-description:hover {
+  color: white;
 }
 
-.service-description::before{
-    content: '';
-    position: absolute;
-    top:0;
-    left: -76px;
-    width: 0;
-    height: 100%;
-    background-color: #f17540;
-    transform: skewX(35deg);
-    font-weight: bolder;
-    z-index: -1;
-    transition:  width 1s;
+.service-description::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -46px;
+  width: 0;
+  height: 100%;
+  background-color: #f17540;
+  transform: skewX(35deg);
+  font-weight: bolder;
+  z-index: -1;
+  transition: width 1s;
 }
 
-.service-description:hover::before{
-    width: 150%;
+.service-description:hover::before {
+  width: 160%;
 }
 .services-main-icon {
   display: flex;
@@ -320,7 +319,6 @@
   align-items: center;
   text-align: center;
   box-shadow: 0 0px 9px rgba(0, 0, 0, 0.1);
-
 }
 
 /* Add transitions to breakdown services */
@@ -329,10 +327,39 @@
 }
 
 /* Enlarge breakdown services on hover */
-.service:hover {
+.getstarted-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f17540;
+  outline: 2px solid #f17540;
+  padding: 20px 30px;
+  position: relative;
+  overflow: hidden;
+  transition: color 1s;
 }
 
+.getstarted-button:hover {
+  color: white;
+}
 
+.getstarted-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -76px;
+  width: 0;
+  height: 100%;
+  background-color: #f17540;
+  transform: skewX(35deg);
+  font-weight: bolder;
+  z-index: -1;
+  transition: width 1s;
+}
+
+.getstarted-button:hover::before {
+  width: 150%;
+}
 
 @media screen and (max-width: 873px) {
   .container-services {
