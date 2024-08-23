@@ -2,9 +2,8 @@
   <div>
     <div class="container-services">
       <div class="services-main">
-        <div class="services-main-icon">
-          <img src="/Asset 41.png" alt="" />
-          <img src="/Asset 2.png" alt="" />
+        <div class="servies-header">
+          Our Services
         </div>
         <div class="services-list">
           <div class="service">
@@ -136,75 +135,14 @@
             </div>
           </div>
 
-          <div class="service">
-            <div class="service-container">
-              <img src="/Asset 35.png" class="data-bundle" alt="" />
-            </div>
-            <div class="service-description">
-              <div>NECO PIN</div>
-              <div>
-                Users can conveniently pay their electricity bills through our
-                platform. We partner with utility providers to offer a seamless
-                billing and payment experience. Users can easily check their
-                electricity consumption, receive bill notifications, and make
-                payments securely, helping them manage their energy usage
-                efficiently.
-              </div>
-            </div>
-          </div>
-
-          <div class="service">
-            <div class="service-container">
-              <img src="/Asset 35.png" class="data-bundle" alt="" />
-            </div>
-            <div class="service-description">
-              <div>Change of Name</div>
-              <div>
-                Users can conveniently pay their electricity bills through our
-                platform. We partner with utility providers to offer a seamless
-                billing and payment experience. Users can easily check their
-                electricity consumption, receive bill notifications, and make
-                payments securely, helping them manage their energy usage
-                efficiently.
-              </div>
-            </div>
-          </div>
-
-          <div class="service">
-            <div class="service-container">
-              <img src="/Asset 35.png" class="data-bundle" alt="" />
-            </div>
-            <div class="service-description">
-              <div>Cable Subscription</div>
-              <div>
-                Users can conveniently pay their electricity bills through our
-                platform. We partner with utility providers to offer a seamless
-                billing and payment experience. Users can easily check their
-                electricity consumption, receive bill notifications, and make
-                payments securely, helping them manage their energy usage
-                efficiently.
-              </div>
-            </div>
-          </div>
-
-          <div class="service">
-            <div class="service-container">
-              <img src="/Asset 35.png" class="data-bundle" alt="" />
-            </div>
-            <div class="service-description">
-              <div>NECO PIN</div>
-              <div>
-                Users can conveniently pay their electricity bills through our
-                platform. We partner with utility providers to offer a seamless
-                billing and payment experience. Users can easily check their
-                electricity consumption, receive bill notifications, and make
-                payments securely, helping them manage their energy usage
-                efficiently.
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
+     <div class="view-more">
+      <a href="/service" class="more-services">
+            more services
+          </a>
+     </div>
     </div>
   </div>
 </template>
@@ -217,11 +155,67 @@
   justify-content: center;
   align-content: center;
   margin: 50px auto;
-  background-image: url("/Asset 22.png");
   background-size: 400px;
   background-repeat: no-repeat;
   background-position: top right;
 }
+.servies-header{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px auto;
+}
+.view-more{
+  margin: 10px 50px;
+}
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
+  gap: 50px; /* Space between the services */
+  width: 85%;
+  margin: 40px auto;
+}
+.more-services{
+  display: flex;
+  justify-content: end;
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+  transition: color 1s;
+  color: #f17540;
+  margin-right: 70px;
+}
+
+/* .more-services{
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+  transition: color 1s;
+  color: #f17540;
+  border: 1px solid  #f17540;
+}
+.more-services:hover{
+  color: white;
+}
+
+.more-services::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -46px;
+  width: 0;
+  height: 100%;
+  background-color: #f17540;
+  transform: skewX(35deg);
+  font-weight: bolder;
+  z-index: -1;
+  transition: width 1s;
+}
+
+.more-services:hover::before{
+  width: 160%;
+} */
 .service-container {
   max-width: 40px;
   max-height: 40px;
@@ -370,6 +364,10 @@
     width: 85%;
     margin: 20px auto;
   }
+  .more-services{
+    margin-right: -25px;
+    margin-top: -20px;
+  }
   .services-list {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -409,4 +407,17 @@
     font-size: 14px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .services-list {
+    grid-template-columns: repeat(2, 1fr); /* Display 2 services per row on medium screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services-list {
+    grid-template-columns: repeat(1, 1fr); /* Display 1 service per row on small screens */
+  }
+}
+
+
 </style>

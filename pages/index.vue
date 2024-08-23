@@ -161,6 +161,8 @@
           </div>
         </div>
       </div>
+      <!-- services  -->
+       <Services />
 
       <div class="choose">
         <div class="header-part">
