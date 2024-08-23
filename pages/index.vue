@@ -4,244 +4,133 @@
       <div class="main">
         <div class="main-body">
           <div class="main-body-content">
-
-            <div class="cosmos">
-              Enter The Financial Cosmos With
-            </div>
+            <div class="cosmos">Enter The Financial Cosmos With</div>
 
             <div class="nairabee-main">
-              <img src="/Asset 6.png" alt="" id="nairabee-main-logo">
+              <img src="/Asset 6.png" alt="" id="nairabee-main-logo" />
             </div>
             <div class="revolize">
-              Revolutionize your finances with Nairabee,
-              the cutting-edge fintech app that simplifies
-              wealth management
+              Revolutionize your finances with Nairabee, the cutting-edge
+              fintech app that simplifies wealth management
             </div>
             <div class="services-main">
-              <img src="/Asset 5.png" alt="" id="services-main">
+              <img src="/Asset 5.png" alt="" id="services-main" />
             </div>
             <div class="spacer"></div>
           </div>
 
           <div class="main-right-top">
-            <img src="/Asset 2.png" alt="" id="main-right-top-img">
+            <img src="/Asset 2.png" alt="" id="main-right-top-img" />
           </div>
         </div>
       </div>
       <!-- second part  -->
       <div class="home-second-part">
         <div class="home-second-part-content">
-
           <div class="home-img-second">
-            <img src="/Asset 7.png" alt="" id="home-img-second">
+            <img src="/Asset 7.png" alt="" id="home-img-second" />
           </div>
 
           <div class="home-right-second">
             <div class="home-second-right-header">
-              Take <span class="control">
-                Control of Everything
-              </span>
+              Take <span class="control"> Control of Everything </span>
               in Your Hands.
             </div>
 
             <div class="home-second-right-body">
               Nairabee is your one-stop platform for all your essential
-              services. From purchasing airtime and data bundles to
-              subscribing to TV services and paying electricity bills,
-              Nairabee simplifies your life by offering convenient access
-              to all these services in one place. With Nairabee,
-              managing your everyday needs has been easier.
+              services. From purchasing airtime and data bundles to subscribing
+              to TV services and paying electricity bills, Nairabee simplifies
+              your life by offering convenient access to all these services in
+              one place. With Nairabee, managing your everyday needs has been
+              easier.
             </div>
 
             <div class="second-right-activity">
               <div class="second-right">
                 <div class="second">
-                  <img src="/Asset 44.png" alt="" id="second-right-activity-img">
+                  <img
+                    src="/Asset 44.png"
+                    alt=""
+                    id="second-right-activity-img"
+                  />
                 </div>
                 <div class="last">
-                  This service allows users to purchase credit for their mobile phones
-                  , enabling them to make calls, send SMS, and use data. We ensure swift
-                  and reliable airtime top-up options, offering various denominations to
-                  cater to different user needs.
+                  This service allows users to purchase credit for their mobile
+                  phones , enabling them to make calls, send SMS, and use data.
+                  We ensure swift and reliable airtime top-up options, offering
+                  various denominations to cater to different user needs.
                 </div>
               </div>
 
               <div class="second-right">
                 <div class="second">
-                  <img src="/Asset 45.png" alt="" id="second-right-activity-img">
+                  <img
+                    src="/Asset 45.png"
+                    alt=""
+                    id="second-right-activity-img"
+                  />
                 </div>
                 <div class="last">
-                  Users can purchase data bundles to access the internet on their mobile
-                  devices. We provide a range of data packages, from small to large, suitable
-                  for different usage patterns. Our platform ensures seamless activation and
-                  prompt delivery of data bundles.
+                  Users can purchase data bundles to access the internet on
+                  their mobile devices. We provide a range of data packages,
+                  from small to large, suitable for different usage patterns.
+                  Our platform ensures seamless activation and prompt delivery
+                  of data bundles.
                 </div>
               </div>
 
               <div class="second-right">
                 <div class="second">
-                  <img src="/Asset 46.png" alt="" id="second-right-activity-img">
+                  <img
+                    src="/Asset 46.png"
+                    alt=""
+                    id="second-right-activity-img"
+                  />
                 </div>
                 <div class="last">
-                  With this service, users can subscribe
-                  to various television channels or streaming
-                  services. We offer a diverse selection of
-                  subscription options, including both local
-                  and international channels, catering to different
-                  entertainment preferences. Our platform ensures
-                  hassle-free subscription management and timely
-                  renewal reminders.
+                  With this service, users can subscribe to various television
+                  channels or streaming services. We offer a diverse selection
+                  of subscription options, including both local and
+                  international channels, catering to different entertainment
+                  preferences. Our platform ensures hassle-free subscription
+                  management and timely renewal reminders.
                 </div>
               </div>
 
               <div class="second-right">
                 <div class="second">
-                  <img src="/Asset 47.png" alt="" id="second-right-activity-img">
+                  <img
+                    src="/Asset 47.png"
+                    alt=""
+                    id="second-right-activity-img"
+                  />
                 </div>
                 <div class="last">
-                  This service enables users to check their exam results online. We collaborate with
-                  educational institutions and examination boards to provide a secure and efficient
-                  result checking process. Users can access their results quickly and conveniently
-                  through our platform, with appropriate privacy measures in place.
+                  This service enables users to check their exam results online.
+                  We collaborate with educational institutions and examination
+                  boards to provide a secure and efficient result checking
+                  process. Users can access their results quickly and
+                  conveniently through our platform, with appropriate privacy
+                  measures in place.
                 </div>
               </div>
-
-            </div>
-
-          </div>
-
-
-        </div>
-      </div>
-
-      <!-- why choose us  -->
-
-      <div class="choose-us-part">
-        <div class="header-part">
-          <div class="text-center">
-            Why Choose Us
-          </div>
-          <div class="why-choose-us-body">
-            <div class="first-chose-us">
-              <p>Convenience</p>
-              <p> Nairabee offers a seamless and convenient solution for accessing essential services such as airtime,
-                data bundles, TV subscriptions, and electricity payments all in one place. This saves customers valuable
-                time and effort by eliminating the need to visit multiple platforms or physical locations.
-              </p>
-            </div>
-            <div class="second-chose-us">
-              <p>Reliability</p>
-              <p> Nairabee's commitment to providing standard services ensures reliability and consistency for its
-                customers. With Nairabee, customers can trust that their transactions will be processed efficiently and
-                securely, giving them peace of mind in their everyday transactions.
-              </p>
-            </div>
-            <div class="third-chose-us">
-              <p>Accessibility</p>
-              <p> Nairabee's user-friendly interface and accessible services make it easy for customers of all
-                backgrounds to navigate and utilize its platform. Whether accessing services via the web or mobile app,
-                Nairabee ensures accessibility for all, fostering inclusivity and broadening its customer base.
-                Certainly!</p>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- mobile why choose us  -->
-      <div>
-        <div class="mobile-choose-us">
-          <a-carousel arrows dotStyle="{ color: '#f17540' }">
-            <template #prevArrow>
-              <div class="custom-slick-arrow" style="left: 10px; z-index: 1">
-                <LeftCircleOutlined />``
-              </div>
-            </template>
-            <template #nextArrow>
-              <div class="custom-slick-arrow" style="right: 10px">
-                <RightCircleOutlined />
-              </div>
-            </template>
-
-            <div>
-              <span class="crosal-header">Convenience</span> <br> <br>
-              Nairabee offers a seamless and convenient solution for accessing essential services such as airtime, data
-              bundles, TV
-              subscriptions, and electricity payments all in one place. This saves customers valuable time and effort by
-              eliminating
-              the need to visit multiple platforms or physical locations.
-            </div>
-            <div>
-              <span class="crosal-header">Accessibility</span> <br> <br>
-              Nairabee's user-friendly interface and accessible services make it easy for customers of all backgrounds
-              to
-              navigate
-              and utilize its platform. Whether accessing services via the web or mobile app, Nairabee ensures
-              accessibility for
-              all, fostering inclusivity and broadening its customer base.
-              Certainly!
-            </div>
-
-            <div>
-              <span class="crosal-header">Reliability</span> <br> <br>
-              Nairabee's commitment to providing standard services ensures reliability and consistency for its
-              customers.
-              With
-              Nairabee, customers can trust that their transactions will be processed efficiently and securely, giving
-              them peace of
-              mind in their everyday transactions.
-
-            </div>
-
-            <div>
-              <span class="crosal-header">Efficiency</span> <br> <br>
-              Nairabee stands out for its efficient service delivery, ensuring swift transactions and instant recharges
-              for airtime,
-              data bundles, TV subscriptions, and electricity payments. Its streamlined processes minimize wait times,
-              providing
-              users with immediate access to their essentials.
-
-            </div>
-
-            <div>
-              <span class="crosal-header">Cost-Effectiveness</span> <br> <br>
-              Nairabee offers competitive pricing and value-added services, making it a cost-effective solution for
-              managing
-              everyday expenses. Customers can enjoy discounts, promotions, and rewards, maximizing their savings while
-              accessing
-              essential services hassle-free.
-            </div>
-
-            <div>
-              <span class="crosal-header">Versatility</span> <br> <br>
-              Nairabee's versatility lies in its ability to cater to diverse needs, offering a wide range of services
-              including
-              airtime, data bundles, TV subscriptions, and electricity payments. This comprehensive approach ensures
-              that
-              users can
-              conveniently access multiple essential services from a single platform, making Nairabee the go-to choice
-              for
-              all their
-              requirements.
-
-            </div>
-          </a-carousel>
-        </div>
-      </div>
-
+      
       <!-- breakdown of servcies  -->
       <div class="more-about-our-services">
         <div class="more-about-our-services-header">
-          <div>
-            A little information for our valuable guest
-          </div>
-          <div class="little-info">In a realm where convenience reigns supreme, we redefine service provision. Our offerings—airtime, data
-            bundles, and TV subscriptions Exam results, Electricity bills—are curated experiences, not mere
-            transactions. As
-            we expand our digital
-            portfolio,
-            we're committed to delivering more essential e-services. Each interaction leaves you not just satisfied, but
-            truly
-            fulfilled.
+          <div>A little information for our valuable guest</div>
+          <div class="little-info">
+            In a realm where convenience reigns supreme, we redefine service
+            provision. Our offerings—airtime, data bundles, and TV subscriptions
+            Exam results, Electricity bills—are curated experiences, not mere
+            transactions. As we expand our digital portfolio, we're committed to
+            delivering more essential e-services. Each interaction leaves you
+            not just satisfied, but truly fulfilled.
           </div>
         </div>
 
@@ -275,139 +164,132 @@
       <!-- customer review -->
 
       <div class="customer-review">
-        <div class="review-header">
-          What Our Customers Say
-        </div>
+        <div class="review-header">What Our Customers Say</div>
         <div class="review-content">
           <div class="review">
+            <div>Kind Of its type</div>
             <div>
-              Kind Of its type
-            </div>
-            <div>
-              "I can confidently say that Nairabee is the best of its type when it comes to e-services. Their airtime,
-              data
-              bundles, and TV subscription offerings are unparalleled. The platform's ease of use, combined with its
-              lightning-fast transactions, sets it apart from the rest. Nairabee has truly raised the bar in providing
-              top-notch
-              digital services. Highly recommended!"
+              "I can confidently say that Nairabee is the best of its type when
+              it comes to e-services. Their airtime, data bundles, and TV
+              subscription offerings are unparalleled. The platform's ease of
+              use, combined with its lightning-fast transactions, sets it apart
+              from the rest. Nairabee has truly raised the bar in providing
+              top-notch digital services. Highly recommended!"
             </div>
             <div class="review-bottom">
-                <img src="/Asset 23.png" alt="">
-                <span id="review-text">Faruk Hussain</span>
+              <img src="/Asset 23.png" alt="" />
+              <span id="review-text">Faruk Hussain</span>
             </div>
           </div>
 
           <div class="review">
+            <div>Exceptional Quality</div>
             <div>
-              Exceptional Quality
-
-            </div>
-            <div>
-              "Nairabee exceeds expectations in every aspect. Their airtime, data bundle, and TV subscription services
-              are
-              simply exceptional. The convenience of their platform, coupled with the reliability of their transactions,
-              makes
-              them stand out from the competition. If you're looking for the best-in-class e-services, look no further
-              than
-              Nairabee."
+              "Nairabee exceeds expectations in every aspect. Their airtime,
+              data bundle, and TV subscription services are simply exceptional.
+              The convenience of their platform, coupled with the reliability of
+              their transactions, makes them stand out from the competition. If
+              you're looking for the best-in-class e-services, look no further
+              than Nairabee."
             </div>
             <div class="review-bottom">
-                <img src="/Asset 23.png" alt="" >
-                <span id="review-text">Haidar Hussain</span>
+              <img src="/Asset 23.png" alt="" />
+              <span id="review-text">Haidar Hussain</span>
             </div>
           </div>
 
           <div class="review">
+            <div>Unmatched Convenience</div>
             <div>
-              Unmatched Convenience
-            </div>
-            <div>
-              "Nairabee offers unmatched convenience when it comes to e-services. From airtime top-ups to data bundles
-              and TV
-              subscriptions, everything is seamlessly integrated into their platform. The hassle-free experience and
-              prompt
-              service make Nairabee my go-to choice for all my digital needs. I couldn't ask for a better service
-              provider!"
+              "Nairabee offers unmatched convenience when it comes to
+              e-services. From airtime top-ups to data bundles and TV
+              subscriptions, everything is seamlessly integrated into their
+              platform. The hassle-free experience and prompt service make
+              Nairabee my go-to choice for all my digital needs. I couldn't ask
+              for a better service provider!"
             </div>
             <div class="review-bottom">
-                <img src="/Asset 23.png" alt="">
-                <span id="review-text">Ibrahim G Musa</span>
+              <img src="/Asset 23.png" alt="" />
+              <span id="review-text">Ibrahim G Musa</span>
             </div>
           </div>
         </div>
       </div>
 
-
       <div class="choose">
         <div class="header-part">
-          <div class="text-center">
-            Why Choose Us
-          </div>
+          <div class="text-center">Why Choose Us</div>
           <div class="chose-body">
             <div class="chose-us">
               <p>Convenience</p>
-              <p> Nairabee offers a seamless and convenient solution for accessing essential services such as airtime,
-                data bundles, TV subscriptions, and electricity payments all in one place. This saves customers valuable
-                time and effort by eliminating the need to visit multiple platforms or physical locations.
+              <p>
+                Nairabee offers a seamless and convenient solution for accessing
+                essential services such as airtime, data bundles, TV
+                subscriptions, and electricity payments all in one place. This
+                saves customers valuable time and effort by eliminating the need
+                to visit multiple platforms or physical locations.
               </p>
             </div>
             <div class="chose-us">
               <p>Reliability</p>
-              <p> Nairabee's commitment to providing standard services ensures reliability and consistency for its
-                customers. With Nairabee, customers can trust that their transactions will be processed efficiently and
-                securely, giving them peace of mind in their everyday transactions.
+              <p>
+                Nairabee's commitment to providing standard services ensures
+                reliability and consistency for its customers. With Nairabee,
+                customers can trust that their transactions will be processed
+                efficiently and securely, giving them peace of mind in their
+                everyday transactions.
               </p>
             </div>
             <div class="chose-us">
               <p>Accessibility</p>
-              <p> Nairabee's user-friendly interface and accessible services make it easy for customers of all
-                backgrounds to navigate and utilize its platform. Whether accessing services via the web or mobile app,
-                Nairabee ensures accessibility for all, fostering inclusivity and broadening its customer base.
-                Certainly!</p>
+              <p>
+                Nairabee's user-friendly interface and accessible services make
+                it easy for customers of all backgrounds to navigate and utilize
+                its platform. Whether accessing services via the web or mobile
+                app, Nairabee ensures accessibility for all, fostering
+                inclusivity and broadening its customer base. Certainly!
+              </p>
             </div>
           </div>
         </div>
       </div>
-
-
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-
 </script>
 
 <style scoped>
 .body-index {
   /* height: 1200px; */
   font-family: Montserrat;
-
 }
-.chose-body{
+.chose-body {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 85%;
   margin: 50px auto;
-  gap: 16px
-  
+  gap: 16px;
 }
-.chose-us{
-  /* border: 1px solid #f17540; */
+.choose {
+  padding: 10px;
+}
+.chose-us {
   padding: 15px;
   text-align: center;
   height: 320px;
   overflow: hidden;
   position: relative;
   transition: color 1s;
+  background-color: transparent; /* Ensure the background is transparent to allow red to show */
 }
-.chose-us:hover{
+.chose-us:hover {
   color: white;
-  
 }
-.chose-us::before{
-  content: '';
+.chose-us::before {
+  content: "";
   position: absolute;
   top: 0;
   left: -50px;
@@ -420,15 +302,14 @@
   transition: width 1s;
 }
 
-.chose-us:hover::before{
-  width:150%;
+.chose-us:hover::before {
+  width: 150%;
 }
-
 
 .main {
   display: grid;
   justify-content: space-around;
-  background-image: url('/Asset 3.png');
+  background-image: url("/Asset 3.png");
   background-size: 350px;
   /* Adjust background size as needed */
   background-repeat: no-repeat;
@@ -445,8 +326,6 @@
   margin: 100px auto;
   max-width: 100%;
 }
-
-
 
 .main-body-content .cosmos {
   font-size: 30px;
@@ -491,12 +370,14 @@
 }
 
 /* Add transitions to breakdown services */
-#services-main, #main-right-top-img {
+#services-main,
+#main-right-top-img {
   transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
 }
 
 /* Enlarge breakdown services on hover */
-#services-main:hover, #main-right-top-img:hover {
+#services-main:hover,
+#main-right-top-img:hover {
   transform: scale(1.1); /* Increase scale on hover */
 }
 
@@ -507,14 +388,12 @@
 #main-right-top-img {
   width: 90%;
   max-width: 120%;
-
 }
 
 /* second part  */
 .home-second-part {
   width: 85%;
   margin: 0px auto;
-
 }
 
 .home-second-part-content {
@@ -528,7 +407,6 @@
 .home-img-second {
   width: 60%;
 }
-
 
 .home-right-second {
   width: 55%;
@@ -547,7 +425,6 @@
 #home-img-second:hover {
   transform: scale(1.1); /* Increase scale on hover */
 }
-
 
 .second-right {
   display: flex;
@@ -589,7 +466,7 @@
 
 .second {
   width: 20%;
-  background-color: #FAFBFF;
+  background-color: #fafbff;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -597,7 +474,7 @@
   border-radius: 10px;
 }
 /* Add transitions to review divs */
-.second  {
+.second {
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Add transition for smooth effect */
 }
 
@@ -608,7 +485,6 @@
 .last {
   width: 75%;
 }
-
 
 /* why  */
 .mobile-choose-us {
@@ -631,7 +507,6 @@
   background-repeat: no-repeat;
   background-position-x: center center;
   width: 100%;
-
 }
 
 .why-choose-us-body {
@@ -640,7 +515,7 @@
   align-items: center;
   width: 85%;
   margin: 50px auto;
-  gap: 16px
+  gap: 16px;
 }
 
 .why-choose-us-body p {
@@ -658,7 +533,6 @@
   /* Adjust the values as needed */
 }
 
-
 .first-chose-us :first-child,
 .second-chose-us :first-child,
 .third-chose-us :first-child {
@@ -670,7 +544,7 @@
 /* Add transitions to breakdown services */
 .first-chose-us,
 .second-chose-us,
-.third-chose-us  {
+.third-chose-us {
   transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
 }
 
@@ -687,7 +561,7 @@
   color: white;
 }
 
-.little-info{
+.little-info {
   font-size: 12px;
   text-align: center;
 }
@@ -704,15 +578,14 @@
   transform: scale(1.1); /* Increase scale on hover */
 }
 
-
 /* more to our services  */
 
 .more-about-our-services {
   font-family: Montserrat;
   margin: auto;
-  background-color: #FAFBFF;
+  background-color: #fafbff;
   padding-top: 10px;
-  padding-bottom: 10px 
+  padding-bottom: 10px;
 }
 
 .more-about-our-services-header {
@@ -783,12 +656,12 @@
   /* box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.5), -2px 0px 2px 0px rgba(0, 0, 0, 0.5); */
 }
 
-.review-header{
+.review-header {
   text-align: center;
   font-size: 30px;
   margin-bottom: 15px;
 }
-.review-content{
+.review-content {
   width: 100%;
   display: flex;
   /* margin: 20px auto; */
@@ -797,19 +670,17 @@
   text-align: justify;
   align-content: center;
 }
- .review-content div{
+.review-content div {
   width: 90%;
   margin: 5px;
-  background-color: #FAFBFF;
+  background-color: #fafbff;
   border-radius: 10px;
   padding: 5px;
-  text-align: justify
-
- }
-
+  text-align: justify;
+}
 
 /* Add transitions to review divs */
-.review  {
+.review {
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Add transition for smooth effect */
 }
 
@@ -819,40 +690,38 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
 }
 
-
- .review-content div :first-child{
+.review-content div :first-child {
   font-weight: bolder;
   margin-bottom: 10px;
   font-style: italic;
- }
- .review-bottom{
+}
+.review-bottom {
   display: flex;
   justify-content: flex-start;
   text-align: center;
-  align-content:center ;
+  align-content: center;
   align-items: center;
 }
 
-.review-bottom img{
+.review-bottom img {
   border-radius: 50%;
 }
-#review-text{
+#review-text {
   margin-top: -10px;
 }
- .review-bottom :last-child{
+.review-bottom :last-child {
   /* display: grid; */
- }
- .review-content div img{
+}
+.review-content div img {
   width: 25px;
   margin-right: 10px;
- }
+}
 @media screen and (max-width: 830px) {
   .main {
-    background-image: url('/Asset 3.png');
+    background-image: url("/Asset 3.png");
     background-size: 174px;
     width: 100%;
     font-family: Montserrat;
-
   }
 
   .main-body {
@@ -871,13 +740,11 @@
   .main-body-content :first-child {
     font-size: 16px;
     line-height: 10px;
-
   }
 
   #nairabee-main-logo {
     width: 100px;
   }
-
 
   .nairabee-main {
     margin-top: 5px;
@@ -955,7 +822,6 @@
   .why-choose-us-body {
     width: 85%;
     display: none;
-
   }
 
   .text-center {
@@ -973,13 +839,20 @@
     display: grid;
   }
 
+  .chose-body {
+    display: block;
+  }
+  .chose-us{
+    height: 100px;
+    margin-top: 20px;
+  }
   /* .why-choose-us-body  */
   /* Show mobile version */
   .mobile-choose-us {
     display: block;
     margin-top: 20px;
     width: 85%;
-    background: #FAFBFF;
+    background: #fafbff;
     padding: 10px;
     border-radius: 15px;
     margin: 10px auto;
@@ -1035,7 +908,6 @@
   :deep(.slick-dots li.slick-active button) {
     background-color: #fff;
     box-shadow: 0 0 5px #f17540;
-
   }
 
   .crosal-header {
@@ -1052,7 +924,6 @@
 
   .more-about-our-services-header {
     width: 90%;
-
   }
 
   .more-about-our-services-header :first-child {
@@ -1076,30 +947,29 @@
     border-radius: 10px;
   }
 
-  .customer-review{
+  .customer-review {
     padding: 10px;
   }
-  .review-header{
-  font-size: 15px;
-}
-  .review-content{
-  display: grid;
-}
+  .review-header {
+    font-size: 15px;
+  }
+  .review-content {
+    display: grid;
+  }
 
-  .review-content div{
-  /* margin: 20px; */
-  padding: 13px;
-/* margin: 10px 0px; */
-  background-color: white;
-  border-radius: 10px;
+  .review-content div {
+    /* margin: 20px; */
+    padding: 13px;
+    /* margin: 10px 0px; */
+    background-color: white;
+    border-radius: 10px;
+  }
 
- }
-
- .review-content div :first-child{
-  font-size: 12px;
-}
-.review-content div :nth-child(2){
-  font-size: 14px;
-}
+  .review-content div :first-child {
+    font-size: 12px;
+  }
+  .review-content div :nth-child(2) {
+    font-size: 14px;
+  }
 }
 </style>

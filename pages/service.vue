@@ -333,10 +333,11 @@
   letter-spacing: 2px;
   color: #f17540;
   outline: 2px solid #f17540;
-  padding: 20px 30px;
+  padding: 20px 10px;
   position: relative;
   overflow: hidden;
   transition: color 1s;
+  /* width: 250px; */
 }
 
 .getstarted-button:hover {
