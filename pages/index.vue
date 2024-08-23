@@ -119,7 +119,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- breakdown of servcies  -->
       <div class="more-about-our-services">
         <div class="more-about-our-services-header">
@@ -161,60 +161,6 @@
           </div>
         </div>
       </div>
-      <!-- customer review -->
-
-      <div class="customer-review">
-        <div class="review-header">What Our Customers Say</div>
-        <div class="review-content">
-          <div class="review">
-            <div>Kind Of its type</div>
-            <div>
-              "I can confidently say that Nairabee is the best of its type when
-              it comes to e-services. Their airtime, data bundles, and TV
-              subscription offerings are unparalleled. The platform's ease of
-              use, combined with its lightning-fast transactions, sets it apart
-              from the rest. Nairabee has truly raised the bar in providing
-              top-notch digital services. Highly recommended!"
-            </div>
-            <div class="review-bottom">
-              <img src="/Asset 23.png" alt="" />
-              <span id="review-text">Faruk Hussain</span>
-            </div>
-          </div>
-
-          <div class="review">
-            <div>Exceptional Quality</div>
-            <div>
-              "Nairabee exceeds expectations in every aspect. Their airtime,
-              data bundle, and TV subscription services are simply exceptional.
-              The convenience of their platform, coupled with the reliability of
-              their transactions, makes them stand out from the competition. If
-              you're looking for the best-in-class e-services, look no further
-              than Nairabee."
-            </div>
-            <div class="review-bottom">
-              <img src="/Asset 23.png" alt="" />
-              <span id="review-text">Haidar Hussain</span>
-            </div>
-          </div>
-
-          <div class="review">
-            <div>Unmatched Convenience</div>
-            <div>
-              "Nairabee offers unmatched convenience when it comes to
-              e-services. From airtime top-ups to data bundles and TV
-              subscriptions, everything is seamlessly integrated into their
-              platform. The hassle-free experience and prompt service make
-              Nairabee my go-to choice for all my digital needs. I couldn't ask
-              for a better service provider!"
-            </div>
-            <div class="review-bottom">
-              <img src="/Asset 23.png" alt="" />
-              <span id="review-text">Ibrahim G Musa</span>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div class="choose">
         <div class="header-part">
@@ -253,6 +199,70 @@
           </div>
         </div>
       </div>
+      <!-- customer review -->
+
+      <div class="customer-review">
+        <div class="review-header">What Our Customers Say</div>
+        <div class="review-content">
+          <div class="review">
+            <div>Kind Of its type</div>
+            <div>
+              "I can confidently say that Nairabee is the best of its type when
+              it comes to e-services. Their airtime, data bundles, and TV
+              subscription offerings are unparalleled. The platform's ease of
+              use, combined with its lightning-fast transactions, sets it apart
+              from the rest. Nairabee has truly raised the bar in providing
+              top-notch digital services. Highly recommended!"
+            </div>
+            <div class="review-bottom">
+              <div>
+                <img src="/Asset 23.png" alt="" />
+              </div>
+              <span id="review-text">Faruk Hussain</span>
+            </div>
+          </div>
+
+          <div class="review">
+            <div>Exceptional Quality</div>
+            <div>
+              "Nairabee exceeds expectations in every aspect. Their airtime,
+              data bundle, and TV subscription services are simply exceptional.
+              The convenience of their platform, coupled with the reliability of
+              their transactions, makes them stand out from the competition. If
+              you're looking for the best-in-class e-services, look no further
+              than Nairabee."
+            </div>
+            <div class="review-bottom">
+              <div>
+                <img src="/Asset 23.png" alt="" />
+              </div>
+              <span id="review-text">Faruk Hussain</span>
+            </div>
+          </div>
+
+          <div class="review">
+            <div>Unmatched Convenience</div>
+            <div>
+              "Nairabee offers unmatched convenience when it comes to
+              e-services. From airtime top-ups to data bundles and TV
+              subscriptions, everything is seamlessly integrated into their
+              platform. The hassle-free experience and prompt service make
+              Nairabee my go-to choice for all my digital needs. I couldn't ask
+              for a better service provider!"
+            </div>
+            <div class="review-bottom">
+              <div>
+                <img src="/Asset 23.png" alt="" />
+              </div>
+              <span id="review-text">Faruk Hussain</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 20px;">
+        <Contact />
+      </div>
     </div>
   </div>
 </template>
@@ -277,9 +287,9 @@
   padding: 10px;
 }
 .chose-us {
-  padding: 15px;
+  padding: 25px 10px 25px 10px;
   text-align: center;
-  height: 320px;
+  height: auto;
   overflow: hidden;
   position: relative;
   transition: color 1s;
@@ -296,7 +306,7 @@
   width: 0;
   height: 100%;
   background-color: #f17540;
-  transform: skewY(5deg);
+  transform: skewY(0deg);
   font-weight: bold;
   z-index: -1;
   transition: width 1s;
@@ -649,11 +659,11 @@
 
 .customer-review {
   font-family: Montserrat;
-  width: 85%;
-  padding: 20px;
-  margin: 20px auto;
-  border-radius: 20px;
-  /* box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.5), -2px 0px 2px 0px rgba(0, 0, 0, 0.5); */
+   background-color: #fafbff;
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: column;
+ 
 }
 
 .review-header {
@@ -661,20 +671,43 @@
   font-size: 30px;
   margin-bottom: 15px;
 }
+
 .review-content {
-  width: 100%;
+  width: 80%;
   display: flex;
-  /* margin: 20px auto; */
-  padding: 0px;
+  gap: 10px;
+  margin: 20px auto;
+  padding: 50px auto;
   justify-content: center;
   text-align: justify;
   align-content: center;
+}
+.review-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Centers content vertically */
+  align-items: center;  /* Centers content horizontally */
+  margin: 10px auto;
+  text-align: center;
+  width: 100%; /* Ensure the container takes up the full width */
+}
+
+.review-bottom img {
+  display: block;
+  margin: 0 auto 10px auto; /* Centers the image horizontally and adds space below */
+}
+
+#review-text {
+  font-size: 16px;
+  color: #333;
+}
+.review{
+  padding: 20px;
 }
 .review-content div {
   width: 90%;
   margin: 5px;
   background-color: #fafbff;
-  border-radius: 10px;
   padding: 5px;
   text-align: justify;
 }
@@ -695,23 +728,7 @@
   margin-bottom: 10px;
   font-style: italic;
 }
-.review-bottom {
-  display: flex;
-  justify-content: flex-start;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-}
 
-.review-bottom img {
-  border-radius: 50%;
-}
-#review-text {
-  margin-top: -10px;
-}
-.review-bottom :last-child {
-  /* display: grid; */
-}
 .review-content div img {
   width: 25px;
   margin-right: 10px;
@@ -844,7 +861,7 @@
   }
   .chose-us{
     height: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   /* .why-choose-us-body  */
   /* Show mobile version */
